@@ -22,17 +22,13 @@ const cvURL =
             >
               <h4>Mon passé</h4>
               <p>
-                Je suis ravie de vous accueillir sur mon portfolio, un espace où
-                se rencontrent
-                <b>20 ans d'expérience en tant que maquettiste</b> et ma passion
-                naissante pour le développement web.
-                <br />
-                <br />
-                Au cours des deux dernières décennies passées au sein de
-                diverses entreprises, j'ai perfectionné mon sens du détail,
-                ainsi que ma capacité à produire des livrables à la fois
-                communicants, harmonieux et respectueux des différentes chartes
-                graphiques.
+                J'ai passé ces <b>deux dernières décennies</b> au sein de
+                diverses entreprises de la métropole lilloise, en tant que
+                <b>maquettiste</b>. J'y ai fait pléthore de catalogues,
+                plaquettes, livres, affiches, PLV, bannières web, emails. J'ai
+                perfectionné mon sens du détail, ainsi que ma capacité à
+                produire des livrables à la fois communicants, harmonieux et
+                respectueux des différentes chartes graphiques.
               </p>
             </div>
 
@@ -43,15 +39,16 @@ const cvURL =
             >
               <h4>Ces temps-ci</h4>
               <p>
-                Début 2023, j’ai entamé ma reconversion dans l’univers du
-                développement web, où le graphisme rencontre le code. Pendant 4
-                mois, j’ai suivi à temps complet la
+                Début 2023, j’ai entamé ma reconversion dans le développement
+                web, où le graphisme rencontre le code. Pendant 4 mois, j’ai
+                suivi à temps complet la
                 <b>formation «&nbsp;Développeur .NET fullstack&nbsp;»</b> chez
-                M2i, qui s’est ensuite conclue par un mois de stage, en juin.
-                <br /><br /><b>Mon portfolio, projet phare à ce stade,</b> met
-                en lumière les réalisations issues de cette période de stage,
-                principalement orientées vers l'intégration et le développement
-                front-end.
+                M2i, qui s’est ensuite conclue par un mois de stage.
+                <br /><br />
+                J'ai ensuite poursuivi le cheminement de ma reconversion avec la
+                <b>formation UX bootcamp</b> chez UX France, pendant 7 semaines,
+                qui s'est terminée fin avril 2024. J'ai d'ailleurs obtenu la
+                certification RS6024 "Innover avec l'UX design".
               </p>
             </div>
             <div
@@ -61,19 +58,16 @@ const cvURL =
             >
               <h4>Mon futur</h4>
               <p>
-                Bien que mon immersion dans ce nouvel univers soit récente, j’ai
-                à cœur de progresser et d’apprendre tous les jours un peu plus.
-                J’ai d'ailleurs décidé de continuer mon apprentissage en
-                alternance avec la
-                <b>3W Academy</b>, au rythme de 3 semaines en entreprise et une
-                semaine en cours. <br /><br />
-                Je suis toujours très attirée par le domaine du graphisme et je
-                nourris le désir d'élargir mes compétences. Ainsi, je suis
-                ouverte à deux voies passionnantes :
-                <b>l'UX/UI </b>car j'ai pris conscience au fil des ans que c'est
-                un fondement essentiel d'un site ou d'une application mais aussi
-                <b>le rôle d'intégratrice développeuse front-end</b> qui serait
-                la continuité de mon métier initial de maquettiste.
+                Désormais, je sais que le développement web ne sera pas mon
+                futur métier mais cet apprentissage devraient m'aider à mieux
+                anticiper et comprendre la faisabilité des choses, en tant que
+                <b>designer UX</b>. Je suis toujours attirée par le domaine du
+                graphisme mais je nourris le désir d'élargir mes compétences. Et
+                surtout j'ai pris conscience au fil des ans, que
+                <b
+                  >le design centré utilisateur est le fondement essentiel d'un
+                  site ou d'une application réussie.</b
+                >
                 <br /><br />N’hésitez pas à me
                 <a href="#contact" class="link-text"><b>contacter</b></a> si mon
                 profil vous intéresse (et si vous êtes sur la métropole lilloise
@@ -93,65 +87,6 @@ const cvURL =
               <div class="titre-skills"><h4>Compétences techniques</h4></div>
               <div class="container-two-containers-hard-skills">
                 <div class="two-containers-hard-skills">
-                  <div class="container-hardSkills">
-                    <PresentationItemSkills2>
-                      <template #image>
-                        <img
-                          src="../assets/pictos/HTML5.svg"
-                          alt="picto Html"
-                          class="height100"
-                        />
-                      </template>
-                      <template #texte><p>HTML 5</p></template>
-                    </PresentationItemSkills2>
-                    <PresentationItemSkills2>
-                      <template #image>
-                        <img
-                          src="../assets/pictos/CSS3_logo.svg"
-                          alt="picto Css"
-                          class="height100"
-                        />
-                      </template>
-                      <template #texte><p>CSS 3</p></template>
-                    </PresentationItemSkills2>
-                    <PresentationItemSkills2>
-                      <template #image>
-                        <img
-                          src="../assets/pictos/Unofficial_JavaScript_logo_2.svg"
-                          alt="picto Js"
-                        />
-                      </template>
-                      <template #texte><p>JavaScript</p></template>
-                    </PresentationItemSkills2>
-                    <PresentationItemSkills2>
-                      <template #image>
-                        <img
-                          src="../assets/pictos/Vuejs_Logo_2.svg"
-                          alt="picto Vue"
-                        />
-                      </template>
-                      <template #texte><p>Vue.js</p></template>
-                    </PresentationItemSkills2>
-                    <PresentationItemSkills2>
-                      <template #image>
-                        <img
-                          src="../assets/pictos/React_Logo.svg"
-                          alt="picto React"
-                        />
-                      </template>
-                      <template #texte><p>React</p></template>
-                    </PresentationItemSkills2>
-                    <PresentationItemSkills2>
-                      <template #image>
-                        <img
-                          src="../assets/pictos/Tailwind_CSS_Logo.svg"
-                          alt="picto Tailwind"
-                          class="width100"
-                        />
-                      </template>
-                      <template #texte><p>Tailwind</p></template>
-                    </PresentationItemSkills2>
-                  </div>
                   <div class="container-hardSkills">
                     <PresentationItemSkills2>
                       <template #image>
@@ -212,6 +147,65 @@ const cvURL =
                       <template #texte><p>Photopea</p></template>
                     </PresentationItemSkills2>
                   </div>
+                  <div class="container-hardSkills">
+                    <PresentationItemSkills2>
+                      <template #image>
+                        <img
+                          src="../assets/pictos/HTML5.svg"
+                          alt="picto Html"
+                          class="height100"
+                        />
+                      </template>
+                      <template #texte><p>HTML 5</p></template>
+                    </PresentationItemSkills2>
+                    <PresentationItemSkills2>
+                      <template #image>
+                        <img
+                          src="../assets/pictos/CSS3_logo.svg"
+                          alt="picto Css"
+                          class="height100"
+                        />
+                      </template>
+                      <template #texte><p>CSS 3</p></template>
+                    </PresentationItemSkills2>
+                    <PresentationItemSkills2>
+                      <template #image>
+                        <img
+                          src="../assets/pictos/Unofficial_JavaScript_logo_2.svg"
+                          alt="picto Js"
+                        />
+                      </template>
+                      <template #texte><p>JavaScript</p></template>
+                    </PresentationItemSkills2>
+                    <PresentationItemSkills2>
+                      <template #image>
+                        <img
+                          src="../assets/pictos/Vuejs_Logo_2.svg"
+                          alt="picto Vue"
+                        />
+                      </template>
+                      <template #texte><p>Vue.js</p></template>
+                    </PresentationItemSkills2>
+                    <PresentationItemSkills2>
+                      <template #image>
+                        <img
+                          src="../assets/pictos/React_Logo.svg"
+                          alt="picto React"
+                        />
+                      </template>
+                      <template #texte><p>React</p></template>
+                    </PresentationItemSkills2>
+                    <PresentationItemSkills2>
+                      <template #image>
+                        <img
+                          src="../assets/pictos/Tailwind_CSS_Logo.svg"
+                          alt="picto Tailwind"
+                          class="width100"
+                        />
+                      </template>
+                      <template #texte><p>Tailwind</p></template>
+                    </PresentationItemSkills2>
+                  </div>
                 </div>
               </div>
             </div>
@@ -227,9 +221,9 @@ const cvURL =
                   <li>Rigoureuse</li>
                   <li>Créative</li>
                   <li>Perséverante</li>
-                  <li>À l'écoute / empathique</li>
+                  <li>À l'écoute</li>
+                  <li>Empathique</li>
                   <li>Sens de l'organisation</li>
-                  <li>Maîtrise avancée du français</li>
                 </ul>
               </div>
             </div>

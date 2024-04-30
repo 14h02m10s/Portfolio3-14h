@@ -1,7 +1,7 @@
 <template>
   <div class="foot">
     <p><b>Site responsive réalisé sur Vue.js</b></p>
-    <p>© Frédérique Chambinaud 2023</p>
+    <p>© Frédérique Chambinaud 2023-2024</p>
   </div>
 </template>
 <style scoped>
