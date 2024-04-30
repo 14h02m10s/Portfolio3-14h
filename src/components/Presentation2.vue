@@ -24,7 +24,7 @@ const cvURL =
               <p>
                 J'ai passé ces <b>deux dernières décennies</b> au sein de
                 diverses entreprises de la métropole lilloise, en tant que
-                <b>maquettiste</b>. J'y ai fait pléthore de catalogues,
+                <b>maquettiste</b>. J'y ai fait une multitude de catalogues,
                 plaquettes, livres, affiches, PLV, bannières web, emails. J'ai
                 perfectionné mon sens du détail, ainsi que ma capacité à
                 produire des livrables à la fois communicants, harmonieux et

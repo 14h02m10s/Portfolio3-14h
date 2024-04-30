@@ -72,8 +72,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           <a href="https://lakson.fr/" target="_blank" class="link-text"
             >le site du restaurant Lakson,</a
           >
-          (temporairement hors ligne 😐 vous ne pourrez pas comparer avec ce que
-          j'ai fait) car il comprend
+          car il comprend
           <b
             >une barre de navigation, un pied de page, plusieurs pages, des
             boutons, et une galerie de photos</b
