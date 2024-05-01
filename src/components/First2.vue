@@ -22,10 +22,10 @@ onBeforeUnmount(() => {
     <div class="text-photo" :style="{ transform: `translateY(-${scroll}px)` }">
       <div class="text">
         <Transition appear name="slide-fade1">
-          <div class="bienvenue">BIENVENUE</div>
+          <div class="bienvenue">Hello, je suis</div>
         </Transition>
         <Transition appear name="slide-fade2">
-          <div class="portfolio">sur mon portfolio</div>
+          <div class="portfolio">DESIGNER UX</div>
         </Transition>
       </div>
       <transition appear name="photo-fade">
@@ -82,7 +82,7 @@ onBeforeUnmount(() => {
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.8rem;
   border-bottom: #e05900 4px solid;
   padding-top: 1.2rem;
@@ -91,7 +91,7 @@ onBeforeUnmount(() => {
 .bienvenue {
   color: #ffffff;
   font-weight: 600;
-  font-size: 2.55rem;
+  font-size: 2.57rem;
   line-height: 1rem;
 }
 .portfolio {
@@ -189,10 +189,10 @@ button:hover {
     border-top: #e05900 4px solid;
   }
   .bienvenue {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
   .portfolio {
-    font-size: 2.28rem;
+    font-size: 4rem;
   }
 }
 @media (min-width: 1135px) {
@@ -232,15 +232,16 @@ button:hover {
     border: #e05900 6px solid;
   }
   .bienvenue {
-    font-size: 5rem;
+    font-size: 4.4rem;
     padding-top: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
   }
   .portfolio {
     padding-top: 1rem;
-    font-size: 3.45rem;
+    font-size: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;

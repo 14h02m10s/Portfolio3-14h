@@ -30,42 +30,32 @@ import Footer from "./Footer.vue";
       data-aos-duration="600"
     >
       <div class="login-card-container">
-        <p>Pour m'écrire vous pouvez :</p>
-        <ul>
-          <li>utiliser ce formulaire de contact</li>
-          <li>
-            me contacter via
-            <a
-              href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9rique-c-16195121b/"
-              target="_blank"
-              class="hover-list"
-              ><b>Linkedin</b></a
-            >
-          </li>
-
-          <li>
-            cliquer
+        <!-- <p>Pour m'écrire vous pouvez :</p> -->
+        <!-- <ul> -->
+        <!-- <li>
+            utiliser
             <a
               href="mailto:f.chambinaud@gmail.com"
               target="_blank"
               class="hover-list"
-              ><b>ici</b></a
+              ><b>votre client de messagerie</b></a
             >
-            pour ouvrir directement votre client de messagerie
-          </li>
-          <li>
-            copier mon adresse mail
-            <span
-              v-clipboard="'f.chambinaud@gmail.com'"
-              @click="ToggleCopied"
-              class="hover-list"
-              ><b>ici</b></span
-            >
-            (si comme moi vous n'aimez ni les formulaires, ni les clients de
-            messagerie :p)
-          </li>
-        </ul>
-        <p :class="{ copy: !isCopied, copied: isCopied }">C'est copié !</p>
+          </li> -->
+        <!-- <li> -->
+        <!-- <p>
+          Copiez mon adresse mail en cliquant dessus :
+          <span
+            v-clipboard="'f.chambinaud@gmail.com'"
+            @click="ToggleCopied"
+            class="hover-list"
+            ><b>fchambinaudpro@gmail.com</b></span
+          >
+          <br />
+          ou bien, remplissez ce formulaire de contact :)
+        </p> -->
+        <!-- </li> -->
+        <!-- </ul> -->
+        <!-- <p :class="{ copy: !isCopied, copied: isCopied }">C'est copié !</p> -->
         <form
           action="https://public.herotofu.com/v1/8cc09760-7f05-11ee-8bd5-e178f08d9cb2"
           method="post"
@@ -137,6 +127,25 @@ import Footer from "./Footer.vue";
             <button type="submit" class="btn">Envoyer</button>
           </div>
         </form>
+        <div>
+          <p>
+            <br />
+            <br />
+            Si vous préférez utiliser votre boite mail, <br />copiez mon adresse
+            mail en cliquant dessus :
+            <br />
+            <span
+              v-clipboard="'fchambinaudpro@gmail.com'"
+              @click="ToggleCopied"
+              class="hover-list"
+              ><b>fchambinaudpro@gmail.com</b></span
+            >.
+            <br />
+          </p>
+          <!-- </li> -->
+          <!-- </ul> -->
+          <p :class="{ copy: !isCopied, copied: isCopied }">C'est copié !</p>
+        </div>
       </div>
     </div>
     <div class="btn-return">
@@ -330,10 +339,11 @@ button::after {
 }
 p {
   /* font-size: 0.9rem; */
-  font-weight: 700;
-  text-align: justify;
+  font-weight: 500;
+  /* text-align: justify; */
   margin-bottom: 0.7rem;
   color: #fff;
+  text-align: center;
 }
 ul {
   color: #fff;
@@ -382,15 +392,18 @@ ul {
   font-weight: 600;
   font-size: 1rem;
   color: #ff6c0b;
-  box-shadow: inset 0 0 0 0 #e05900;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 0 #ffffff;
   padding: 0 0.25rem;
   margin: 0 -0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration: underline;
 }
 .hover-list:hover {
   color: #fff;
-  box-shadow: inset 200px 0 0 0 #e05900;
+  box-shadow: inset 250px 0 0 0 #e05900;
   cursor: pointer;
+  /* transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }
 /* #contact:target {
   padding-top: 6rem;
