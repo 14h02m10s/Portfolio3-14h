@@ -27,10 +27,10 @@ export default {
       id="menu-blue"
     >
       <!-- <a href="#head" @click="toggleMenu"><p>Présentation</p></a> -->
-      <a href="/" @click="toggleMenu"><p>Présentation</p></a>
-      <a href="realisations" @click="toggleMenu"><p>Réalisations</p></a>
+      <a href="#/" @click="toggleMenu"><p>Présentation</p></a>
+      <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a>
       <!-- <a href="#reals" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a href="contact" @click="toggleMenu"><p>Contact</p></a>
+      <a href="#/contact" @click="toggleMenu"><p>Contact</p></a>
       <div class="picto">
         <a
           href="https://github.com/14h02m10s?tab=repositories"

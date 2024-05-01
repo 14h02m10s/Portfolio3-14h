@@ -1,5 +1,5 @@
 <script setup>
-import Header5 from "../components/Header5.vue";
+// import Header5 from "../components/Header5.vue";
 import First2 from "../components/First2.vue";
 import Presentation2 from "../components/Presentation2.vue";
 // import Projects from "../components/Projects.vue";
@@ -8,7 +8,7 @@ import Presentation2 from "../components/Presentation2.vue";
 
 <template>
   <main>
-    <Header5 />
+    <!-- <Header5 /> -->
     <First2 />
     <Presentation2 />
     <!-- <Projects /> -->
