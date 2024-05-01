@@ -1,5 +1,6 @@
 <script setup>
 import PresentationItemSkills2 from "./PresentationItemSkills2.vue";
+import Footer from "./Footer.vue";
 
 const cvURL =
   "https://14h02m10s.github.io/Portfolio2-14h/CV_3W_PF_compressed.pdf";
@@ -237,7 +238,11 @@ const cvURL =
       </div>
     </div>
   </div>
+  <div class="z-index">
+    <Footer />
+  </div>
 </template>
+
 <style scoped>
 .espace-nav {
   padding-top: 3rem;

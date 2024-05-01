@@ -4,6 +4,7 @@ import ImgPortfolio1 from "./icons/ImgPortfolio1.vue";
 import ImgLakson from "./icons/ImgLakson.vue";
 import ImgProjet2 from "./icons/ImgProjet2.vue";
 import ImgSuzuki from "./icons/ImgSuzuki.vue";
+import Footer from "./Footer.vue";
 </script>
 
 
@@ -159,6 +160,9 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
         </p>
       </ProjectsItem>
     </div>
+  </div>
+  <div class="z-index">
+    <Footer />
   </div>
 </template>
 
