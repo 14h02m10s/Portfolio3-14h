@@ -237,9 +237,18 @@ const cvURL =
         </div>
       </div>
     </div>
-  </div>
-  <div class="z-index">
-    <Footer />
+    <!-- <div class="btn-return">
+      <a href="#head">
+        <button class="btn-carre">
+          <span class="material-symbols-rounded">
+            keyboard_double_arrow_up
+          </span>
+        </button>
+      </a>
+    </div> -->
+    <div class="z-index">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -448,6 +457,29 @@ button::after {
   padding-top: 6.1rem;
   margin-top: -6.1rem;
 }
+/* .btn-return {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  position: relative;
+  bottom: 5.5rem;
+  right: 1.5rem;
+  height: 0;
+}
+.btn-carre {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 4;
+} */
+/* .z-index {
+  z-index: 3;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+} */
 
 @media (min-width: 471px) {
   /* #head:target {

@@ -168,7 +168,7 @@ import Footer from "./Footer.vue";
 
 <style scoped>
 #reals {
-  padding-top: 3rem;
+  padding-top: 5rem;
   min-height: 100vh;
   background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%);
   display: flex;
@@ -181,8 +181,8 @@ import Footer from "./Footer.vue";
 #reals:target {
   padding-top: 6.1rem;
   margin-top: -3.1rem;
-  /* padding-top: 6.1rem; */
-  /* margin-top: -6.1rem; */
+  /* padding-top: 6.1rem;
+  margin-top: -6.1rem; */
 }
 template {
   margin: 0;
@@ -243,23 +243,27 @@ p {
   }
 }
 @media (min-width: 768px) {
-  #reals:target {
+  #reals {
+    padding-top: 7.5rem;
+  }
+  /* #reals:target {
     padding-top: 8.5rem;
     margin-top: -5.5rem;
-  }
+  } */
 }
 @media (min-width: 1135px) {
   #reals {
+    padding-top: 5.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
   }
-  #reals:target {
+  /* #reals:target {
     padding-top: 6.8rem;
     margin-top: -3.7rem;
-  }
+  } */
   .flex-project {
     display: flex;
     flex-direction: row;

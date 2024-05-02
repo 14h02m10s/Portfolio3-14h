@@ -18,7 +18,6 @@ onBeforeUnmount(() => {
   
   <template>
   <div class="englobeur-first">
-    <!-- <div data-scroll-section class="text-photo"> -->
     <div class="text-photo" :style="{ transform: `translateY(-${scroll}px)` }">
       <div class="text">
         <Transition appear name="slide-fade1">
@@ -68,8 +67,8 @@ onBeforeUnmount(() => {
 }
 .photo2 {
   border: #e05900 4px solid;
-  height: 14rem;
-  width: 14rem;
+  height: 18rem;
+  width: 18rem;
   border-radius: 10rem;
 }
 .photo-fade-enter-active {
@@ -90,14 +89,14 @@ onBeforeUnmount(() => {
 }
 .bienvenue {
   color: #ffffff;
-  font-weight: 600;
-  font-size: 2.57rem;
+  font-weight: 400;
+  font-size: 2.1rem;
   line-height: 1rem;
 }
 .portfolio {
   color: #ffffff;
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
 }
 .slide-fade1-enter-active {
   transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -171,6 +170,19 @@ button:hover {
   justify-content: center;
   background-color: #e05900;
 }
+@media (min-width: 430px) {
+  .photo2 {
+    height: 21rem;
+    width: 21rem;
+    border-radius: 10rem;
+  }
+  .bienvenue {
+    font-size: 2.9rem;
+  }
+  .portfolio {
+    font-size: 3.4rem;
+  }
+}
 @media (min-width: 768px) {
   .englobeur-first {
     padding: 10rem 0;
@@ -179,8 +191,8 @@ button:hover {
     gap: 8rem;
   }
   .photo2 {
-    height: 17rem;
-    width: 17rem;
+    height: 21rem;
+    width: 21rem;
     border-radius: 10rem;
   }
   .text {
@@ -237,11 +249,10 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
   }
   .portfolio {
     padding-top: 1rem;
-    font-size: 5rem;
+    font-size: 4.2rem;
     display: flex;
     justify-content: center;
     align-items: center;

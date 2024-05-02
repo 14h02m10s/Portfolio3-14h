@@ -1,11 +1,9 @@
 <script setup>
-import Header5 from "../components/Header5.vue";
 import Projects from "../components/Projects.vue";
 </script>
 
 <template>
   <main>
-    <Header5 />
     <Projects />
   </main>
 </template>

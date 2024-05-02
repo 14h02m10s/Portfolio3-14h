@@ -30,32 +30,6 @@ import Footer from "./Footer.vue";
       data-aos-duration="600"
     >
       <div class="login-card-container">
-        <!-- <p>Pour m'écrire vous pouvez :</p> -->
-        <!-- <ul> -->
-        <!-- <li>
-            utiliser
-            <a
-              href="mailto:f.chambinaud@gmail.com"
-              target="_blank"
-              class="hover-list"
-              ><b>votre client de messagerie</b></a
-            >
-          </li> -->
-        <!-- <li> -->
-        <!-- <p>
-          Copiez mon adresse mail en cliquant dessus :
-          <span
-            v-clipboard="'f.chambinaud@gmail.com'"
-            @click="ToggleCopied"
-            class="hover-list"
-            ><b>fchambinaudpro@gmail.com</b></span
-          >
-          <br />
-          ou bien, remplissez ce formulaire de contact :)
-        </p> -->
-        <!-- </li> -->
-        <!-- </ul> -->
-        <!-- <p :class="{ copy: !isCopied, copied: isCopied }">C'est copié !</p> -->
         <form
           action="https://public.herotofu.com/v1/8cc09760-7f05-11ee-8bd5-e178f08d9cb2"
           method="post"
@@ -142,13 +116,11 @@ import Footer from "./Footer.vue";
             >.
             <br />
           </p>
-          <!-- </li> -->
-          <!-- </ul> -->
           <p :class="{ copy: !isCopied, copied: isCopied }">C'est copié !</p>
         </div>
       </div>
     </div>
-    <div class="btn-return">
+    <!-- <div class="btn-return">
       <a href="#head">
         <button class="btn-carre">
           <span class="material-symbols-rounded">
@@ -156,7 +128,7 @@ import Footer from "./Footer.vue";
           </span>
         </button>
       </a>
-    </div>
+    </div> -->
     <div class="z-index">
       <Footer />
     </div>
