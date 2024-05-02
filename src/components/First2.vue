@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
     <div class="text-photo" :style="{ transform: `translateY(-${scroll}px)` }">
       <div class="text">
         <Transition appear name="slide-fade1">
-          <div class="bienvenue">Hello, je suis</div>
+          <div class="bienvenue">Hello ! Je suis Fred,</div>
         </Transition>
         <Transition appear name="slide-fade2">
           <div class="portfolio">DESIGNER UX</div>
@@ -90,7 +90,7 @@ onBeforeUnmount(() => {
 .bienvenue {
   color: #ffffff;
   font-weight: 400;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   line-height: 1rem;
 }
 .portfolio {
@@ -177,7 +177,8 @@ button:hover {
     border-radius: 10rem;
   }
   .bienvenue {
-    font-size: 2.9rem;
+    font-size: 2.2rem;
+    line-height: 2rem;
   }
   .portfolio {
     font-size: 3.4rem;
@@ -201,7 +202,7 @@ button:hover {
     border-top: #e05900 4px solid;
   }
   .bienvenue {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
   .portfolio {
     font-size: 4rem;
@@ -244,14 +245,15 @@ button:hover {
     border: #e05900 6px solid;
   }
   .bienvenue {
-    font-size: 4.4rem;
-    padding-top: 1.3rem;
+    font-size: 2.8rem;
+    padding-top: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 1.5rem;
   }
   .portfolio {
-    padding-top: 1rem;
+    padding-top: 0.4rem;
     font-size: 4.2rem;
     display: flex;
     justify-content: center;

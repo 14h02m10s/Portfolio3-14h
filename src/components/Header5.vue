@@ -27,7 +27,7 @@ export default {
       id="menu-blue"
     >
       <!-- <a href="#head" @click="toggleMenu"><p>Présentation</p></a> -->
-      <a href="#/" @click="toggleMenu"><p>Présentation</p></a>
+      <a href="#head" @click="toggleMenu"><p>Présentation</p></a>
       <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a>
       <!-- <a href="#reals" @click="toggleMenu"><p>Réalisations</p></a> -->
       <a href="#/contact" @click="toggleMenu"><p>Contact</p></a>
@@ -124,7 +124,6 @@ h1 {
 }
 .blue {
   background-color: #1c657c;
-  /* background-color: #1c4856; */
   padding: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0.5rem 0.5rem 2rem;
 }
