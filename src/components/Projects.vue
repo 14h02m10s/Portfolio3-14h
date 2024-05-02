@@ -1,5 +1,6 @@
 <script setup>
 import ProjectsItem from "./ProjectsItem.vue";
+import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 import ImgPortfolio1 from "./icons/ImgPortfolio1.vue";
 import ImgLakson from "./icons/ImgLakson.vue";
 import ImgProjet2 from "./icons/ImgProjet2.vue";
@@ -11,9 +12,42 @@ import Footer from "./Footer.vue";
 <template>
   <div id="reals">
     <div class="titre">
-      <h2 class="title-linear-background">RÉALISATIONS</h2>
+      <h2>RÉALISATIONS</h2>
     </div>
     <div class="flex-project">
+      <div class="DivTitreH3">
+        <h3>Projet UX design</h3>
+      </div>
+
+      <ProjectsItem data-aos="fade-up" data-aos-duration="600">
+        <template #image>
+          <ImgArtefacteur />
+        </template>
+        <template #sous-titre
+          ><a href="#/realisations/artefacteurs" class="link-text"
+            >Projet UX des Artéf'acteurs&nbsp;</a
+          ><a href="#/realisations/artefacteurs"
+            ><img
+              src="../assets/external-orange.svg"
+              class="picto-external-link"
+              alt="picto-external-link"
+          /></a>
+        </template>
+        <p>
+          Le projet de la manufacture des Artéf'acteurs a été mené durant ma
+          <b>formation chez UX France</b>, en équipe de 2. <br /><br />
+          L'association de la Manufacture des artef'acteurs regroupe des
+          artisans d'art de l'est de la France. Le but de cette association est
+          de mettre en relation les artisans et de les aider à développer leurs
+          activités.
+        </p>
+      </ProjectsItem>
+    </div>
+
+    <div class="flex-project">
+      <div class="DivTitreH3">
+        <h3>Projets front-end</h3>
+      </div>
       <ProjectsItem data-aos="fade-up" data-aos-duration="600">
         <template #image>
           <ImgPortfolio1 />
@@ -160,9 +194,9 @@ import Footer from "./Footer.vue";
         </p>
       </ProjectsItem>
     </div>
-  </div>
-  <div class="z-index">
+    <!-- <div class="z-index"> -->
     <Footer />
+    <!-- </div> -->
   </div>
 </template>
 
@@ -211,6 +245,15 @@ h2 {
   font-size: 2.2rem;
   letter-spacing: 0.1rem;
 }
+h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.DivTitreH3 {
+  width: 100%;
+  text-align: center;
+}
 a {
   color: #e05900;
   margin: 0;
@@ -234,22 +277,16 @@ p {
   transform: translateY(0.2rem);
   cursor: pointer;
 }
+.z-index {
+  /* width: fit-content; */
+}
+
 @media (min-width: 471px) {
-  #reals:target {
-    /* padding-top: 8rem; */
-    /* margin-top: -5rem; */
-    /* padding-top: 9.056rem;
-    margin-top: -3rem; */
-  }
 }
 @media (min-width: 768px) {
   #reals {
     padding-top: 7.5rem;
   }
-  /* #reals:target {
-    padding-top: 8.5rem;
-    margin-top: -5.5rem;
-  } */
 }
 @media (min-width: 1135px) {
   #reals {
@@ -260,10 +297,6 @@ p {
     flex-direction: column;
     width: 100%;
   }
-  /* #reals:target {
-    padding-top: 6.8rem;
-    margin-top: -3.7rem;
-  } */
   .flex-project {
     display: flex;
     flex-direction: row;

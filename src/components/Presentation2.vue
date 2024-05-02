@@ -11,7 +11,7 @@ const cvURL =
     <div class="espace-nav">
       <div id="head">
         <div class="titre">
-          <h2 class="title-linear-background">PRÉSENTATION</h2>
+          <h2>PRÉSENTATION</h2>
         </div>
         <div class="prez-et-skills">
           <div class="paves-textes">
@@ -246,9 +246,9 @@ const cvURL =
         </button>
       </a>
     </div> -->
-    <div class="z-index">
-      <Footer />
-    </div>
+    <!-- <div class="z-index"> -->
+    <Footer />
+    <!-- </div> -->
   </div>
 </template>
 

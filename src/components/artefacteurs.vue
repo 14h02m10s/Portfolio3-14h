@@ -1,20 +1,4 @@
-<script>
-import { Clipboard } from "v-clipboard";
 
-export default {
-  name: "App",
-  data() {
-    return {
-      isCopied: true,
-    };
-  },
-  methods: {
-    ToggleCopied() {
-      this.isCopied = !this.isCopied;
-    },
-  },
-};
-</script>
 <script setup>
 import Footer from "./Footer.vue";
 </script>
@@ -22,7 +6,7 @@ import Footer from "./Footer.vue";
 <template>
   <div id="contact">
     <div class="titre">
-      <h2>CONTACT</h2>
+      <h2>Artefacteurs</h2>
     </div>
     <div
       class="container-except-titre"

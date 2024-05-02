@@ -14,6 +14,7 @@
   align-items: center;
   border-top: 5px solid #e05900;
   line-height: 1rem;
+  min-width: 100%;
 }
 p {
   color: white;
