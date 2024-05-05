@@ -1,6 +1,14 @@
 <script setup>
 // import Footer from "./Footer.vue";
 </script>
+<script>
+const remonte = () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
+};
+</script>
 
 <template>
   <div id="topArtef">
@@ -11,13 +19,13 @@
       <div class="colonne1"></div>
       <div class="colonne2"></div>
       <div class="btn-return">
-        <a href="#/realisations/artefacteurs/#topArtef">
-          <button class="btn-carre">
-            <span class="material-symbols-rounded">
-              keyboard_double_arrow_up
-            </span>
-          </button>
-        </a>
+        <!-- <a href="#/realisations/artefacteurs/#topArtef"> -->
+        <button class="btn-carre" @click="remonte">
+          <span class="material-symbols-rounded">
+            keyboard_double_arrow_up
+          </span>
+        </button>
+        <!-- </a> -->
       </div>
     </div>
     <!-- <div class="z-index">
