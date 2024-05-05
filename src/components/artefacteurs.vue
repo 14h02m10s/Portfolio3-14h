@@ -112,11 +112,7 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img
-            class="contrainte-img"
-            src="../assets/Capture d’écran 2024-04-15 à 10.18.25.png"
-            alt=""
-          />
+          <img class="contrainte-img" src="../assets/fbArtef.png" alt="" />
         </div>
       </div>
 
@@ -139,10 +135,7 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/Capture d’écran 2024-04-15 à 14.35.20.png"
-            alt="fb artefacteurs"
-          />
+          <img src="../assets/fbArtef.png" alt="fb artefacteurs" />
         </div>
       </div>
 
@@ -168,10 +161,7 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/Capture d’écran 2024-04-15 à 14.35.20.png"
-            alt="brainstorming"
-          />
+          <img src="../assets/brainstorm.png" alt="brainstorming" />
         </div>
       </div>
     </div>
