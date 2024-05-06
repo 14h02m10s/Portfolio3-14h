@@ -208,7 +208,8 @@ const remonte = () => {
             leurs idées, mêmes les plus saugrenues et de les noter. Nous leur
             avons ensuite exposé nos idées et leur avons demandé de les
             noter.<br /><br />
-            Nous avons ensuite fait la synthèse des idées et nous avons élaboré
+            Nous avons ensuite fait la synthèse des idées trouvées et nous avons
+            élaboré
             <b>l’arborescence</b> du projet ainsi que <b>le userflow</b>.
           </p>
         </div>
@@ -239,6 +240,14 @@ const remonte = () => {
             La synthèse de l'atelier d'idéation lors de ma présentation au jury
           </h5>
         </div>
+        <div class="colonne2">
+          <img src="../assets/detail-arborescence.png" alt="L'arborescence" />
+          <h5>L'arborescence</h5>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/userflow1.png" alt="Le userflow" />
+          <h5>Le userflow</h5>
+        </div>
       </div>
 
       <div class="titre-phase"><h3>La phase de génération</h3></div>
@@ -246,16 +255,24 @@ const remonte = () => {
         <div class="colonne1">
           <p>
             Uns fois que nous avions notre userflow, nous pouvions attaquer les
-            wireframes sur Exqualidraw puis le prototypage sur Figma. Nous
-            n'avons développé qu'une petite partie de la plateforme car le temps
-            nous était compté dans la formation, nous n'aurions pas pu faire
-            l'ensemble de la plateforme. Nous avons décidé de développer la
-            partie mentorat car c'était une idée qui a émergé en atelier
-            d'idéation grâce aux utilisateurs.<br /><br />
-            Le but de ce prototypage interactif était de pouvoir le faire tester
-            à des utilisateurs bien avant de développer réellement la
-            plateforme. Cela permet de déceler en amont ce qui n'est pas compris
-            des utilisateurs et donc de pouvoir corriger.
+            <b>wireframes</b> sur Exqualidraw puis le <b>prototypage</b> sur
+            Figma. Nous n'avons développé qu'une petite partie de la plateforme
+            car le temps nous était compté (formation oblige). Nous avons décidé
+            de développer <b>la partie mentorat</b> car c'était une idée qui a
+            émergé en atelier d'idéation grâce aux utilisateurs.<br /><br />Nous
+            avons élaboré ce prototypage en utilisant l'approche
+            <b>atomic design</b>. Cela consiste à partir du plus petit (l’atome)
+            pour concevoir ensuite plus grand (la page ou l’écran). Le but étant
+            d'avoir une <b>conception homogène</b>, de permettre des
+            <b>modifications plus fluides</b> (gain de temps), et d'avoir une
+            <b>meilleure adaptabilité à tous les écrans</b>.<br /><br />
+            Le but de ce prototype interactif était de pouvoir le faire tester à
+            des utilisateurs avant de développer réellement la plateforme.
+            <b
+              >Cela permet de déceler en amont ce qui n'est pas compris des
+              utilisateurs (en phase d'évaluation)</b
+            >
+            et donc de pouvoir corriger (en phase d'itération).
           </p>
         </div>
         <div class="colonne2">
@@ -279,21 +296,22 @@ const remonte = () => {
         <div class="colonne1">
           <p>
             Nous avons préparé l'entretien d'évaluation en rédigeant un
-            scénario, une liste de tâches à faire et donc de programmer le
-            parcours attendu sur le prototype. Nous avons pu recevoir 2
-            utilisateurs en entretien synchrone, en visioconférence, nous avions
-            donc accès à leurs réactions en direct, et l'utilisateur partageait
-            également son écran. Nous avons pu leur poser à chacun une dizaine
+            <b>protocole de test</b> contenant : <b>un scénario</b>, une
+            <b>liste de tâches</b> à faire ainsi que le
+            <b>circuit attendu</b> sur le prototype. Nous avons pu recevoir 2
+            utilisateurs en visioconférence, pour des <b>tests synchrones</b>.
+            L'utilisateur nous partageait son écran et nous avions accès à leurs
+            réactions en direct. Nous avons pu leur poser à chacun une dizaine
             de questions.<br /><br />
             Nous avons aussi diffusé notre prototype sur Maze, un site qui
-            permet de faire des tests asynchrones. Le protocole était exactement
-            le même, par contre nous n'êtions évidemmentpas présent pour voir
-            les réactions des utilisateurs. Par contre nous avons accès aux
-            heatmaps, on voit donc où les utilisateurs ont cliqué.<br /><br />
+            permet de faire des <b>tests asynchrones</b>. Le protocole était
+            exactement le même, mais nous n'êtions pas présentes pour voir les
+            réactions des utilisateurs. Nous avons par contre eu accès aux
+            <b>heatmaps</b>. Elles permettent de voir où les utilisateurs ont
+            cliqué.<br /><br />
             Nous avons ensuite synthétisé les entretiens et mis en évidence les
-            difficultés que les utilisateurs ont eu et donc, les points
-            bloquants de notre prototype. De là, nous avons rédigé des
-            recommandations de corrections à apporter.
+            difficultés que les utilisateurs ont eu et donc,
+            <b>les points bloquants de notre prototype</b>.
           </p>
         </div>
         <div class="colonne2">
@@ -305,7 +323,7 @@ const remonte = () => {
             src="../assets/maze_screenshot_interaction2.jpg"
             alt="Une heatmap"
           />
-          <h5>Une heatmap du test fait sur Maze</h5>
+          <h5>Une heatmap du test asynchrone fait sur Maze</h5>
         </div>
         <div class="colonne2">
           <img
@@ -313,7 +331,8 @@ const remonte = () => {
             alt="les resititutions des entretiens"
           />
           <h5>
-            L'analyse des entretiens, avec mise en évidence des points bloquants
+            L'analyse des entretiens synchrones, avec mise en évidence des
+            points bloquants (en rouge)
           </h5>
         </div>
       </div>
@@ -321,11 +340,40 @@ const remonte = () => {
       <div class="titre-phase"><h3>La phase d'itération</h3></div>
       <div class="bloc-phase">
         <div class="colonne1">
-          <p>fergt.</p>
+          <p>
+            À partir des points bloquants relevés en phase d'évaluation, nous
+            avons rédigé des <b>recommandations de corrections</b> à apporter.
+            <br /><br />
+            Nous avons donc corrigé nos prototypes selon ces recommandations.
+          </p>
         </div>
         <div class="colonne2">
-          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
-          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
+          <img
+            src="../assets/5-4-Evaluation-Recommandations.jpg"
+            alt="Une des recommandations que nous avions à traiter"
+          />
+          <h5>Une des recommandations que nous avions à traiter</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/6-1-Iteration.jpg"
+            alt="La correction de la recommandation ci-dessus"
+          />
+          <h5>La correction de la recommandation ci-dessus</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/proto1.png"
+            alt="Page d'accueil et page mentorat avant les corrections"
+          />
+          <h5>Page d'accueil et page mentorat avant les corrections</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/proto2.png"
+            alt="Page d'accueil et page mentorat après les corrections"
+          />
+          <h5>Page d'accueil et page mentorat après les corrections</h5>
         </div>
       </div>
     </div>
