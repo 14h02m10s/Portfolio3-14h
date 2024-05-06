@@ -13,34 +13,38 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>L'association des Artefacteurs</h2>
+      <h2>L'association des Artef'acteurs</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="titre-phase"><h3>Remise en contexte</h3></div>
       <div class="bloc-phase">
-        <div class="colonne1">
-          <p>
-            L'association des Artef'acteurs regroupe des artisans d'art de la
-            région de Belfort. Ils ont entre 25 et 55 ans et ce sont des
-            personnes qui travaillent seules. Le but de l'association est de
-            mettre en relation ses artisans afin de les faire sortir de
-            l'isolement professionnel et aussi les aider à développer leurs
-            activités en regroupant des informations utiles (tels que les
-            fournisseurs, salons, marchés...). <br /><br />Pour l'instant
-            l'association dispose d'un site web (mais celui-ci n'est pas mis à
-            jour et il avait surtout pour but de faire la promotion/vendre des
-            articles des artisans), une page facebook tenue par la fondatrice de
-            l'association, un google drive pour s'échanger des documents et un
-            groupe what'app pour discuter.
-          </p>
-        </div>
         <div class="colonne2">
           <img
-            class="contrainte-img"
+            class="maxHeightimg"
             src="../assets/logoArtefacteurs.jpg"
             alt="les différentes phases de l'ux design"
           />
+        </div>
+        <div class="colonne1">
+          <p>
+            Ceci est un projet mené en formation chez UX France, durant 6
+            semaines.
+            <b>Nous avons tout au long de ce projet travaillé en équipe de 2.</b
+            ><br /><br />
+            <b>L'association des Artef'acteurs</b> regroupe des
+            <b>artisans d'art</b> de la région de Belfort. Ils ont
+            <b>entre 25 et 55 ans</b> et ce sont des personnes qui travaillent
+            seules. Le but de l'association est de mettre en relation ses
+            artisans afin de les faire
+            <b>sortir de l'isolement professionnel</b> et aussi les aider à
+            <b>développer leurs activités</b> en regroupant des informations
+            utiles (tels que les fournisseurs, salons, marchés...).
+            <br /><br />Pour l'instant l'association dispose d'une
+            <b>page facebook</b> tenue par la fondatrice de l'association, un
+            <b>google drive</b> pour s'échanger des documents et un
+            <b>groupe what'app</b> pour discuter.
+          </p>
         </div>
       </div>
 
@@ -51,12 +55,12 @@ const remonte = () => {
           <ol>
             <li>
               <b>La planification</b> sert à comprendre les besoins du client et
-              réfléchir à qui est l’utilisateur final. On définit une
-              problématique.
+              commencer à réfléchir à qui est l’utilisateur final. On définit
+              également une problématique.
             </li>
             <li>
-              <b>L'exploration</b> sert à comprendre qui sont les utilisateurs
-              finaux.
+              <b>L'exploration</b> sert à comprendre qui est l'utilisateur
+              final.
             </li>
             <li>
               <b>L'idéation</b> permet de brainstormer, avec des utilisateurs,
@@ -81,38 +85,63 @@ const remonte = () => {
         </div>
         <div class="colonne2">
           <img
-            class="contrainte-img"
             src="../assets/uxDesign.jpg"
             alt="les différentes phases de l'ux design"
           />
         </div>
       </div>
 
-      <div class="titre-phase"><h3>Durant la phase de Planification</h3></div>
+      <div class="titre-phase"><h3>La phase de Planification</h3></div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Avant toute chose, nous avons établi un plan d'action dans Notion
-            pour pouvoir avoir une vision d'ensemble, mais cependant assez
-            détaillée, du chemin à parcourir. Puis, nous avons rencontré la
-            fondatrice de l'association des Artef'acteurs, qui nous a exposé ce
-            qui existait actuellement, et ce qu'elle voudrait pouvoir offrir aux
-            artisans de son association : une plateforme web.
-            <br /><br />Suite à cet entretien nous avons reformulé et synthétisé
-            sa demande. Nous avons utilisé la méthode des 5 pourquoi pour
-            définir la problématique globale à laquelle nous allions devoir
+            Avant toute chose, nous avons établi un
+            <b>plan d'action dans Notion</b> pour pouvoir avoir une vision
+            d'ensemble, mais cependant assez détaillée, du chemin à parcourir.
+            Puis, <b>nous avons rencontré la fondatrice de l'association</b> des
+            Artef'acteurs, qui nous a exposé ce qui existait actuellement, et ce
+            qu'elle voudrait pouvoir offrir aux artisans de son association :
+            une plateforme web. <br /><br />Suite à cet entretien nous avons
+            <b>reformulé et synthétisé son brief</b>. Nous avons utilisé la
+            méthode des 5 pourquoi pour définir la
+            <b>problématique globale</b> à laquelle nous allions devoir
             répondre. Celle-ci était "Comment les artisans peuvent-ils
             s'entraider à travers la plateforme ?". <br /><br />
             Nous nous sommes ensuite intéressé de plus près aux utilisateurs :
             les artisans du collectif des Artéf'acteurs. Nous avons donc créé
-            des personas hypothétiques en nous aidant de cartes UX (qui
-            synthétisent quels sont les besoins psychologiques fondamentaux des
-            êtres humains en 7 grandes catégories) de manière à entrer dans
-            l'empathie plus facilement.
+            des <b>personas hypothétiques</b> en nous aidant de
+            <b>cartes UX</b> (qui synthétisent quels sont les besoins
+            psychologiques fondamentaux des êtres humains en 7 grandes
+            catégories) de manière à entrer dans <b>l'empathie</b> plus
+            facilement.
           </p>
         </div>
         <div class="colonne2">
-          <img class="contrainte-img" src="../assets/fbArtef.png" alt="" />
+          <img
+            src="../assets/problematique.jpg"
+            alt="Synthèse de la problèmatique avec les 5 pourquoi"
+          />
+          <h5>
+            Utilisation de la technique des 5 pourquoi pour trouver la
+            problématique
+          </h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/personasHypothetiques.jpg"
+            alt="Nos 3 personas hypothétiques"
+          />
+          <h5>Élaboration de 3 personas hypothétiques</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/lesCartesUX.jpg"
+            alt="Nos 3 cartes UX selectionnées et etayées"
+          />
+          <h5>
+            Nos 3 cartes UX selectionnées et etayées avec des exemples
+            s'appliquant aux artisans
+          </h5>
         </div>
       </div>
 
@@ -120,22 +149,41 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Durant cette phase nous avons pu rencontrer 2 artisans du collectif
-            des artef'acteurs en visioconférence. Au préalable nous avons donc
-            du préparer ces entretiens en rédigeant une quinzaine de questions
-            que nous souhiations leur poser. Les entretiens ont duré 30 minutes
-            chacun, et nous avons prié nos interlocutrices de dire tout ce qui
-            leur passait par la tête afin de se faire une idée plus juste et
-            précise de qui sont les artisans des artéf'acteurs. <br /><br />
+            Durant cette phase
+            <b
+              >nous avons pu rencontrer 2 artisans du collectif des
+              artef'acteurs</b
+            >
+            en visioconférence. Au préalable nous avons donc du préparer ces
+            entretiens en rédigeant <b>une quinzaine de questions</b> (les plus
+            ouvertes possibles) que nous souhiations leur poser. Les entretiens
+            ont duré 30 minutes chacun, et nous avons prié nos interlocuteurs de
+            ne pas se brider dans leurs réponses afin de se faire une idée plus
+            juste et précise de qui sont les artisans des artéf'acteurs.
+            <br /><br />
             Une fois les entretiens terminés on a écrit sur des post-its tout ce
             qui avait été dit durant les entretiens et nous avons classé ces
-            post-it par catégories, ce qui nous a donc donné un diagramme
-            d'affinités. Grâce à ce diagramme, on a pu retrvailler notre persona
+            post-it par catégories, ce qui nous a donc donné un
+            <b>diagramme d'affinités</b>. Grâce à ce diagramme, nous avons pu
+            <b>retravailler notre persona</b>
             et aussi y inclure un verbatim.
           </p>
         </div>
         <div class="colonne2">
-          <img src="../assets/fbArtef.png" alt="fb artefacteurs" />
+          <img src="../assets/diagrammeAffinite.png" alt="fb artefacteurs" />
+          <h5>Le diagramme d'affinité dans sa globalité</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/diagrammeAffiniteExtrait.jpg"
+            alt="fb artefacteurs"
+          />
+          <h5>Extrait du diagramme d'affinité</h5>
+        </div>
+
+        <div class="colonne2">
+          <img src="../assets/Persona.jpg" alt="fb artefacteurs" />
+          <h5>Le persona</h5>
         </div>
       </div>
 
@@ -143,13 +191,17 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Nous avons tout d'abord réalisé un brainstorming avec ma partenaire
-            afin d'imaginer quelles pourraient être les fonctionnalités que
-            pourrait comporter la plateforme des Artéf'acteurs. Puis nous avons
-            préparé l'atelier d'idéation où nous allions recevoir 2
-            participantes en visioconférence, sur Figjam.<br /><br />
+            Nous avons tout d'abord réalisé
+            <b>un brainstorming avec mon binôme</b> afin d'imaginer quelles
+            pourraient être les fonctionnalités que pourrait comporter la
+            plateforme des Artéf'acteurs. Puis nous avons préparé l'atelier
+            d'idéation où nous allions recevoir 2 participantes en
+            visioconférence, sur Figjam.<br /><br />
 
-            Le but de l'atelier est de stimuler la créativité des participants
+            <b
+              >Le but de l'atelier est de stimuler la créativité des
+              participants</b
+            >
             en leur exposant au préalable le brief, notre problématique, et
             notre persona afin qu'ils puissent se glisser dans la peau d'un
             artisan. Nous avons donc incité les 2 participants à exprimer toutes
@@ -157,11 +209,73 @@ const remonte = () => {
             avons ensuite exposé nos idées et leur avons demandé de les
             noter.<br /><br />
             Nous avons ensuite fait la synthèse des idées et nous avons élaboré
-            l’arborescence du projet ainsi que le userflow.
+            <b>l’arborescence</b> du projet ainsi que <b>le userflow</b>.
           </p>
         </div>
         <div class="colonne2">
-          <img src="../assets/brainstorm.png" alt="brainstorming" />
+          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
+          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/atelierIdeation2.png"
+            alt="phase 1 de l'atelier d'idéation"
+          />
+          <h5>La phase 1 de l'atelier d'idéation</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/atelierIdeation3.jpg"
+            alt="phase 2 de l'atelier d'idéation"
+          />
+          <h5>La phase 2 de l'atelier d'idéation</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/resultatAtelierIdeation.jpg"
+            alt="synthèse de l'atelier d'idéation"
+          />
+          <h5>
+            La synthèse de l'atelier d'idéation lors de ma présentation au jury
+          </h5>
+        </div>
+      </div>
+
+      <div class="titre-phase"><h3>La phase de génération</h3></div>
+      <div class="bloc-phase">
+        <div class="colonne1">
+          <p>
+            Uns fois que nous avions notre userflow, nous pouvions attaquer le
+            prototypage sur Figma. Nous avons développé qu'une petite partie de
+            la plateforme car le temps nous était compté et nous n'aurions pas
+            pu faire l'ensemble.
+          </p>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
+          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
+        </div>
+      </div>
+
+      <div class="titre-phase"><h3>La phase d'évaluation</h3></div>
+      <div class="bloc-phase">
+        <div class="colonne1">
+          <p>fergt.</p>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
+          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
+        </div>
+      </div>
+
+      <div class="titre-phase"><h3>La phase d'itération</h3></div>
+      <div class="bloc-phase">
+        <div class="colonne1">
+          <p>fergt.</p>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
+          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
         </div>
       </div>
     </div>
@@ -224,6 +338,10 @@ h3 {
   font-weight: 600;
   font-size: 1.7rem;
   letter-spacing: 0.05rem;
+}
+h5 {
+  text-align: right;
+  padding-top: 0.3rem;
 }
 p,
 ol {
@@ -319,7 +437,7 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.3rem;
 }
 .colonne1 {
   background-color: #fff;
@@ -329,18 +447,24 @@ p {
   border-bottom: 5px solid #e05900;
 }
 .colonne2 {
-  background-color: rgb(85, 85, 85);
+  /* background-color: rgb(85, 85, 85); */
   /* height: fit-content; */
   width: 100%;
   /* border: blue 1px solid; */
   padding-bottom: 0;
   height: fit-content;
-  object-fit: contain;
+  /* object-fit: contain; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 img {
   max-width: 100%;
   height: 100%;
-  /* object-fit: contain; */
+  object-fit: contain;
+}
+.maxHeightimg {
+  max-height: 400px;
 }
 .z-index {
   z-index: 3;
@@ -357,6 +481,10 @@ img {
   #topArtef {
     padding-top: 7.5rem;
   }
+  .container1 {
+    width: 95%;
+    max-width: 700px;
+  }
 }
 @media (min-width: 1135px) {
   #topArtef {
@@ -371,13 +499,14 @@ img {
     justify-content: center;
     align-items: start;
     width: 85%;
+    max-width: 900px;
     z-index: 1;
     padding: 0rem 3rem 3rem 3rem;
   }
   h2 {
     font-size: 2.7rem;
   }
-  .bloc-phase {
+  /* .bloc-phase {
     display: flex;
     flex-direction: row;
   }
@@ -386,7 +515,7 @@ img {
   }
   .colonne2 {
     width: 60%;
-  }
+  } */
   /* img {
     max-width: 100%;
     height: 100%;
