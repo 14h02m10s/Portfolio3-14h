@@ -245,26 +245,76 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Uns fois que nous avions notre userflow, nous pouvions attaquer le
-            prototypage sur Figma. Nous avons développé qu'une petite partie de
-            la plateforme car le temps nous était compté et nous n'aurions pas
-            pu faire l'ensemble.
+            Uns fois que nous avions notre userflow, nous pouvions attaquer les
+            wireframes sur Exqualidraw puis le prototypage sur Figma. Nous
+            n'avons développé qu'une petite partie de la plateforme car le temps
+            nous était compté dans la formation, nous n'aurions pas pu faire
+            l'ensemble de la plateforme. Nous avons décidé de développer la
+            partie mentorat car c'était une idée qui a émergé en atelier
+            d'idéation grâce aux utilisateurs.<br /><br />
+            Le but de ce prototypage interactif était de pouvoir le faire tester
+            à des utilisateurs bien avant de développer réellement la
+            plateforme. Cela permet de déceler en amont ce qui n'est pas compris
+            des utilisateurs et donc de pouvoir corriger.
           </p>
         </div>
         <div class="colonne2">
-          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
-          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
+          <img
+            src="../assets/wireframes.png"
+            alt="les wireframes sur Excalidraw"
+          />
+          <h5>Les wireframes sur Excalidraw</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/prototype2.png"
+            alt="Le prototypage fonctionnel sur Figma"
+          />
+          <h5>Le prototypage fonctionnel sur Figma</h5>
         </div>
       </div>
 
       <div class="titre-phase"><h3>La phase d'évaluation</h3></div>
       <div class="bloc-phase">
         <div class="colonne1">
-          <p>fergt.</p>
+          <p>
+            Nous avons préparé l'entretien d'évaluation en rédigeant un
+            scénario, une liste de tâches à faire et donc de programmer le
+            parcours attendu sur le prototype. Nous avons pu recevoir 2
+            utilisateurs en entretien synchrone, en visioconférence, nous avions
+            donc accès à leurs réactions en direct, et l'utilisateur partageait
+            également son écran. Nous avons pu leur poser à chacun une dizaine
+            de questions.<br /><br />
+            Nous avons aussi diffusé notre prototype sur Maze, un site qui
+            permet de faire des tests asynchrones. Le protocole était exactement
+            le même, par contre nous n'êtions évidemmentpas présent pour voir
+            les réactions des utilisateurs. Par contre nous avons accès aux
+            heatmaps, on voit donc où les utilisateurs ont cliqué.<br /><br />
+            Nous avons ensuite synthétisé les entretiens et mis en évidence les
+            difficultés que les utilisateurs ont eu et donc, les points
+            bloquants de notre prototype. De là, nous avons rédigé des
+            recommandations de corrections à apporter.
+          </p>
         </div>
         <div class="colonne2">
-          <img src="../assets/brainstorm3.jpg" alt="le brainstorming à 2" />
-          <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
+          <img src="../assets/ProtocoleTest.jpg" alt="Le protocole de test" />
+          <h5>Le protocole de test</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/maze_screenshot_interaction2.jpg"
+            alt="Une heatmap"
+          />
+          <h5>Une heatmap du test fait sur Maze</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/restitution-recos.png"
+            alt="les resititutions des entretiens"
+          />
+          <h5>
+            L'analyse des entretiens, avec mise en évidence des points bloquants
+          </h5>
         </div>
       </div>
 
