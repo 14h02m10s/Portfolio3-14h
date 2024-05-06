@@ -13,7 +13,7 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>L'association des Artef'acteurs</h2>
+      <h2>Le projet UX des Artef'acteurs</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
@@ -32,11 +32,11 @@ const remonte = () => {
             semaines.
             <b>Nous avons tout au long de ce projet travaillé en binôme.</b
             ><br /><br />
-            <b>L'association des Artef'acteurs</b> regroupe des
-            <b>artisans d'art</b> de la région de Belfort. Ils ont
+            <b>L'association des Artef'acteurs</b> est un collectif
+            <b>d'artisans d'art</b> de la région de Belfort. Ils ont
             <b>entre 25 et 55 ans</b> et ce sont des personnes qui travaillent
-            seules. Le but de l'association est de mettre en relation ses
-            artisans afin de les faire
+            seules la plupart du temps. Le but de l'association est de mettre en
+            relation ses artisans afin de les faire
             <b>sortir de l'isolement professionnel</b> et aussi les aider à
             <b>développer leurs activités</b> en regroupant des informations
             utiles (tels que les fournisseurs, salons, marchés...).
@@ -105,15 +105,13 @@ const remonte = () => {
             <b>reformulé et synthétisé son brief</b>. Nous avons utilisé la
             méthode des 5 pourquoi pour définir la
             <b>problématique globale</b> à laquelle nous allions devoir
-            répondre. Celle-ci était "Comment les artisans peuvent-ils
-            s'entraider à travers la plateforme ?". <br /><br />
-            Nous nous sommes ensuite intéressées de plus près aux utilisateurs :
-            les artisans du collectif des Artéf'acteurs. Nous avons donc créé
-            des <b>personas hypothétiques</b> en nous aidant de
-            <b>cartes UX</b> (qui synthétisent quels sont les besoins
-            psychologiques fondamentaux des êtres humains en 7 grandes
-            catégories) de manière à entrer dans <b>l'empathie</b> plus
-            facilement.
+            répondre. <br /><br />
+            Nous nous sommes ensuite intéressées de plus près aux artisans du
+            collectif des Artéf'acteurs, qui étaient donc notre cible. Nous
+            avons donc créé des <b>personas hypothétiques</b> en nous aidant de
+            <b>cartes UX</b> (qui synthétisent en 7 grandes catégories les
+            besoins psychologiques fondamentaux des êtres humains) afin d'entrer
+            en <b>empathie</b> plus facilement.
           </p>
         </div>
         <div class="colonne2">
@@ -310,7 +308,7 @@ const remonte = () => {
             de questions.<br /><br />
             Nous avons aussi diffusé notre prototype sur Maze, un site qui
             permet de faire des <b>tests asynchrones</b>. Le protocole était
-            exactement le même, mais nous n'êtions pas présentes pour voir les
+            exactement le même, mais nous n'étions pas présentes pour voir les
             réactions des utilisateurs. Nous avons par contre eu accès aux
             <b>heatmaps</b>. Elles permettent de voir où les utilisateurs ont
             cliqué.<br /><br />

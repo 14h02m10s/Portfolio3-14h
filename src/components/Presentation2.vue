@@ -3,7 +3,7 @@ import PresentationItemSkills2 from "./PresentationItemSkills2.vue";
 import Footer from "./Footer.vue";
 
 const cvURL =
-  "https://14h02m10s.github.io/Portfolio2-14h/CV_3W_PF_compressed.pdf";
+  "https://14h02m10s.github.io/Portfolio2-14h/cv-mai2024-portfolio.pdf";
 </script>
 
 <template>
