@@ -28,9 +28,9 @@ const remonte = () => {
         </div>
         <div class="colonne1">
           <p>
-            Ceci est un projet mené en formation chez UX France, durant 6
+            Ceci est un projet mené en formation, chez UX France, durant 6
             semaines.
-            <b>Nous avons tout au long de ce projet travaillé en équipe de 2.</b
+            <b>Nous avons tout au long de ce projet travaillé en binôme.</b
             ><br /><br />
             <b>L'association des Artef'acteurs</b> regroupe des
             <b>artisans d'art</b> de la région de Belfort. Ils ont
@@ -40,7 +40,7 @@ const remonte = () => {
             <b>sortir de l'isolement professionnel</b> et aussi les aider à
             <b>développer leurs activités</b> en regroupant des informations
             utiles (tels que les fournisseurs, salons, marchés...).
-            <br /><br />Pour l'instant l'association dispose d'une
+            <br /><br />Pour l'instant, l'association dispose d'une
             <b>page facebook</b> tenue par la fondatrice de l'association, un
             <b>google drive</b> pour s'échanger des documents et un
             <b>groupe what'app</b> pour discuter.
@@ -51,7 +51,7 @@ const remonte = () => {
       <div class="titre-phase"><h3>L'UX design</h3></div>
       <div class="bloc-phase">
         <div class="colonne1">
-          <p>L'UX design est décomposé en 6 phases :</p>
+          <p><b>L'UX design est décomposé en 6 phases :</b></p>
           <ol>
             <li>
               <b>La planification</b> sert à comprendre les besoins du client et
@@ -67,7 +67,7 @@ const remonte = () => {
               et de trouver des solutions à notre problématique.
             </li>
             <li>
-              <b>La génération</b> c'est le moment où le projet prend vie à
+              <b>La génération,</b> c'est le moment où le projet prend vie à
               travers des prototypes.
             </li>
             <li>
@@ -101,13 +101,13 @@ const remonte = () => {
             Puis, <b>nous avons rencontré la fondatrice de l'association</b> des
             Artef'acteurs, qui nous a exposé ce qui existait actuellement, et ce
             qu'elle voudrait pouvoir offrir aux artisans de son association :
-            une plateforme web. <br /><br />Suite à cet entretien nous avons
+            une plateforme web. <br /><br />Suite à cet entretien, nous avons
             <b>reformulé et synthétisé son brief</b>. Nous avons utilisé la
             méthode des 5 pourquoi pour définir la
             <b>problématique globale</b> à laquelle nous allions devoir
             répondre. Celle-ci était "Comment les artisans peuvent-ils
             s'entraider à travers la plateforme ?". <br /><br />
-            Nous nous sommes ensuite intéressé de plus près aux utilisateurs :
+            Nous nous sommes ensuite intéressées de plus près aux utilisateurs :
             les artisans du collectif des Artéf'acteurs. Nous avons donc créé
             des <b>personas hypothétiques</b> en nous aidant de
             <b>cartes UX</b> (qui synthétisent quels sont les besoins
@@ -149,21 +149,21 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Durant cette phase
+            Durant cette phase,
             <b
               >nous avons pu rencontrer 2 artisans du collectif des
-              artef'acteurs</b
+              Artef'acteurs</b
             >
-            en visioconférence. Au préalable nous avons donc du préparer ces
+            en visioconférence. Au préalable, nous avons donc du préparer ces
             entretiens en rédigeant <b>une quinzaine de questions</b> (les plus
-            ouvertes possibles) que nous souhiations leur poser. Les entretiens
-            ont duré 30 minutes chacun, et nous avons prié nos interlocuteurs de
-            ne pas se brider dans leurs réponses afin de se faire une idée plus
-            juste et précise de qui sont les artisans des artéf'acteurs.
-            <br /><br />
-            Une fois les entretiens terminés on a écrit sur des post-its tout ce
-            qui avait été dit durant les entretiens et nous avons classé ces
-            post-it par catégories, ce qui nous a donc donné un
+            ouvertes possibles). Les entretiens ont duré 30 minutes chacun, et
+            nous avons prié nos interlocuteurs de ne pas se brider dans leurs
+            réponses afin de se faire une idée, la plus juste et précise
+            possible, de qui sont les artisans des Artéf'acteurs. <br /><br />
+            Une fois les entretiens terminés, nous avons retranscrit sur des
+            post-its virtuels (sur Figjam) tout ce qui avait été dit durant les
+            entretiens et nous avons classé ces post-it par catégories, ce qui
+            nous a donc donné un
             <b>diagramme d'affinités</b>. Grâce à ce diagramme, nous avons pu
             <b>retravailler notre persona</b>
             et aussi y inclure un verbatim.
@@ -196,7 +196,8 @@ const remonte = () => {
             pourraient être les fonctionnalités que pourrait comporter la
             plateforme des Artéf'acteurs. Puis nous avons préparé l'atelier
             d'idéation où nous allions recevoir 2 participantes en
-            visioconférence, sur Figjam.<br /><br />
+            visioconférence, sur Klaxoon (un site qui permet de collaborer en
+            simultané).<br /><br />
 
             <b
               >Le but de l'atelier est de stimuler la créativité des
@@ -205,7 +206,7 @@ const remonte = () => {
             en leur exposant au préalable le brief, notre problématique, et
             notre persona afin qu'ils puissent se glisser dans la peau d'un
             artisan. Nous avons donc incité les 2 participants à exprimer toutes
-            leurs idées, mêmes les plus saugrenues et de les noter. Nous leur
+            leurs idées, même les plus saugrenues et de les noter. Nous leur
             avons ensuite exposé nos idées et leur avons demandé de les
             noter.<br /><br />
             Nous avons ensuite fait la synthèse des idées trouvées et nous avons
@@ -242,11 +243,14 @@ const remonte = () => {
         </div>
         <div class="colonne2">
           <img src="../assets/detail-arborescence.png" alt="L'arborescence" />
-          <h5>L'arborescence</h5>
+          <h5>
+            L'arborescence sur Figjam (en haut et bleu la navbar, en bas et
+            violet le footer)
+          </h5>
         </div>
         <div class="colonne2">
           <img src="../assets/userflow1.png" alt="Le userflow" />
-          <h5>Le userflow</h5>
+          <h5>Le userflow sur Figjam</h5>
         </div>
       </div>
 
@@ -254,11 +258,11 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Uns fois que nous avions notre userflow, nous pouvions attaquer les
+            Uns fois que nous avions notre userflow, nous pouvions passer aux
             <b>wireframes</b> sur Exqualidraw puis le <b>prototypage</b> sur
-            Figma. Nous n'avons développé qu'une petite partie de la plateforme
+            Figma. Nous n'avons développé qu'une petite partie de la plateforme,
             car le temps nous était compté (formation oblige). Nous avons décidé
-            de développer <b>la partie mentorat</b> car c'était une idée qui a
+            de développer <b>la partie mentorat,</b> car c'était une idée qui a
             émergé en atelier d'idéation grâce aux utilisateurs.<br /><br />Nous
             avons élaboré ce prototypage en utilisant l'approche
             <b>atomic design</b>. Cela consiste à partir du plus petit (l’atome)
@@ -295,7 +299,8 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Nous avons préparé l'entretien d'évaluation en rédigeant un
+            Afin de tester le concept, nous avons préparé l'entretien
+            d'évaluation en rédigeant un
             <b>protocole de test</b> contenant : <b>un scénario</b>, une
             <b>liste de tâches</b> à faire ainsi que le
             <b>circuit attendu</b> sur le prototype. Nous avons pu recevoir 2
