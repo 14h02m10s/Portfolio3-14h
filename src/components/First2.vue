@@ -1,18 +1,54 @@
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from "vue";
+// import { ref, onMounted, onBeforeUnmount } from "vue";
 
-const scroll = ref(0);
-const handleScroll = () => {
-  scroll.value = window.scrollY;
-  console.log("handle scroll", scroll.value);
-};
+// const remonte = () => {
+//   window.scrollTo({
+//     top: 0,
+//     left: 0,
+//   });
+// };
+// const scroll = ref(0);
+// const handleScroll = () => {
+//   scroll.value = window.scrollY;
+//   console.log("handle scroll", scroll.value);
+// };
+
+// onMounted(() => {
+//   window.addEventListener("scroll", handleScroll, remonte);
+// });
+
+// onBeforeUnmount(() => {
+//   window.removeEventListener("scroll", handleScroll, remonte);
+// });
+
+import { onMounted, onBeforeUnmount } from "vue";
+
+// const remonte = () => {
+//   window.scrollTo({
+//     top: 0,
+//     left: 0,
+//   });
+// };
+// const scroll = ref(0);
+// const handleScroll = () => {
+//   scroll.value = window.scrollY;
+//   console.log("handle scroll", scroll.value);
+// };
 
 onMounted(() => {
-  window.addEventListener("scroll", handleScroll);
+  // window.addEventListener("scroll", handleScroll, remonte);
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
 });
 
 onBeforeUnmount(() => {
-  window.removeEventListener("scroll", handleScroll);
+  // window.removeEventListener("scroll", handleScroll, remonte);
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
 });
 </script>
   

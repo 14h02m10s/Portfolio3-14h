@@ -14,9 +14,7 @@ import { RouterLink, RouterView } from "vue-router";
     <Header5 />
     <component :is="currentView" />
   </div>
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
-
 
 <script>
 import Header5 from "../src/components/Header5.vue";
@@ -24,8 +22,6 @@ import HomeView from "../src/views/HomeView.vue";
 import PageRealisations from "../src/views/PageRealisations.vue";
 import PageArtefacteurs from "../src/views/PageArtefacteurs.vue";
 import PageContact from "../src/views/PageContact.vue";
-
-// import HelloWorld from './components/HelloWorld.vue'
 
 const routes = {
   "/": HomeView,

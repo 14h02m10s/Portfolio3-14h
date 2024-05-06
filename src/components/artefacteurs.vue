@@ -1,5 +1,21 @@
 <script setup>
-// import Footer from "./Footer.vue";
+import Footer from "./Footer.vue";
+
+import { onMounted, onBeforeUnmount } from "vue";
+
+onMounted(() => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
+});
+
+onBeforeUnmount(() => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
+});
 </script>
 <script>
 const remonte = () => {
@@ -36,7 +52,7 @@ const remonte = () => {
             <b>d'artisans d'art</b> de la région de Belfort. Ils ont
             <b>entre 25 et 55 ans</b> et ce sont des personnes qui travaillent
             seules la plupart du temps. Le but de l'association est de mettre en
-            relation ses artisans afin de les faire
+            relation ces artisans afin de les faire
             <b>sortir de l'isolement professionnel</b> et aussi les aider à
             <b>développer leurs activités</b> en regroupant des informations
             utiles (tels que les fournisseurs, salons, marchés...).
@@ -391,6 +407,7 @@ const remonte = () => {
   <!-- <div class="z-index">
       <Footer />
     </div> -->
+  <Footer />
 </template>
 
 <style scoped>

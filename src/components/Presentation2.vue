@@ -2,6 +2,22 @@
 import PresentationItemSkills2 from "./PresentationItemSkills2.vue";
 import Footer from "./Footer.vue";
 
+import { onMounted, onBeforeUnmount } from "vue";
+
+onMounted(() => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
+});
+
+onBeforeUnmount(() => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
+});
+
 const cvURL =
   "https://14h02m10s.github.io/Portfolio3-14h/cv-mai2024-portfolio.pdf";
 </script>
