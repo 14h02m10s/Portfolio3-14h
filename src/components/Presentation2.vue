@@ -79,16 +79,17 @@ const cvURL =
                 futur métier mais cet apprentissage devraient m'aider à mieux
                 anticiper et comprendre la faisabilité des choses, en tant que
                 <b>designer UX</b>. Je suis toujours attirée par le domaine du
-                graphisme mais je nourris le désir d'élargir mes compétences. Et
-                surtout j'ai pris conscience au fil des ans, que
+                graphisme mais je nourris le désir d'élargir mes compétences. Au
+                fil du temps, j'ai réalisé que
                 <b
-                  >le design centré utilisateur est le fondement essentiel d'un
-                  site ou d'une application réussie.</b
+                  >le design centré utilisateur est essentiel pour garantir le
+                  succès d'un site web ou d'une application.</b
                 >
                 <br /><br />N’hésitez pas à me
-                <a href="#contact" class="link-text"><b>contacter</b></a> si mon
-                profil vous intéresse (et si vous êtes sur la métropole lilloise
-                ou accessible facilement en transports depuis celle-ci)&nbsp;!
+                <a href="#/contact" class="link-text"><b>contacter</b></a> si
+                mon profil vous intéresse (et si vous êtes sur la métropole
+                lilloise ou accessible facilement en transports depuis
+                celle-ci)&nbsp;!
               </p>
             </div>
           </div>

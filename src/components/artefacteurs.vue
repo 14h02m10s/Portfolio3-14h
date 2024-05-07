@@ -46,14 +46,14 @@ const remonte = () => {
           <p>
             Ceci est un projet mené en formation, chez UX France, durant 6
             semaines.
-            <b>Nous avons tout au long de ce projet travaillé en binôme.</b
-            ><br /><br />
+            <b>Nous avons tout au long de ce projet travaillé en binôme</b
+            >.<br /><br />
             <b>L'association des Artef'acteurs</b> est un collectif
             <b>d'artisans d'art</b> de la région de Belfort. Ils ont
             <b>entre 25 et 55 ans</b> et ce sont des personnes qui travaillent
             seules la plupart du temps. Le but de l'association est de mettre en
-            relation ces artisans afin de les faire
-            <b>sortir de l'isolement professionnel</b> et aussi les aider à
+            relation ces artisans afin de les aider à
+            <b>sortir de l'isolement professionnel</b> et à
             <b>développer leurs activités</b> en regroupant des informations
             utiles (tels que les fournisseurs, salons, marchés...).
             <br /><br />Pour l'instant, l'association dispose d'une
@@ -94,8 +94,8 @@ const remonte = () => {
             <li>
               <b>L'itération</b>, c'est le moment où on corrige ce qui ne va
               pas, on peut recommencer le processus à partir de la phase
-              d'exploration, d'idéation ou de génération, selon les besoins. De
-              plus, plusieurs itérations peuvent avoir lieu.
+              d'exploration, d'idéation ou de génération, selon les besoins.
+              Plusieurs itérations peuvent avoir lieu.
             </li>
           </ol>
         </div>
@@ -113,8 +113,8 @@ const remonte = () => {
           <p>
             Avant toute chose, nous avons établi un
             <b>plan d'action dans Notion</b> pour pouvoir avoir une vision
-            d'ensemble, mais cependant assez détaillée, du chemin à parcourir.
-            Puis, <b>nous avons rencontré la fondatrice de l'association</b> des
+            d'ensemble, du chemin à parcourir pour mener à bien ce projet. Puis,
+            <b>nous avons rencontré la fondatrice de l'association</b> des
             Artef'acteurs, qui nous a exposé ce qui existait actuellement, et ce
             qu'elle voudrait pouvoir offrir aux artisans de son association :
             une plateforme web. <br /><br />Suite à cet entretien, nous avons
@@ -168,12 +168,12 @@ const remonte = () => {
               >nous avons pu rencontrer 2 artisans du collectif des
               Artef'acteurs</b
             >
-            en visioconférence. Au préalable, nous avons donc du préparer ces
+            en visioconférence. Au préalable, nous avons donc préparé ces
             entretiens en rédigeant <b>une quinzaine de questions</b> (les plus
             ouvertes possibles). Les entretiens ont duré 30 minutes chacun, et
             nous avons prié nos interlocuteurs de ne pas se brider dans leurs
-            réponses afin de se faire une idée, la plus juste et précise
-            possible, de qui sont les artisans des Artéf'acteurs. <br /><br />
+            réponses afin de comprendre qui sont les artisans des Artéf'acteurs.
+            <br /><br />
             Une fois les entretiens terminés, nous avons retranscrit sur des
             post-its virtuels (sur Figjam) tout ce qui avait été dit durant les
             entretiens et nous avons classé ces post-it par catégories, ce qui
@@ -211,7 +211,7 @@ const remonte = () => {
             plateforme des Artéf'acteurs. Puis nous avons préparé l'atelier
             d'idéation où nous allions recevoir 2 participantes en
             visioconférence, sur Klaxoon (un site qui permet de collaborer en
-            simultané).<br /><br />
+            simultané, comme Figjam).<br /><br />
 
             <b
               >Le but de l'atelier est de stimuler la créativité des
@@ -220,12 +220,16 @@ const remonte = () => {
             en leur exposant au préalable le brief, notre problématique, et
             notre persona afin qu'ils puissent se glisser dans la peau d'un
             artisan. Nous avons donc incité les 2 participants à exprimer toutes
-            leurs idées, même les plus saugrenues et de les noter. Nous leur
-            avons ensuite exposé nos idées et leur avons demandé de les
-            noter.<br /><br />
+            leurs idées, sans retenue, et de les noter. Nous leur avons ensuite
+            exposé nos idées et leur avons demandé de leur donner une note.<br /><br />
             Nous avons ensuite fait la synthèse des idées trouvées et nous avons
             élaboré
-            <b>l’arborescence</b> du projet ainsi que <b>le userflow</b>.
+            <b>l’arborescence</b> du projet. Elle permet de se projeter
+            concrètement dans l'organisation du site en commencant à élaborer le
+            menu principal et imaginer ce qui sera contenu dans les pages.
+            Ensuite, <b>le userflow</b> vient compléter l'arborescence et permet
+            de mettre en évidence les liens entre les pages, les interactions
+            possibles .
           </p>
         </div>
         <div class="colonne2">
@@ -237,15 +241,15 @@ const remonte = () => {
             src="../assets/atelierIdeation2.png"
             alt="phase 1 de l'atelier d'idéation"
           />
-          <h5>La phase 1 de l'atelier d'idéation</h5>
+          <h5>Les idées de nos participants lors de l'atelier d'idéation</h5>
         </div>
-        <div class="colonne2">
+        <!-- <div class="colonne2">
           <img
             src="../assets/atelierIdeation3.jpg"
             alt="phase 2 de l'atelier d'idéation"
           />
-          <h5>La phase 2 de l'atelier d'idéation</h5>
-        </div>
+          <h5>Les idées de nos participants lors de l'atelier d'idéation</h5>
+        </div> -->
         <div class="colonne2">
           <img
             src="../assets/resultatAtelierIdeation.jpg"
@@ -273,19 +277,21 @@ const remonte = () => {
         <div class="colonne1">
           <p>
             Uns fois que nous avions notre userflow, nous pouvions passer aux
-            <b>wireframes</b> sur Exqualidraw puis le <b>prototypage</b> sur
-            Figma. Nous n'avons développé qu'une petite partie de la plateforme,
-            car le temps nous était compté (formation oblige). Nous avons décidé
-            de développer <b>la partie mentorat,</b> car c'était une idée qui a
-            émergé en atelier d'idéation grâce aux utilisateurs.<br /><br />Nous
-            avons élaboré ce prototypage en utilisant l'approche
-            <b>atomic design</b>. Cela consiste à partir du plus petit (l’atome)
-            pour concevoir ensuite plus grand (la page ou l’écran). Le but étant
-            d'avoir une <b>conception homogène</b>, de permettre des
-            <b>modifications plus fluides</b> (gain de temps), et d'avoir une
-            <b>meilleure adaptabilité à tous les écrans</b>.<br /><br />
-            Le but de ce prototype interactif était de pouvoir le faire tester à
-            des utilisateurs avant de développer réellement la plateforme.
+            <b>wireframes</b> sur Exqualidraw (schémas très simples des pages)
+            puis au <b>prototypage interactif</b> sur Figma (l'apparence des
+            pages est plus poussée mais surtout les boutons sont fonctionnels).
+            Nous n'avons développé que <b>la partie mentorat,</b> car c'était
+            une idée qui a émergé en atelier d'idéation grâce aux utilisateurs
+            et car le temps nous était compté (formation oblige).
+            <br /><br />Nous avons développé ce prototypage en appliquant
+            l'approche de <b>l'atomic design</b>. C'est une méthodologie de
+            conception qui divise les interfaces en composants modulaires
+            réutilisables, allant des éléments de base aux éléments plus
+            complexes. Le but étant d'assurer
+            <b>une cohérence et une facilité de maintenance accrues</b> ainsi
+            qu'une <b>meilleure adaptabilité à tous les écrans</b>.<br /><br />
+            Le but d'un prototype interactif est de pouvoir le faire tester à
+            des utilisateurs avant de développer réellement le produit.
             <b
               >Cela permet de déceler en amont ce qui n'est pas compris des
               utilisateurs (en phase d'évaluation)</b
@@ -313,23 +319,23 @@ const remonte = () => {
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
-            Afin de tester le concept, nous avons préparé l'entretien
-            d'évaluation en rédigeant un
+            Nous avons préparé l'entretien d'évaluation en rédigeant un
             <b>protocole de test</b> contenant : <b>un scénario</b>, une
             <b>liste de tâches</b> à faire ainsi que le
             <b>circuit attendu</b> sur le prototype. Nous avons pu recevoir 2
             utilisateurs en visioconférence, pour des <b>tests synchrones</b>.
-            L'utilisateur nous partageait son écran et nous avions accès à leurs
-            réactions en direct. Nous avons pu leur poser à chacun une dizaine
-            de questions.<br /><br />
+            L'utilisateur nous partageait son écran et sa caméra : nous avions
+            donc accès à leurs actions et réactions en direct. Nous avons pu
+            également leur poser à chacun une dizaine de questions.<br /><br />
             Nous avons aussi diffusé notre prototype sur Maze, un site qui
-            permet de faire des <b>tests asynchrones</b>. Le protocole était
-            exactement le même, mais nous n'étions pas présentes pour voir les
-            réactions des utilisateurs. Nous avons par contre eu accès aux
-            <b>heatmaps</b>. Elles permettent de voir où les utilisateurs ont
-            cliqué.<br /><br />
+            permet de faire des <b>tests asynchrones</b>. L'utilisateur fait le
+            test tout seul, il suit les instructions que l'on a rentrées dans le
+            site en amont. Évidemment nous n'avons pas pu voir les réactions en
+            direct de ces utilisateurs, par contre, nous avons eu accès aux
+            <b>heatmaps</b> (qui permettent de voir où les utilisateurs ont
+            cliqué).<br /><br />
             Nous avons ensuite synthétisé les entretiens et mis en évidence les
-            difficultés que les utilisateurs ont eu et donc,
+            difficultés que les utilisateurs ont eu, et donc,
             <b>les points bloquants de notre prototype</b>.
           </p>
         </div>
@@ -361,9 +367,14 @@ const remonte = () => {
         <div class="colonne1">
           <p>
             À partir des points bloquants relevés en phase d'évaluation, nous
-            avons rédigé des <b>recommandations de corrections</b> à apporter.
-            <br /><br />
-            Nous avons donc corrigé nos prototypes selon ces recommandations.
+            avons rédigé des <b>recommandations de corrections</b> à apporter en
+            rappelant quel était le problème et quelle solution il fallait
+            mettre en place (selon nous). <br /><br />
+            Nous avons donc corrigé nos prototypes selon ces recommandations. Si
+            ce projet avait été un projet à mener jusqu'au bout, il aurait donc
+            fallu refaire tester les nouveaux prototypes, et ainsi de suite
+            jusqu'à obtention d'une maquette ou il n'y a plus de problème
+            majeur.
           </p>
         </div>
         <div class="colonne2">
