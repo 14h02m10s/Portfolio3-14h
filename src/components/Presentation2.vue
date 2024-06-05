@@ -57,15 +57,15 @@ const cvURL =
               <h4>Ces temps-ci</h4>
               <p>
                 Début 2023, j’ai entamé ma reconversion dans le développement
-                web, où le graphisme rencontre le code. Pendant 4 mois, j’ai
-                suivi à temps complet la
+                web. Pendant 4 mois, j’ai suivi à temps complet la
                 <b>formation «&nbsp;Développeur .NET fullstack&nbsp;»</b> chez
                 M2i, qui s’est ensuite conclue par un mois de stage.
                 <br /><br />
                 J'ai ensuite poursuivi le cheminement de ma reconversion avec la
-                <b>formation UX bootcamp</b> chez UX France, pendant 7 semaines,
-                qui s'est terminée fin avril 2024. J'ai d'ailleurs obtenu la
-                certification RS6024 "Innover avec l'UX design".
+                <b>formation «&nbsp;UX bootcamp&nbsp;»</b> chez UX France,
+                pendant 7 semaines, et qui s'est terminée fin avril 2024. J'ai
+                d'ailleurs obtenu la certification RS6024 "Innover avec l'UX
+                design".
               </p>
             </div>
             <div
@@ -78,18 +78,16 @@ const cvURL =
                 Désormais, je sais que le développement web ne sera pas mon
                 futur métier mais cet apprentissage devraient m'aider à mieux
                 anticiper et comprendre la faisabilité des choses, en tant que
-                <b>designer UX</b>. Je suis toujours attirée par le domaine du
-                graphisme mais je nourris le désir d'élargir mes compétences. Au
-                fil du temps, j'ai réalisé que
+                <b>designer UX/UI</b>. Je suis toujours attirée par le domaine
+                du graphisme mais je nourris le désir d'élargir mes compétences.
+                Au fil du temps, j'ai réalisé que
                 <b
                   >le design centré utilisateur est essentiel pour garantir le
                   succès d'un site web ou d'une application.</b
                 >
                 <br /><br />N’hésitez pas à me
                 <a href="#/contact" class="link-text"><b>contacter</b></a> si
-                mon profil vous intéresse (et si vous êtes sur la métropole
-                lilloise ou accessible facilement en transports depuis
-                celle-ci)&nbsp;!
+                mon profil vous intéresse&nbsp;!
               </p>
             </div>
           </div>
@@ -232,16 +230,39 @@ const cvURL =
               data-aos="fade-left"
               data-aos-duration="600"
             >
-              <div class="titre-skills"><h4>Savoir-être</h4></div>
-              <div class="container-hardSkills">
+              <div class="titre-skills"><h4>Savoir-faire</h4></div>
+              <div class="container-hardSkills, special-liste">
                 <ul>
-                  <li>Réactive</li>
-                  <li>Rigoureuse</li>
-                  <li>Créative</li>
-                  <li>Perséverante</li>
-                  <li>À l'écoute</li>
-                  <li>Empathique</li>
-                  <li>Sens de l'organisation</li>
+                  <li>• Entretien</li>
+                  <li>• Persona</li>
+                  <li>• Experience map</li>
+                  <li>• Atelier d’idéation</li>
+                  <li>• Userflow</li>
+                  <li>• Wireframing</li>
+                  <li>• Atomic design / design tokens</li>
+                  <li>• Maquettage / mise en page</li>
+                  <li>• Test synchrone et asynchrone</li>
+                  <li>• Accessibilité</li>
+                  <li>• Travail collaboratif</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="container-hardSkills-titre"
+              data-aos="fade-left"
+              data-aos-duration="600"
+            >
+              <div class="titre-skills"><h4>Savoir-être</h4></div>
+              <div class="container-hardSkills, special-liste">
+                <ul>
+                  <li>• À l'écoute</li>
+                  <li>• Empathique</li>
+                  <li>• Réactive</li>
+                  <li>• Esprit d’équipe</li>
+                  <li>• Rigoureuse</li>
+                  <li>• Créative</li>
+                  <li>• Perséverante</li>
+                  <li>• Sens de l'organisation</li>
                 </ul>
               </div>
             </div>
@@ -414,6 +435,7 @@ a {
   justify-content: center;
   align-items: left;
   width: fit-content;
+  width: 100%;
 }
 .container-button {
   display: flex;
@@ -555,6 +577,10 @@ button::after {
   .container-button {
     margin: 1rem 0;
   }
+  ul {
+    column-count: 2;
+    column-gap: 0;
+  }
 }
 @media (min-width: 1135px) {
   #head:target {
@@ -623,7 +649,16 @@ button::after {
   }
   .container-hardSkills {
     display: flex;
+    /* align-items: center; */
     flex-direction: column;
+    margin: 0 2rem;
+  }
+  .special-liste {
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    column-count: 1;
   }
   li {
     font-size: 1rem;
@@ -642,10 +677,8 @@ button::after {
     justify-content: start;
     align-items: left;
   }
-
   ul {
     column-count: 2;
-    column-gap: 0;
   }
   .paves-textes,
   .container-hardSkills-titre {

@@ -16,7 +16,7 @@ import Footer from "./Footer.vue";
     </div>
     <div class="flex-project">
       <div class="DivTitreH3">
-        <h3>Projet UX design</h3>
+        <h3>Projet UX/UI design</h3>
       </div>
 
       <ProjectsItem data-aos="fade-up" data-aos-duration="600">

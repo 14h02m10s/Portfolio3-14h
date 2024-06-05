@@ -29,7 +29,7 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>Le projet UX des Artef'acteurs</h2>
+      <h2>Le projet UX/UI des Artef'acteurs</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
@@ -277,7 +277,7 @@ const remonte = () => {
         <div class="colonne1">
           <p>
             Uns fois que nous avions notre userflow, nous pouvions passer aux
-            <b>wireframes</b> sur Exqualidraw (schémas très simples des pages)
+            <b>wireframes</b> sur Excalidraw (schémas très simples des pages)
             puis au <b>prototypage interactif</b> sur Figma (l'apparence des
             pages est plus poussée mais surtout les boutons sont fonctionnels).
             Nous n'avons développé que <b>la partie mentorat,</b> car c'était

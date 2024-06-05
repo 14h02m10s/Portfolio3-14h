@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
           <div class="bienvenue">Hello ! Je suis Fred,</div>
         </Transition>
         <Transition appear name="slide-fade2">
-          <div class="portfolio">DESIGNER UX</div>
+          <div class="portfolio">DESIGNER UX/UI</div>
         </Transition>
       </div>
       <transition appear name="photo-fade">
@@ -252,6 +252,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    max-width: 1250px;
     gap: 0;
     padding: 0 4rem;
   }
@@ -274,12 +275,12 @@ button:hover {
     align-items: center;
     width: 100%;
   }
-  .photo2 {
+  /* .photo2 {
     height: 24rem;
     width: 24rem;
     border-radius: 20rem;
     border: #e05900 6px solid;
-  }
+  } */
   .bienvenue {
     font-size: 2.8rem;
     padding-top: 0.8rem;
@@ -290,7 +291,7 @@ button:hover {
   }
   .portfolio {
     padding-top: 0.4rem;
-    font-size: 4.2rem;
+    font-size: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
