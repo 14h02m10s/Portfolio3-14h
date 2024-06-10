@@ -1,5 +1,6 @@
 <script setup>
 import ProjectsItem from "./ProjectsItem.vue";
+import ImgGoogleUX from "./icons/ImgGoogleUX.vue";
 import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 import ImgPortfolio1 from "./icons/ImgPortfolio1.vue";
 import ImgLakson from "./icons/ImgLakson.vue";
@@ -18,6 +19,38 @@ import Footer from "./Footer.vue";
       <div class="DivTitreH3">
         <h3>Projet UX/UI design</h3>
       </div>
+
+      <ProjectsItem data-aos="fade-up" data-aos-duration="600">
+        <template #image>
+          <ImgGoogleUX />
+        </template>
+        <!-- <template #sous-titre
+          ><a href="#/realisations/artefacteurs" class="link-text"
+            >Certification Google UX (en cours)&nbsp;</a
+          ><a href="#/realisations/artefacteurs"
+            ><img
+              src="../assets/external-orange.svg"
+              class="picto-external-link"
+              alt="picto-external-link"
+          /></a>
+        </template> -->
+        <template #sous-titre
+          >Certification Google UX (en cours d'acquisition)&nbsp;
+        </template>
+        <p>
+          Suite à ma formation chez UX France, j'ai décidé de passer la
+          certification Google UX afin de
+          <b
+            >continuer non seulement mon apprentissage en UX, mais aussi
+            continuer à manipuler Figma et à maquetter</b
+          >. <br /><br />
+          Cette certification se déroule entièrement en ligne et
+          <b>en autonomie</b>. Le programme dure en théorie
+          <b>+ de 200 heures</b> et est découpé en 7 parties. Je suis
+          actuellement en train de finir la 3e partie. Mon projet portera sur la
+          conception d'une application de prévisualisation d'une carte de café.
+        </p>
+      </ProjectsItem>
 
       <ProjectsItem data-aos="fade-up" data-aos-duration="600">
         <template #image>
