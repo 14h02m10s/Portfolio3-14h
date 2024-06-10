@@ -26,7 +26,7 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: top left;
+  object-position: top center;
 }
 .height {
   position: relative;
@@ -35,7 +35,7 @@ img {
 }
 .height img:nth-child(2) {
   position: absolute;
-  right: 0;
+  /* right: 0; */
   opacity: 0;
   transition: opacity ease 0.4s;
 
@@ -47,5 +47,19 @@ img {
 
   /* a reactiver */
   /* cursor: pointer; */
+}
+
+@media (min-width: 1135px) {
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .height {
+    position: relative;
+    height: 15rem;
+    overflow: hidden;
+  }
 }
 </style>
