@@ -19,7 +19,7 @@ onBeforeUnmount(() => {
 });
 
 const cvURL =
-  "https://14h02m10s.github.io/Portfolio3-14h/cv-mai2024-portfolio.pdf";
+  "https://14h02m10s.github.io/Portfolio3-14h/cv-juin2024-portfolio.pdf";
 </script>
 
 <template>
@@ -269,7 +269,7 @@ const cvURL =
           </div>
         </div>
         <div class="container-button">
-          <a :href="cvURL" target="_blank" download="fchambinaud.pdf"
+          <a :href="cvURL" target="_blank" download="CV-fchambinaud.pdf"
             ><button class="btn">Plus de détails sur mon cv</button></a
           >
         </div>
