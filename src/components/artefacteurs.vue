@@ -556,7 +556,7 @@ p {
   z-index: 1;
   height: fit-content;
   background-color: #b9cfd4;
-  padding: 0rem 2rem 3rem 2rem;
+  padding: 0rem 1rem 3rem 1rem;
 }
 .titre-phase {
   padding: 3rem 0 1rem 0;
@@ -613,6 +613,7 @@ img {
   .container1 {
     width: 95%;
     max-width: 700px;
+    padding: 0rem 2rem 3rem 2rem;
   }
 }
 @media (min-width: 1135px) {
