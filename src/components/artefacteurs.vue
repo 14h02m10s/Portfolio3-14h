@@ -38,7 +38,7 @@ const remonte = () => {
         <div class="colonne2">
           <img
             class="maxHeightimg"
-            src="../assets/logoArtefacteurs.jpg"
+            src="../assets/logoArtefacteurs-large.jpg"
             alt="les différentes phases de l'ux design"
           />
         </div>
@@ -459,13 +459,14 @@ h2 {
   padding: 0.3rem 3rem;
   display: flex;
   justify-content: center;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   letter-spacing: 0.1rem;
+  text-align: center;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   letter-spacing: 0.05rem;
 }
 h5 {
