@@ -1,12 +1,12 @@
 <template>
   <div class="height">
     <a href="#/realisations/artefacteurs">
-      <img
+      <!-- <img
         src="../../assets/ImgArtefacteurs-orange2.jpg"
         alt="Miniature Artefacteurs orange"
-      />
+      /> -->
       <img
-        src="../../assets/ImgArtefacteurs-coul2.jpg"
+        src="../../assets/img-prez-artefacteurs.jpg"
         alt="Miniature Artefacteurs couleur"
       />
     </a>

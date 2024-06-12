@@ -29,7 +29,7 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>Le projet UX/UI des Artef'acteurs</h2>
+      <h2>Le projet des Artef'acteurs</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
@@ -38,7 +38,7 @@ const remonte = () => {
         <div class="colonne2">
           <img
             class="maxHeightimg"
-            src="../assets/logoArtefacteurs-large.jpg"
+            src="../assets/artefacteurs-beandeau.jpg"
             alt="les différentes phases de l'ux design"
           />
         </div>

@@ -1,10 +1,10 @@
 <template>
   <div class="height">
     <a href="https://14h02m10s.github.io/Portfolio/" target="blank">
-      <img
+      <!-- <img
         src="../../assets/ImgPortfolio1-orange.jpg"
         alt="Miniature Portfolio1 NB"
-      />
+      /> -->
       <img
         src="../../assets/ImgPortfolio1-coul.jpg"
         alt="Miniature Portfolio1 coul"

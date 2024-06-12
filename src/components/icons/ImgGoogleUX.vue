@@ -1,23 +1,15 @@
 <template>
   <div class="height">
-    <!-- <a href="#/realisations/artefacteurs">
-      <img
+    <!-- <a href="#/realisations/artefacteurs"> -->
+    <!-- <img
         src="../../assets/ImgGoogleUX-orange.webp"
         alt="Miniature Google UX orange"
-      />
-      <img
-        src="../../assets/ImgGoogleUX-coul.webp"
-        alt="Miniature Google UX couleur"
-      />
-    </a> -->
+      /> -->
     <img
-      src="../../assets/ImgGoogleUX-orange.webp"
-      alt="Miniature Google UX orange"
-    />
-    <img
-      src="../../assets/ImgGoogleUX-coul.webp"
+      src="../../assets/google-ux-bandeau.jpg"
       alt="Miniature Google UX couleur"
     />
+    <!-- </a> -->
   </div>
 </template>
 <style scoped>

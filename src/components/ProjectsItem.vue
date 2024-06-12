@@ -108,7 +108,7 @@ export default {
   transform: rotate(180deg);
 }
 h4 {
-  padding: 0 0 0.8rem 0;
+  padding: 0;
   font-weight: 700;
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;

@@ -4,9 +4,8 @@
       href="https://14h02m10s.github.io/ExerciceCopieSiteResto/#/"
       target="blank"
     >
-      <img src="../../assets/Lakson-orange.jpg" alt="Miniature Lakson NB" />
+      <!-- <img src="../../assets/Lakson-orange.jpg" alt="Miniature Lakson NB" /> -->
       <img src="../../assets/Lakson-coul.jpg" alt="Miniature Lakson coul" />
-      <!-- <img src="../../assets/Suzuki-coul.jpg" alt="Miniature Lakson coul" /> -->
     </a>
   </div>
 </template>
