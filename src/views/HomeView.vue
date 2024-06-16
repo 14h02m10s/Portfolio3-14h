@@ -1,12 +1,12 @@
 <script setup>
-import First2 from "../components/First2.vue";
-import Presentation2 from "../components/Presentation2.vue";
+import First3 from "../components/First3.vue";
+import Presentation3 from "../components/Presentation3.vue";
 </script>
 
 <template>
   <main>
-    <First2 />
-    <Presentation2 />
+    <First3 />
+    <Presentation3 />
   </main>
 </template>
 

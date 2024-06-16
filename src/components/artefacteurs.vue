@@ -1,5 +1,5 @@
 <script setup>
-import Footer from "./Footer.vue";
+import Footer2 from "./Footer2.vue";
 
 import { onMounted, onBeforeUnmount } from "vue";
 
@@ -418,7 +418,7 @@ const remonte = () => {
   <!-- <div class="z-index">
       <Footer />
     </div> -->
-  <Footer />
+  <Footer2 />
 </template>
 
 <style scoped>

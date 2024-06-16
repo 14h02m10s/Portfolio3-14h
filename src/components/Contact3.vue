@@ -140,7 +140,8 @@ import Footer2 from "./Footer2.vue";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%);
+  /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
+  background: rgb(238 247 248);
   width: 100%;
   position: relative;
   padding-top: 5.1rem;
@@ -148,7 +149,7 @@ import Footer2 from "./Footer2.vue";
   height: 100vh;
   min-height: 1050px;
 }
-#contact::after {
+/* #contact::after {
   content: "";
   background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
   position: absolute;
@@ -159,11 +160,11 @@ import Footer2 from "./Footer2.vue";
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-}
+} */
 .titre {
   width: 100%;
   z-index: 1;
-  color: #fff;
+  color: #1c657c;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -220,28 +221,33 @@ h2 {
 input[type="text"] {
   border: none;
   outline: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   padding: 1rem 1.5rem;
   padding-left: calc(1rem * 3.2);
   border-radius: 100px;
   width: 100%;
   transition: background 0.5s;
+  border: rgba(28, 101, 124, 0.7) 1px solid;
+  border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 input[type="email"] {
   border: none;
   outline: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   padding: 1rem 1.5rem;
   padding-left: calc(1rem * 3.2);
   border-radius: 100px;
   width: 100%;
   transition: background 0.5s;
+  border: #1c657c 1px solid;
+  border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 .form-item {
   width: 100%;
 }
 input:focus {
   background: white;
+  border: #e05900 1px solid;
 }
 #message {
   border-radius: 20px;
@@ -250,11 +256,14 @@ input:focus {
   border: none;
   outline: none;
   padding: 1rem 1.5rem;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   transition: background 0.5s;
+  border: #1c657c 1px solid;
+  border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 #message:focus {
   background: white;
+  border: #e05900 1px solid;
 }
 textarea {
   font-family: "Open sans";
@@ -273,20 +282,21 @@ button {
   padding: 0.7rem 1.1rem;
   border-radius: 2rem;
   cursor: pointer;
+  color: #fff;
   font-size: 1.1rem;
-  border: 2px #fff solid;
-  background: none;
+  border: 2px #e05900 solid;
+  /* background: none; */
+  background-color: #e05900;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  color: #fff;
 }
 button::before,
 button::after {
   border-radius: 2rem;
-  background-color: #e05900;
+  background-color: #1c657c;
   content: "";
   position: absolute;
   z-index: -1;
@@ -314,11 +324,8 @@ p {
   font-weight: 500;
   /* text-align: justify; */
   margin-bottom: 0.7rem;
-  color: #fff;
+  color: #1c657c;
   text-align: center;
-}
-ul {
-  color: #fff;
 }
 .copy {
   font-size: 0.9rem;
@@ -328,7 +335,7 @@ ul {
 }
 @keyframes changerCouleur {
   0% {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(28, 101, 124, 1);
   }
   100% {
     color: rgba(255, 255, 255, 0);
@@ -363,8 +370,8 @@ ul {
 .hover-list {
   font-weight: 600;
   font-size: 1rem;
-  color: #ff6c0b;
-  color: #ffffff;
+  color: #e05900;
+  /* color: #ffffff; */
   box-shadow: inset 0 0 0 0 #ffffff;
   padding: 0 0.25rem;
   margin: 0 -0.25rem;

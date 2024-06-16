@@ -1,10 +1,10 @@
 <script setup>
-import Projects from "../components/Projects.vue";
+import Projects2 from "../components/Projects2.vue";
 </script>
 
 <template>
   <main>
-    <Projects />
+    <Projects2 />
   </main>
 </template>
 

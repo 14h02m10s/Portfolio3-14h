@@ -293,11 +293,12 @@ const cvURL =
 <style scoped>
 .espace-nav {
   padding-top: 3rem;
-  background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%);
+  /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
+  background: rgb(238 247 248);
   width: 100%;
   position: relative;
 }
-.espace-nav::after {
+/* .espace-nav::after {
   content: "";
   background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
   position: absolute;
@@ -308,7 +309,7 @@ const cvURL =
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-}
+} */
 #head {
   display: flex;
   justify-content: center;
@@ -318,7 +319,7 @@ const cvURL =
 .titre {
   width: 100%;
   z-index: 1;
-  color: #fff;
+  color: #1c657c;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -335,7 +336,7 @@ h3 {
   padding: 0.3rem 3rem;
   font-weight: 600;
   font-size: 1.4rem;
-  color: white;
+  color: #1c657c;
   font-family: "Montserrat", sans-serif;
 }
 h4 {
@@ -361,8 +362,8 @@ h4 {
   background-color: #fff;
   margin: 0.5rem 1rem 2rem 1rem;
   padding: 2rem;
-  border-top: 5px solid #e05900;
-  border-bottom: 5px solid #e05900;
+  border-top: 3px solid #e05900;
+  border-bottom: 3px solid #e05900;
 }
 .height100 {
   height: 100%;
@@ -385,7 +386,11 @@ li {
 }
 a {
   color: #e05900;
+  /* color: #fff; */
 }
+/* a:hover {
+  color: #fff;
+} */
 .link-text {
   font-weight: 600;
   font-size: 1rem;
@@ -410,8 +415,8 @@ a {
   background-color: #fff;
   margin: 0.5rem 1rem 2rem 1rem;
   padding: 2rem;
-  border-top: 5px solid #e05900;
-  border-bottom: 5px solid #e05900;
+  border-top: 3px solid #e05900;
+  border-bottom: 3px solid #e05900;
 }
 .titre-skills {
   display: flex;
@@ -458,8 +463,9 @@ button {
   cursor: pointer;
   color: #fff;
   font-size: 1.1rem;
-  border: 2px #fff solid;
-  background: none;
+  border: 2px #e05900 solid;
+  /* background: none; */
+  background-color: #e05900;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -469,7 +475,7 @@ button {
 button::before,
 button::after {
   border-radius: 2rem;
-  background-color: #e05900;
+  background-color: #1c657c;
   content: "";
   position: absolute;
   z-index: -1;
@@ -489,6 +495,7 @@ button::after {
 .btn:hover::after {
   width: 100%;
 }
+
 #head {
   width: 100%;
 }

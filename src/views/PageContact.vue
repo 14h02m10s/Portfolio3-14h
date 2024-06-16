@@ -1,10 +1,10 @@
 <script setup>
-import Contact2 from "../components/Contact2.vue";
+import Contact3 from "../components/Contact3.vue";
 </script>
 
 <template>
   <main>
-    <Contact2 />
+    <Contact3 />
   </main>
 </template>
 
