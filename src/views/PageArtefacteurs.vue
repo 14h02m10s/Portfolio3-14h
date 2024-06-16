@@ -1,10 +1,10 @@
 <script setup>
-import artefacteurs from "../components/artefacteurs.vue";
+import artefacteurs2 from "../components/artefacteurs2.vue";
 </script>
 
 <template>
   <main>
-    <artefacteurs />
+    <artefacteurs2 />
   </main>
 </template>
 
