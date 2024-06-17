@@ -66,7 +66,8 @@ export default {
 }
 .orange {
   /* background-color: #e05900; */
-  background-color: rgb(238 247 248 / 90%);
+  /* background-color: rgba(238 247 248 / 90%); */
+  background-color: rgba(247, 254, 255 / 90%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -124,7 +125,8 @@ h1 {
   transform: scale(1.08);
 }
 .blue {
-  background-color: rgb(238 247 248 / 90%);
+  /* background-color: rgb(238 247 248 / 90%); */
+  background-color: rgba(247, 254, 255 / 90%);
   padding: 1.5rem;
   box-shadow: rgba(162, 162, 162, 0.2) 0rem 0.4rem 0.5rem;
   backdrop-filter: blur(4px);
@@ -184,7 +186,8 @@ h1 {
   .blue,
   .responsive {
     /* background-color: #1c657c; */
-    background-color: rgb(238 247 248 / 90%);
+    /* background-color: rgba(238 247 248 / 90%); */
+    background-color: rgba(247, 254, 255 / 90%);
     padding: 0.9rem;
     display: flex;
     flex-direction: row;

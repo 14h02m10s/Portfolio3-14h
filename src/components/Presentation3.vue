@@ -294,7 +294,8 @@ const cvURL =
 .espace-nav {
   padding-top: 3rem;
   /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
-  background: rgb(238 247 248);
+  /* background-color: rgb(238 247 248); */
+  background-color: rgb(247, 254, 255);
   width: 100%;
   position: relative;
 }
@@ -364,6 +365,7 @@ h4 {
   padding: 2rem;
   border-top: 3px solid #e05900;
   border-bottom: 3px solid #e05900;
+  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
 }
 .height100 {
   height: 100%;
@@ -417,6 +419,7 @@ a {
   padding: 2rem;
   border-top: 3px solid #e05900;
   border-bottom: 3px solid #e05900;
+  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
 }
 .titre-skills {
   display: flex;
@@ -548,7 +551,7 @@ button::after {
     align-items: center;
     margin: 1rem auto;
     padding: 0;
-    width: 43rem;
+    width: 45rem;
     overflow: hidden;
   }
   .super-container-hardSkills {
@@ -556,7 +559,7 @@ button::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 43rem;
+    width: 45rem;
   }
   .container-two-containers-hard-skills {
     display: flex;
@@ -573,7 +576,10 @@ button::after {
     flex-direction: column;
     justify-content: left;
     margin: 1rem;
-    width: 100%;
+    width: 44rem;
+  }
+  .section-texte {
+    width: 44rem;
   }
   .container-hardSkills {
     margin: 0 2rem;
@@ -647,6 +653,7 @@ button::after {
     justify-content: center;
     margin: 0.5rem 1rem 2rem 1rem;
     padding: 2rem;
+    width: 94%;
   }
   .two-containers-hard-skills {
     display: flex;
@@ -673,10 +680,17 @@ button::after {
   p {
     font-size: 1rem;
   }
+  .paves-textes {
+    width: 46rem;
+  }
+  .section-texte {
+    width: 44rem;
+  }
 }
 @media (min-width: 1440px) {
-  .super-container-hardSkills {
-    width: 44rem;
+  .super-container-hardSkills,
+  .paves-textes {
+    width: 46rem;
   }
   .two-containers-hard-skills {
     display: flex;
@@ -687,7 +701,11 @@ button::after {
   ul {
     column-count: 2;
   }
-  .paves-textes,
+  /* .paves-textes,
+  .container-hardSkills-titre {
+    width: 44rem;
+  } */
+  .section-texte,
   .container-hardSkills-titre {
     width: 44rem;
   }

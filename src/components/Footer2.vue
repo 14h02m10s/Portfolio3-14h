@@ -7,7 +7,8 @@
 <style scoped>
 .foot {
   padding: 0.7rem;
-  background-color: rgb(238 247 248);
+  /* background-color: rgb(238 247 248); */
+  background: #f7feff;
   display: flex;
   flex-direction: column;
   justify-content: center;

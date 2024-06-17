@@ -428,7 +428,8 @@ const remonte = () => {
   align-items: center;
   /* justify-content: center; */
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
-  background: rgb(238 247 248);
+  /* background: rgb(238 247 248); */
+  background: #f7feff;
 
   width: 100%;
   position: relative;
@@ -576,8 +577,9 @@ p {
   background-color: #fff;
   height: fit-content;
   width: 100%;
-  border-top: 5px solid #e05900;
-  border-bottom: 5px solid #e05900;
+  border-top: 3px solid #e05900;
+  border-bottom: 3px solid #e05900;
+  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
 }
 .colonne2 {
   /* background-color: rgb(85, 85, 85); */
@@ -595,6 +597,7 @@ img {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
 }
 .maxHeightimg {
   max-height: 400px;

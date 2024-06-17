@@ -141,7 +141,9 @@ import Footer2 from "./Footer2.vue";
   flex-direction: column;
   justify-content: center;
   /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
-  background: rgb(238 247 248);
+  /* background: rgb(238 247 248); */
+  background: #f7feff;
+
   width: 100%;
   position: relative;
   padding-top: 5.1rem;

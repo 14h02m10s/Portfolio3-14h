@@ -263,7 +263,8 @@ import Footer2 from "./Footer2.vue";
   padding-top: 5rem;
   min-height: 100vh;
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
-  background: rgb(238 247 248);
+  /* background-color: rgb(238 247 248); */
+  background-color: rgb(247, 254, 255);
   display: flex;
   justify-content: center;
   align-items: center;

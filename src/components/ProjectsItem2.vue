@@ -55,7 +55,7 @@ export default {
   width: 100%;
   margin: 0;
   padding: 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 0.2rem 0.2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
 }
 .section-texte {
   display: flex;
@@ -65,7 +65,7 @@ export default {
   background-color: #fff;
   padding: 1rem 2rem 2rem 2rem;
   border-top: 1px solid #e05900;
-  box-shadow: rgba(0, 0, 0, 0.2) 0.2rem 0.2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
 
   border-bottom: 3px solid #e05900;
   transform: translateY(-0.4rem);
