@@ -66,8 +66,9 @@ export default {
 }
 .orange {
   /* background-color: #e05900; */
-  /* background-color: rgba(238 247 248 / 90%); */
-  background-color: rgba(247, 254, 255 / 90%);
+  /* background: rgba(238 247 248 / 90%); */
+  /* background: rgba(247, 254, 255 / 90%); */
+  background-color: rgba(247, 254, 255, 1);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -125,10 +126,11 @@ h1 {
   transform: scale(1.08);
 }
 .blue {
-  /* background-color: rgb(238 247 248 / 90%); */
-  background-color: rgba(247, 254, 255 / 90%);
+  /* background: rgb(238 247 248 / 90%); */
+  /* background: rgb(247, 254, 255 / 90%); */
+  background-color: rgba(247, 254, 255, 0.9);
   padding: 1.5rem;
-  box-shadow: rgba(162, 162, 162, 0.2) 0rem 0.4rem 0.5rem;
+  box-shadow: rgba(162, 162, 162, 0.2) 0rem 0.3rem 0.5rem;
   backdrop-filter: blur(4px);
 }
 .responsive a {
@@ -176,6 +178,7 @@ h1 {
     text-align: left;
   }
   .orange {
+    background-color: rgba(247, 254, 255, 0.8);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -187,7 +190,8 @@ h1 {
   .responsive {
     /* background-color: #1c657c; */
     /* background-color: rgba(238 247 248 / 90%); */
-    background-color: rgba(247, 254, 255 / 90%);
+    /* background-color: rgb(247, 254, 255 / 90%); */
+    background-color: rgba(247, 254, 255, 0.8);
     padding: 0.9rem;
     display: flex;
     flex-direction: row;
