@@ -1,11 +1,12 @@
 <script setup>
 import ProjectsItem2 from "./ProjectsItem2.vue";
 import ImgGoogleUX from "./icons/ImgGoogleUX.vue";
+import ImgOnZen from "./icons/ImgOnZen.vue";
 import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 import ImgPortfolio1 from "./icons/ImgPortfolio1.vue";
 import ImgLakson from "./icons/ImgLakson.vue";
-import ImgProjet2 from "./icons/ImgProjet2.vue";
-import ImgSuzuki from "./icons/ImgSuzuki.vue";
+// import ImgProjet2 from "./icons/ImgProjet2.vue";
+// import ImgSuzuki from "./icons/ImgSuzuki.vue";
 import Footer2 from "./Footer2.vue";
 </script>
 
@@ -17,23 +18,41 @@ import Footer2 from "./Footer2.vue";
     </div>
     <div class="flex-project">
       <div class="DivTitreH3">
-        <h3>Projets UX/UI design</h3>
+        <h3>Projets UX/UI</h3>
       </div>
+
+      <ProjectsItem2 data-aos="fade-up" data-aos-duration="600">
+        <template #image>
+          <ImgOnZen />
+        </template>
+        <template #sous-titre
+          ><a href="#/realisations/onzen" class="link-text"
+            >Refonte de la plateforme On-Zen&nbsp;</a
+          >
+        </template>
+        <div class="container-button">
+          <a href="#/realisations/onzen"
+            ><button class="btn">Voir le projet</button></a
+          >
+        </div>
+        <p>
+          On-Zen est une plateforme dédiée à la
+          <b>sensibilisation du grand public aux médecines complémentaires</b>
+          et à la <b>mise en relation entre praticiens et clients</b> par la
+          prise de rendez-vous. Elle propose également aux professionnels du
+          bien-être divers outils pour faciliter la gestion de leur activité et
+          accroître leur visibilité. <br /><br />
+          Une première version du site avait été lancée au début de l'activité
+          de la start up mais elle n’était ni responsive ni cohérente sur le
+          plan graphique.
+          <b>J'avais donc pour mission de donner un nouveau souffle au site.</b>
+        </p>
+      </ProjectsItem2>
 
       <ProjectsItem2 data-aos="fade-up" data-aos-duration="600">
         <template #image>
           <ImgGoogleUX />
         </template>
-        <!-- <template #sous-titre
-          ><a href="#/realisations/artefacteurs" class="link-text"
-            >Certification Google UX (en cours)&nbsp;</a
-          ><a href="#/realisations/artefacteurs"
-            ><img
-              src="../assets/external-orange.svg"
-              class="picto-external-link"
-              alt="picto-external-link"
-          /></a>
-        </template> -->
         <template #sous-titre>Certification Google UX&nbsp; </template>
         <div class="container-button">
           <!-- <a href=""> -->
@@ -264,7 +283,8 @@ import Footer2 from "./Footer2.vue";
   min-height: 100vh;
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background-color: rgb(238 247 248); */
-  background-color: rgb(247, 254, 255);
+  /* background-color: rgb(247, 254, 255); */
+  background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%);
   display: flex;
   justify-content: center;
   align-items: center;

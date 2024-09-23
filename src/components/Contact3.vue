@@ -142,7 +142,8 @@ import Footer2 from "./Footer2.vue";
   justify-content: center;
   /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background: rgb(238 247 248); */
-  background: #f7feff;
+  /* background: #f7feff; */
+  background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%);
 
   width: 100%;
   position: relative;

@@ -21,12 +21,14 @@ import Header6 from "../src/components/Header6.vue";
 import HomeView from "../src/views/HomeView.vue";
 import PageRealisations from "../src/views/PageRealisations.vue";
 import PageArtefacteurs from "../src/views/PageArtefacteurs.vue";
+import PageOnZen from "../src/views/PageOnZen.vue";
 import PageContact from "../src/views/PageContact.vue";
 
 const routes = {
   "/": HomeView,
   "/realisations": PageRealisations,
   "/realisations/artefacteurs": PageArtefacteurs,
+  "/realisations/onzen": PageOnZen,
   "/contact": PageContact,
 };
 
@@ -37,6 +39,7 @@ export default {
     HomeView,
     PageRealisations,
     PageArtefacteurs,
+    PageOnZen,
     PageContact,
   },
   data() {
