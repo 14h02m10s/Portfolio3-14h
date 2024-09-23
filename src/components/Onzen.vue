@@ -29,7 +29,7 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>La plateforme On-Zen</h2>
+      <h2>La plateforme On-Zen (page en cours de construction)</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
@@ -105,12 +105,27 @@ const remonte = () => {
             n'étaient pas du tout visibles, je les ai donc rendues à nouvau
             accessibles.
           </p>
+          <p>
+            Il a également fallu repenser la partie dédiée aux praticiens dans
+            la navbar puisqu'elle ne menait qu'à l'inscription des praticiens
+            sans explications suppélmentaires. J'ai ajouté un lien vers une page
+            tarifs, vers une prise de rendez-vous avec On-Zen pour avoir une
+            démo, et vers la page contact.
+          </p>
         </div>
         <div class="colonne2">
           <img
             src="../assets/home-avant-haut-desk.jpg"
             alt="la home page avant modifications"
           />
+          <h5>Partie visible sans scroller de la homepage - AVANT</h5>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/on-zen-home-haut.jpg"
+            alt="la home page après modifications"
+          />
+          <h5>Partie visible sans scroller de la homepage - APRÈS</h5>
         </div>
       </div>
     </div>
