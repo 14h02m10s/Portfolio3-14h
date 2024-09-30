@@ -295,8 +295,8 @@ const cvURL =
   padding-top: 3rem;
   /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background-color: rgb(238 247 248); */
-  /* background-color: rgb(247, 254, 255); */
-  background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%);
+  background-color: rgb(247, 254, 255);
+  /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
 
   width: 100%;
   position: relative;

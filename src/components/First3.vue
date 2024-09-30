@@ -88,8 +88,8 @@ onBeforeUnmount(() => {
 .englobeur-first {
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background: rgb(238 247 248); */
-  /* background: #f7feff; */
-  background: linear-gradient(to top, #1c657c, #f7feff 50%, #f7feff 50%);
+  background: #f7feff;
+  /* background: linear-gradient(to top, #1c657c, #f7feff 50%, #f7feff 50%); */
   min-height: 100vh;
   display: flex;
   justify-content: center;

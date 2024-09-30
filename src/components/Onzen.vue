@@ -29,7 +29,7 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>La plateforme On-Zen (page en cours de construction)</h2>
+      <h2>La plateforme On-Zen <br />(page en cours de construction)</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
@@ -57,15 +57,15 @@ const remonte = () => {
               contient également un blog.
             </li>
             <li>
+              <b>Le dashboard client</b> qui permet de prendre rendez-vous avec
+              des praticiens de médecine complémentaire pour soi et des membres
+              de sa famille.
+            </li>
+            <li>
               <b>Le dashboard professionnel</b> qui permet aux praticiens de
               gérer leur agenda, leur carnet d'adresses, écrire des
               recommandations, éditer des factures, faire des campagnes de
               mailing...
-            </li>
-            <li>
-              <b>Le dashboard client</b> qui permet de prendre rendez-vous avec
-              des praticiens de médecine complémentaire pour soi et des membres
-              de sa famille.
             </li>
           </ol>
           <br />
@@ -96,7 +96,7 @@ const remonte = () => {
             expérience utilisateur.
           </p>
           <p>
-            Dans les champs de recherche, il y avait des icones gris clair.
+            Dans les champs de recherche, il y avait des icônes gris clair.
             L'icône loupe n'était pas cliquable, mais l'icône "localisation" et
             "flèche" l'étaient. L'icône "localisation" permettait de se
             géolocaliser et l'icône "flèche" permettait d'afficher une barre
@@ -147,8 +147,8 @@ const remonte = () => {
   /* justify-content: center; */
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background: rgb(238 247 248); */
-  /* background: #f7feff; */
-  background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%);
+  background: #f7feff;
+  /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
 
   width: 100%;
   position: relative;
