@@ -1,18 +1,20 @@
 <script setup>
-import First3 from "../components/First3.vue";
-import Presentation3 from "../components/Presentation3.vue";
+import First4 from "../components/First4.vue";
+import Projects3 from "../components/Projects3.vue";
+import Contact3 from "../components/Contact3.vue";
 </script>
 
 <template>
   <main>
-    <First3 />
-    <Presentation3 />
+    <First4 />
+    <Projects3 />
+    <Contact3 />
   </main>
 </template>
 
 <style>
 html {
   scroll-behavior: smooth;
-  background-color: #e05900;
+  /* background-color: #fff; */
 }
 </style>

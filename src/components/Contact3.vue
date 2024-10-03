@@ -120,15 +120,15 @@ import Footer2 from "./Footer2.vue";
         </div>
       </div>
     </div>
-    <!-- <div class="btn-return">
-      <a href="#head">
+    <div class="btn-return">
+      <a href="#first">
         <button class="btn-carre">
           <span class="material-symbols-rounded">
             keyboard_double_arrow_up
           </span>
         </button>
       </a>
-    </div> -->
+    </div>
     <div class="z-index">
       <Footer2 />
     </div>
@@ -142,8 +142,9 @@ import Footer2 from "./Footer2.vue";
   justify-content: center;
   /* background: linear-gradient(to bottom, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background: rgb(238 247 248); */
-  background: #f7feff;
+  /* background: #f7feff; */
   /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
+  background: #fff;
 
   width: 100%;
   position: relative;
@@ -167,7 +168,7 @@ import Footer2 from "./Footer2.vue";
 .titre {
   width: 100%;
   z-index: 1;
-  color: #1c657c;
+  color: #353051;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -230,7 +231,7 @@ input[type="text"] {
   border-radius: 100px;
   width: 100%;
   transition: background 0.5s;
-  border: rgba(28, 101, 124, 0.7) 1px solid;
+  /* border: rgba(28, 101, 124, 0.7) 1px solid; */
   border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 input[type="email"] {
@@ -242,15 +243,15 @@ input[type="email"] {
   border-radius: 100px;
   width: 100%;
   transition: background 0.5s;
-  border: #1c657c 1px solid;
+  /* border: #1c657c 1px solid; */
   border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 .form-item {
   width: 100%;
 }
 input:focus {
-  background: white;
-  border: #e05900 1px solid;
+  background: #faf9ff;
+  border: #353051 1px solid;
 }
 #message {
   border-radius: 20px;
@@ -261,12 +262,12 @@ input:focus {
   padding: 1rem 1.5rem;
   background: rgba(255, 255, 255, 0.5);
   transition: background 0.5s;
-  border: #1c657c 1px solid;
+  /* border: #1c657c 1px solid; */
   border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 #message:focus {
-  background: white;
-  border: #e05900 1px solid;
+  background: #faf9ff;
+  border: #353051 1px solid;
 }
 textarea {
   font-family: "Open sans";
@@ -287,9 +288,9 @@ button {
   cursor: pointer;
   color: #fff;
   font-size: 1.1rem;
-  border: 2px #e05900 solid;
+  border: 2px #353051 solid;
   /* background: none; */
-  background-color: #e05900;
+  background-color: #353051;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -327,7 +328,7 @@ p {
   font-weight: 500;
   /* text-align: justify; */
   margin-bottom: 0.7rem;
-  color: #1c657c;
+  color: #1a1e36;
   text-align: center;
 }
 .copy {
@@ -338,7 +339,7 @@ p {
 }
 @keyframes changerCouleur {
   0% {
-    color: rgba(28, 101, 124, 1);
+    color: #353051;
   }
   100% {
     color: rgba(255, 255, 255, 0);
@@ -373,7 +374,7 @@ p {
 .hover-list {
   font-weight: 600;
   font-size: 1rem;
-  color: #e05900;
+  color: #353051;
   /* color: #ffffff; */
   box-shadow: inset 0 0 0 0 #ffffff;
   padding: 0 0.25rem;
@@ -383,7 +384,7 @@ p {
 }
 .hover-list:hover {
   color: #fff;
-  box-shadow: inset 250px 0 0 0 #e05900;
+  box-shadow: inset 250px 0 0 0 #353051;
   cursor: pointer;
   /* transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }

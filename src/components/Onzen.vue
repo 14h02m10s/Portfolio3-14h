@@ -147,7 +147,7 @@ const remonte = () => {
   /* justify-content: center; */
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background: rgb(238 247 248); */
-  background: #f7feff;
+  background: #fff;
   /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
 
   width: 100%;
@@ -172,7 +172,7 @@ const remonte = () => {
 .titre {
   width: 100%;
   z-index: 1;
-  color: #1c657c;
+  color: #353051;
 }
 h2 {
   font-family: "Montserrat", sans-serif;

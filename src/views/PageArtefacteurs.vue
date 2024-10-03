@@ -11,6 +11,6 @@ import artefacteurs2 from "../components/artefacteurs2.vue";
 <style>
 html {
   scroll-behavior: smooth;
-  background-color: #e05900;
+  /* background-color: #e05900; */
 }
 </style>

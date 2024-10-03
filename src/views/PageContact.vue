@@ -11,6 +11,6 @@ import Contact3 from "../components/Contact3.vue";
 <style>
 html {
   scroll-behavior: smooth;
-  background-color: #e05900;
+  /* background-color: #e05900; */
 }
 </style>

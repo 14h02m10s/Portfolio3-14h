@@ -11,13 +11,13 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <div>
-    <Header6 />
+    <Header7 />
     <component :is="currentView" />
   </div>
 </template>
 
 <script>
-import Header6 from "../src/components/Header6.vue";
+import Header7 from "../src/components/Header7.vue";
 import HomeView from "../src/views/HomeView.vue";
 import PageRealisations from "../src/views/PageRealisations.vue";
 import PageArtefacteurs from "../src/views/PageArtefacteurs.vue";
@@ -35,7 +35,7 @@ const routes = {
 export default {
   name: "App",
   components: {
-    Header6,
+    Header7,
     HomeView,
     PageRealisations,
     PageArtefacteurs,

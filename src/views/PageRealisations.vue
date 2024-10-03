@@ -11,6 +11,6 @@ import Projects2 from "../components/Projects2.vue";
 <style>
 html {
   scroll-behavior: smooth;
-  background-color: #e05900;
+  /* background-color: #e05900; */
 }
 </style>
