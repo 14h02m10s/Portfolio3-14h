@@ -222,7 +222,7 @@ button:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 2rem 0;
+  margin: 1rem 0;
 }
 
 /* button,
@@ -321,6 +321,9 @@ button::after {
   }
   .texte-prez-first {
     margin-top: 1.5rem;
+  }
+  .container-button {
+    margin: 2rem 0;
   }
 }
 @media (min-width: 1135px) {
