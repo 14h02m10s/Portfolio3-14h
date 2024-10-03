@@ -18,7 +18,7 @@ export default {
       <a href="./"><h1>Frédérique CHAMBINAUD</h1></a>
       <div class="menu-points">
         <a href="javascript:void(0);" class="icon" @click="toggleMenu">
-          <img src="../assets/ellypsis-vertical-2-bleu.svg" alt="picto menu" />
+          <img src="../assets/ellypsis-vertical-2.svg" alt="picto menu" />
         </a>
       </div>
     </div>
@@ -59,7 +59,6 @@ export default {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* color: white; */
   position: fixed;
   right: 0;
   left: 0;
@@ -93,9 +92,9 @@ nav {
 }
 nav a {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
-  padding: 1rem 0.7rem;
+  padding: 2rem 0.7rem;
   border-left: 0px solid rgba(33, 157, 178, 0.3);
   color: #fff;
   transition: 0.4s;
@@ -117,8 +116,8 @@ h1 {
 }
 
 .picto img {
-  height: 2rem;
-  margin-top: 1.5rem;
+  height: 4rem;
+  margin-top: 4rem;
   margin-right: 0.7rem;
   margin-left: 0.7rem;
 }
@@ -126,12 +125,16 @@ h1 {
   transform: scale(1.08);
 }
 .blue {
+  display: flex;
+  justify-content: center;
   /* background: rgb(238 247 248 / 90%); */
   /* background: rgb(247, 254, 255 / 90%); */
-  background-color: rgba(247, 254, 255, 0.9);
-  padding: 1.5rem;
+  /* background-color: rgba(247, 254, 255, 0.9); */
+  background-color: rgba(53, 48, 81, 0.9);
+  padding: 0 1.5rem;
   box-shadow: rgba(162, 162, 162, 0.2) 0rem 0.3rem 0.5rem;
   backdrop-filter: blur(4px);
+  height: 100vh;
 }
 .responsive a {
   display: none;

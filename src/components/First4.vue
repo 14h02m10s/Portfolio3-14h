@@ -86,7 +86,7 @@ const cvURL =
   flex-direction: column;
 }
 .text-photo {
-  gap: 3rem;
+  gap: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,9 +96,10 @@ const cvURL =
 .photo2 {
   /* border: #c5b2a9 3px solid;
   border: #1a1e36 3px solid; */
-  height: 18rem;
-  width: 18rem;
+  height: 14rem;
+  width: 14rem;
   border-radius: 10rem;
+  margin-top: 5rem;
 }
 .photo-fade-enter-active {
   transition: all 2.3s ease-out;
@@ -277,9 +278,8 @@ button::after {
     gap: 1rem;
   }
   .photo2 {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 10rem;
+    height: 16rem;
+    width: 16rem;
   }
   .bienvenue {
     font-size: 2.2rem;
@@ -304,7 +304,7 @@ button::after {
   .photo2 {
     height: 21rem;
     width: 21rem;
-    border-radius: 10rem;
+    margin-top: 0;
   }
   .text {
     /* border-bottom: #e05900 4px solid; */
