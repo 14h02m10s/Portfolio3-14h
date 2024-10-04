@@ -1,7 +1,7 @@
 <template>
   <div class="foot">
     <p>Site réalisé sur Vue.js</p>
-    <p>© Frédérique Chambinaud 2023-2024</p>
+    <p>© Frédérique Chambinaud 2024</p>
   </div>
 </template>
 <style scoped>

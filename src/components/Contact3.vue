@@ -288,19 +288,22 @@ button {
   cursor: pointer;
   color: #fff;
   font-size: 1.1rem;
-  border: 2px #353051 solid;
+  border: 2px #39335a solid;
   /* background: none; */
   background-color: #353051;
+  background-color: #1a1e36;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
 }
 button::before,
 button::after {
   border-radius: 2rem;
-  background-color: #1c657c;
+  /* background-color: #1c657c; */
+  background-color: #39335a;
   content: "";
   position: absolute;
   z-index: -1;

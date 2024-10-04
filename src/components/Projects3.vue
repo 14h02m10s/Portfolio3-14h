@@ -32,16 +32,16 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           >
         </div>
         <p>
-          On-Zen est une plateforme dédiée à la
-          <b>sensibilisation du grand public aux médecines complémentaires</b>
-          et à la <b>mise en relation entre praticiens et clients</b> par la
-          prise de rendez-vous. Elle propose également aux professionnels du
-          bien-être divers outils pour faciliter la gestion de leur activité et
-          accroître leur visibilité. <br /><br />
-          Une première version du site avait été lancée au début de l'activité
-          de la start up mais elle n’était ni responsive ni cohérente sur le
-          plan graphique.
-          <b>J'avais donc pour mission de donner un nouveau souffle au site.</b>
+          La plateforme On-Zen, lancée au début de l'activité de la startup,
+          n'était pas conçu en responsive et manquait également de cohérence
+          graphique. <br /><br />Ma mission était donc de transformer la
+          plateforme en un endroit attrayant, rassurant, compréhensible de tous
+          et pratique à utiliser. <br /><br />La plateforme est dédiée à la
+          sensibilisation du grand public aux médecines complémentaires mais
+          surtout à la mise en relation entre praticiens et clients par la prise
+          de rendez-vous en ligne. Elle propose également aux professionnels du
+          bien-être divers outils pour gérer leur activité et accroître leur
+          visibilité.
         </p>
       </ProjectsItem3>
 
@@ -56,17 +56,14 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           <!-- </a> -->
         </div>
         <p>
-          Suite à ma formation chez UX France, j'ai décidé de passer la
-          certification Google UX afin de
+          Je passe actuellement la <b>certification Google UX</b> afin de
+          continuer à approfondir mes compétences en design centré utilisateur.
+          Ce programme compte + de 200 heures de cours et j'applique toutes
+          <b>les méthodes UX</b> en travaillant sur la
           <b
-            >continuer non seulement mon apprentissage en UX, mais aussi
-            continuer à manipuler Figma et à maquetter</b
-          >. <br /><br />
-          Cette certification se déroule entièrement en ligne et
-          <b>en autonomie</b>. Le programme dure en théorie
-          <b>+ de 200 heures</b> et est découpé en 7 parties. Je suis
-          actuellement en train de finir la 3e partie. Mon projet portera sur la
-          conception d'une application de prévisualisation d'une carte de café.
+            >conception d'une application de prévisualisation d'une carte de
+            café</b
+          >. Cela me permet de perfectionner chaque étape du processus UX.
         </p>
       </ProjectsItem3>
 
@@ -91,12 +88,20 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           >
         </div>
         <p>
-          Le projet de la manufacture des Artéf'acteurs a été mené durant ma
-          <b>formation chez UX France</b>, en équipe de 2. <br /><br />
-          L'association de la Manufacture des artef'acteurs regroupe des
-          artisans d'art de l'est de la France. Le but de cette association est
-          de mettre en relation les artisans et de les aider à développer leurs
-          activités.
+          La Manufacture des Artéf'acteurs est une association réunissant des
+          <b>artisans d'art</b>, et a pour objectif de
+          <b
+            >favoriser leurs échanges et de soutenir le développement de leurs
+            activités</b
+          >. <br /><br />
+          Pour ce projet, nous avons appliqué des méthodes UX comme les
+          <b>entretiens utilisateurs</b> pour identifier leurs besoins, la
+          <b>création de personas</b> pour définir le profil des artisans, des
+          <b>diagrammes d'affinités</b> pour classer les information récupérées
+          en entretien, des <b>ateliers d'idéation</b> pour générer de nouvelles
+          idées, du <b>maquettage</b> pour faire prendre vie au projet, et enfin
+          des <b>tests utilisateurs</b> pour évaluer les points de frictions de
+          nos premières maquettes.
         </p>
       </ProjectsItem3>
     </div>
@@ -207,19 +212,25 @@ button {
   cursor: pointer;
   color: #fff;
   font-size: 1.1rem;
-  border: 2px #353051 solid;
-  background: none;
+  /* border: 2px #353051 solid; */
+  /* background: none; */
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background-color: #353051;
+  border: 2px #39335a solid;
+  /* background: none; */
+  background-color: #353051;
+  background-color: #1a1e36;
 }
 button::before,
 button::after {
   border-radius: 2rem;
-  background-color: #1c657c;
+  /* background-color: #1c657c; */
+  background-color: #39335a;
+
   content: "";
   position: absolute;
   z-index: -1;

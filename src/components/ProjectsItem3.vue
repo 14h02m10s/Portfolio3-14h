@@ -49,7 +49,13 @@ export default {
   padding: 0;
   width: 100%;
   /* border-top: #e05900 3px solid; */
-  box-shadow: rgba(0, 0, 0, 0.2) 0.2rem 0.2rem 1rem;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0.2rem 0.2rem 1rem; */
+  /* box-shadow: rgba(93, 9, 126, 0.2) 0.4rem 0.4rem 0rem; */
+  /* box-shadow: 0.8rem 0.8rem rgb(84, 5, 133),
+    -1.5rem -1.5rem 0 rgba(215, 201, 193, 0.9); */
+  /* box-shadow: 0.8rem 0.8rem #1a1e36, -1.5rem -1.5rem 0 #540585; */
+  box-shadow: 1rem 0.8rem #1a1e36, -0.7rem -0.5rem 0 rgba(28, 101, 124, 1),
+    0.8rem 0.8rem 2.2em rgb(138, 127, 145);
   border-radius: 2rem;
   /* background-color: #e05900; */
   overflow: hidden;
@@ -73,7 +79,7 @@ export default {
   /* box-shadow: rgba(0, 0, 0, 0.1) 0.2rem 0.2rem 0.5rem; */
 
   /* border-bottom: 3px solid #e05900; */
-  transform: translateY(-0.4rem);
+  /* transform: translateY(-0.4rem); */
   height: 15rem;
   /* overflow: hidden; */
   position: relative;

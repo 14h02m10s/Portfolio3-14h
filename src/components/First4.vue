@@ -100,8 +100,13 @@ const cvURL =
   border: #1a1e36 3px solid; */
   height: 14rem;
   width: 14rem;
-  border-radius: 10rem;
+  border-radius: 15rem;
   margin-top: 5rem;
+  /* box-shadow: 1.4rem 1rem rgba(26, 30, 54, 1),
+    -1.2rem -1.8rem rgba(28, 101, 124, 1); */
+  box-shadow: 0rem 0rem 2rem rgba(26, 30, 54, 0.9);
+  box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
+  box-shadow: -0.2rem -0.2rem rgba(26, 30, 54, 0.9), 0.4rem 0.4rem 0 #1c657c;
 }
 .photo-fade-enter-active {
   transition: all 2.3s ease-out;
@@ -213,19 +218,22 @@ button {
   cursor: pointer;
   color: #fff;
   font-size: 1.1rem;
-  border: 2px #353051 solid;
+  border: 2px #39335a solid;
   /* background: none; */
   background-color: #353051;
+  background-color: #1a1e36;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
 }
 button::before,
 button::after {
   border-radius: 2rem;
-  background-color: #1c657c;
+  /* background-color: #1c657c; */
+  background-color: #39335a;
   content: "";
   position: absolute;
   z-index: -1;
