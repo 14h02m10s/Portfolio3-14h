@@ -170,27 +170,6 @@ button::after {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* button {
-  padding: 0.7rem 1.1rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border: 2px #ffffff solid;
-  background: none;
-  font-weight: 600;
-  position: relative;
-  color: white;
-  overflow: hidden;
-  z-index: 1;
-} */
-/* button::before,
-button::after {
-  border-radius: 2rem;
-  background-color: #353051;
-  content: "";
-  position: absolute;
-  z-index: -1;
-} */
 
 button::before {
   height: 100%;
@@ -208,10 +187,10 @@ button:hover::after {
   width: 100%;
 }
 .btn-continue {
-  display: flex;
-  align-items: center;
+  display: none;
+  /* align-items: center;
   position: absolute;
-  bottom: 2rem;
+  bottom: 2rem; */
 }
 .btn-rond {
   width: 3.2rem;
@@ -225,14 +204,6 @@ button:hover::after {
   align-items: center;
   margin: 1rem 0;
 }
-
-/* button,
-button::after {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-} */
 
 button {
   padding: 0.7rem 1.1rem;
@@ -257,21 +228,6 @@ button::after {
   position: absolute;
   z-index: -1;
 }
-/* .btn::before {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
-.btn::after {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
-.btn:hover::after {
-  width: 100%;
-} */
 
 @media (min-width: 430px) {
   .text-photo {
@@ -324,6 +280,12 @@ button::after {
   }
   .container-button {
     margin: 2rem 0;
+  }
+  .btn-continue {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
   }
 }
 @media (min-width: 1135px) {
