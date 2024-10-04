@@ -33,15 +33,20 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         </div>
         <p>
           La plateforme On-Zen, lancée au début de l'activité de la startup,
-          n'était pas conçu en responsive et manquait également de cohérence
-          graphique. <br /><br />Ma mission était donc de transformer la
-          plateforme en un endroit attrayant, rassurant, compréhensible de tous
-          et pratique à utiliser. <br /><br />La plateforme est dédiée à la
-          sensibilisation du grand public aux médecines complémentaires mais
-          surtout à la mise en relation entre praticiens et clients par la prise
-          de rendez-vous en ligne. Elle propose également aux professionnels du
-          bien-être divers outils pour gérer leur activité et accroître leur
-          visibilité.
+          <b
+            >n'était pas conçue en responsive et manquait également de cohérence
+            graphique</b
+          >. Ma mission était donc de transformer la plateforme en un endroit
+          <b
+            >attrayant, rassurant, compréhensible de tous et pratique à
+            utiliser</b
+          >. <br /><br />La plateforme est dédiée à la sensibilisation du grand
+          public aux <b>médecines complémentaires</b> mais surtout à la
+          <b
+            >mise en relation entre praticiens et clients par la prise de
+            rendez-vous en ligne</b
+          >. Elle propose également aux professionnels du bien-être divers
+          outils pour gérer leur activité et accroître leur visibilité.
         </p>
       </ProjectsItem3>
 
@@ -57,7 +62,8 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         </div>
         <p>
           Je passe actuellement la <b>certification Google UX</b> afin de
-          continuer à approfondir mes compétences en design centré utilisateur.
+          continuer à approfondir mes compétences en design centré
+          utilisateur.<br /><br />
           Ce programme compte + de 200 heures de cours et j'applique toutes
           <b>les méthodes UX</b> en travaillant sur la
           <b
