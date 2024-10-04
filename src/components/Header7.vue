@@ -77,6 +77,7 @@ export default {
   height: 3.1rem;
   /* box-shadow: rgba(0, 0, 0, 0.3) 0.5rem 0.5rem 2rem; */
   backdrop-filter: blur(4px);
+  z-index: 2;
 }
 .menu-points {
   height: 1.5rem;
@@ -111,15 +112,20 @@ nav a:first-of-type {
 h1 {
   font-weight: 700;
   font-size: 1.15rem;
-  /* color: #1c657c; */
   color: #fff;
 }
 
-.picto img {
-  height: 4rem;
-  margin-top: 4rem;
+/* .picto img {
+  height: 2.5rem;
+  margin-top: 3rem;
   margin-right: 0.7rem;
   margin-left: 0.7rem;
+} */
+.picto img {
+  height: 2.8rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 .picto img:hover {
   transform: scale(1.08);
@@ -132,7 +138,8 @@ h1 {
   /* background-color: rgba(247, 254, 255, 0.9); */
   background-color: rgba(53, 48, 81, 0.9);
   padding: 0 1.5rem;
-  box-shadow: rgba(162, 162, 162, 0.2) 0rem 0.3rem 0.5rem;
+  margin-top: -50px;
+  /* box-shadow: rgba(162, 162, 162, 0.2) 0rem 0.3rem 0.5rem; */
   backdrop-filter: blur(4px);
   height: 100vh;
 }
@@ -203,6 +210,8 @@ h1 {
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0) 0.5rem 0.5rem 2rem;
     backdrop-filter: blur(4px);
+    margin-top: 0;
+    height: 5.5rem;
   }
   .blue a,
   .responsive a {

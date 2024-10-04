@@ -55,11 +55,13 @@ const cvURL =
             collaboratif.
           </div>
         </Transition>
-        <div class="container-button">
-          <a :href="cvURL" target="_blank" download="CV-fchambinaud.pdf"
-            ><button class="btn">Plus de détails sur mon cv</button></a
-          >
-        </div>
+        <Transition appear name="slide-fade2">
+          <div class="container-button">
+            <a :href="cvURL" target="_blank" download="CV-fchambinaud.pdf"
+              ><button class="btn">Plus de détails sur mon cv</button></a
+            >
+          </div>
+        </Transition>
       </div>
     </div>
     <div class="btn-continue">
@@ -338,9 +340,9 @@ button::after {
     align-items: center; */
   }
   .texte-prez-first {
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     line-height: 1.5;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
 }
 </style>
