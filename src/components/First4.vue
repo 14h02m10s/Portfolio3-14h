@@ -37,22 +37,36 @@ const cvURL =
         </Transition>
         <Transition appear name="slide-fade2">
           <div class="texte-prez-first">
-            Spécialisée en UX design, j’ai obtenu une certification chez UX
+            <!-- Spécialisée en UX design, j’ai obtenu une certification chez UX
             France et Dthinking, développant des compétences clés comme
             <b
               >les entretiens utilisateurs, la création de personas,
               d’experience maps, la conception de userflows et le wireframing</b
-            >. <br />J'intègre des
+            >. <br /><br />J'intègre des
             <b>tests utilisateurs synchrones et asynchrones</b> pour affiner les
             expériences et m’appuie sur une
             <b>formation en développement web</b> pour anticiper les contraintes
-            techniques. <br /><b>Mon expérience en maquettage</b> m'a appris à
-            structurer des interfaces efficaces, en utilisant l’<b
+            techniques. <br /><br /><b>Mon expérience en maquettage</b> m'a
+            appris à structurer des interfaces efficaces, en utilisant l’<b
               >atomic design</b
             >
             et les design tokens pour garantir
             <b>cohérence et accessibilité</b>, toujours dans un cadre de travail
-            collaboratif.
+            collaboratif. -->
+
+            Spécialisée et certifiée en <b>UX design</b>, j'ai développé des
+            compétences essentielles comme les
+            <b
+              >entretiens utilisateurs, la création de personas, les userflows
+              et le wireframing</b
+            >. J'intègre des
+            <b>tests utilisateurs synchrones et asynchrones</b> pour affiner les
+            expériences, tout en prenant en compte les contraintes techniques
+            grâce à ma formation en développement web. <br /><br />
+            Mon expérience en <b>maquettage</b> m’a appris à structurer des
+            interfaces efficaces en utilisant l'<b>atomic design</b> et les
+            design tokens, garantissant ainsi <b>cohérence et accessibilité</b>,
+            toujours dans un cadre collaboratif.
           </div>
         </Transition>
         <Transition appear name="slide-fade2">
@@ -153,7 +167,7 @@ const cvURL =
 .texte-prez-first {
   color: #1a1e36;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-top: 0.5rem;
 }
@@ -213,7 +227,7 @@ button:hover::after {
 }
 
 button {
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.6rem;
   border-radius: 2rem;
   cursor: pointer;
   color: #fff;

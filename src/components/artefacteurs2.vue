@@ -29,7 +29,7 @@ const remonte = () => {
 <template>
   <div id="topArtef">
     <div class="titre">
-      <h2>Le projet des Artef'acteurs</h2>
+      <h2>La plateforme des Artef'acteurs</h2>
     </div>
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
@@ -429,7 +429,7 @@ const remonte = () => {
   /* justify-content: center; */
   /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
   /* background: rgb(238 247 248); */
-  background: #f7feff;
+  /* background: #f7feff; */
 
   width: 100%;
   position: relative;
@@ -453,7 +453,7 @@ const remonte = () => {
 .titre {
   width: 100%;
   z-index: 1;
-  color: #1c657c;
+  color: #353051;
 }
 h2 {
   font-family: "Montserrat", sans-serif;

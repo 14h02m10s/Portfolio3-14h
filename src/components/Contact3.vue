@@ -250,7 +250,8 @@ input[type="email"] {
   width: 100%;
 }
 input:focus {
-  background: #faf9ff;
+  /* background: #faf9ff; */
+  background: #fdfdff;
   border: #353051 1px solid;
 }
 #message {
@@ -266,7 +267,8 @@ input:focus {
   border: rgba(170, 170, 170, 0.7) 1px solid;
 }
 #message:focus {
-  background: #faf9ff;
+  /* background: #faf9ff; */
+  background: #fdfdff;
   border: #353051 1px solid;
 }
 textarea {
@@ -283,7 +285,7 @@ button::after {
 }
 
 button {
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.6rem;
   border-radius: 2rem;
   cursor: pointer;
   color: #fff;

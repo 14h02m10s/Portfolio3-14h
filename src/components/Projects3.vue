@@ -1,7 +1,8 @@
 <script setup>
-import ProjectsItem3 from "./ProjectsItem3.vue";
+import ProjectsItem4 from "./ProjectsItem4.vue";
 import ImgGoogleUX from "./icons/ImgGoogleUX.vue";
 import ImgOnZen from "./icons/ImgOnZen.vue";
+import ImgMukiz from "./icons/ImgMukiz.vue";
 import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 // import Footer2 from "./Footer2.vue";
 </script>
@@ -17,13 +18,15 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         <h3>Projets UX/UI</h3>
       </div> -->
 
-      <ProjectsItem3 data-aos="fade-up" data-aos-duration="600">
+      <ProjectsItem4 data-aos="fade-up" data-aos-duration="600">
         <template #image>
-          <ImgOnZen />
+          <ImgMukiz />
         </template>
-        <template #sous-titre
-          ><a href="#/realisations/onzen" class="link-text"
-            >Refonte de la plateforme On-Zen&nbsp;</a
+
+        <template #sous-titre>
+          <span>Ux</span> <br />
+          <a href="#/realisations/onzen" class="link-text"
+            >Onboarding Mukiz&nbsp;</a
           >
         </template>
         <div class="container-button">
@@ -32,29 +35,23 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           >
         </div>
         <p>
-          La plateforme On-Zen, lancée au début de l'activité de la startup,
-          <b
-            >n'était pas conçue en responsive et manquait également de cohérence
-            graphique</b
-          >. Ma mission était donc de transformer la plateforme en un endroit
-          <b
-            >attrayant, rassurant, compréhensible de tous et pratique à
-            utiliser</b
-          >. <br /><br />La plateforme est dédiée à la sensibilisation du grand
-          public aux <b>médecines complémentaires</b> mais surtout à la
-          <b
-            >mise en relation entre praticiens et clients par la prise de
-            rendez-vous en ligne</b
-          >. Elle propose également aux professionnels du bien-être divers
-          outils pour gérer leur activité et accroître leur visibilité.
+          Mukiz est une <b>application de blind test</b> interactif, regroupant
+          des milliers de joueurs quotidiennement. L'enjeu était de comprendre
+          pourquoi certains utilisateurs téléchargaient l'application
+          <b>mais ne faisaient jamais de 1ere partie.</b>
         </p>
-      </ProjectsItem3>
+      </ProjectsItem4>
 
-      <ProjectsItem3 data-aos="fade-up" data-aos-duration="600">
+      <div class="trait"></div>
+
+      <ProjectsItem4 data-aos="fade-up" data-aos-duration="600">
         <template #image>
           <ImgGoogleUX />
         </template>
-        <template #sous-titre>Certification Google UX&nbsp; </template>
+        <template #sous-titre>
+          <span>Ux</span> <br />
+          Certification Google UX&nbsp;</template
+        >
         <div class="container-button">
           <!-- <a href=""> -->
           <button class="btn-disable">En cours d'acquisition</button>
@@ -71,15 +68,18 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
             café</b
           >. Cela me permet de perfectionner chaque étape du processus UX.
         </p>
-      </ProjectsItem3>
+      </ProjectsItem4>
 
-      <ProjectsItem3 data-aos="fade-up" data-aos-duration="600">
+      <div class="trait"></div>
+
+      <ProjectsItem4 data-aos="fade-up" data-aos-duration="600">
         <template #image>
           <ImgArtefacteur />
         </template>
-        <template #sous-titre
-          ><a href="#/realisations/artefacteurs" class="link-text"
-            >Projet des Artéf'acteurs&nbsp;</a
+        <template #sous-titre>
+          <span>Ux</span><span>Ui</span> <br />
+          <a href="#/realisations/artefacteurs" class="link-text"
+            >Plateforme des Artéf'acteurs&nbsp;</a
           >
           <!-- <a href="#/realisations/artefacteurs"
             ><img
@@ -109,7 +109,42 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           des <b>tests utilisateurs</b> pour évaluer les points de frictions de
           nos premières maquettes.
         </p>
-      </ProjectsItem3>
+      </ProjectsItem4>
+
+      <ProjectsItem4 data-aos="fade-up" data-aos-duration="600">
+        <template #image>
+          <ImgOnZen />
+        </template>
+
+        <template #sous-titre>
+          <span>Ui</span><span>Ux</span><span>Html/Css</span> <br />
+          <a href="#/realisations/onzen" class="link-text"
+            >Refonte de la plateforme On-Zen&nbsp;</a
+          >
+        </template>
+        <div class="container-button">
+          <a href="#/realisations/onzen"
+            ><button class="btn">Voir le projet</button></a
+          >
+        </div>
+        <p>
+          La plateforme On-Zen, lancée au début de l'activité de la startup,
+          <b
+            >n'était pas conçue en responsive et manquait également de cohérence
+            graphique</b
+          >. Ma mission était donc de transformer la plateforme en un endroit
+          <b
+            >attrayant, rassurant, compréhensible de tous et pratique à
+            utiliser</b
+          >. <br /><br />La plateforme est dédiée à la sensibilisation du grand
+          public aux <b>médecines complémentaires</b> mais surtout à la
+          <b
+            >mise en relation entre praticiens et clients par la prise de
+            rendez-vous en ligne</b
+          >. Elle propose également aux professionnels du bien-être divers
+          outils pour gérer leur activité et accroître leur visibilité.
+        </p>
+      </ProjectsItem4>
     </div>
 
     <!-- <Footer2 /> -->
@@ -142,8 +177,8 @@ template {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  margin: 0.5rem 1rem 0rem 1rem;
+  align-items: center;
+  /* margin: 0.5rem 1rem 0rem 1rem; */
   padding-bottom: 2rem;
 }
 .titre {
@@ -154,7 +189,7 @@ template {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  padding: 0.3rem 3rem;
+  padding: 0 0 1rem 0;
   color: #353051;
   display: flex;
   justify-content: center;
@@ -202,7 +237,7 @@ p {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin: 0 0 0.7rem 0;
+  margin: 0.7rem 0;
 }
 button,
 button::after {
@@ -213,7 +248,7 @@ button::after {
 }
 
 button {
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.6rem;
   border-radius: 2rem;
   cursor: pointer;
   color: #fff;
@@ -260,15 +295,31 @@ button::after {
   cursor: not-allowed;
   background-color: gray;
 }
+span {
+  background-color: #353051;
+  background-color: #656ea6;
+  background-color: #979fd9;
+  border-radius: 50px;
+  margin: 0 0.7rem 0 0;
+  padding: 0.2rem 0.8rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.trait {
+  /* border: 0.5px solid black; */
+  width: 100%;
+  margin: 2rem 0;
+}
 @media (min-width: 471px) {
 }
 @media (min-width: 768px) {
   #reals {
     padding-top: 7.5rem;
   }
-  .container-button {
+  /* .container-button {
     margin: 0.5rem 0;
-  }
+  } */
 }
 @media (min-width: 1135px) {
   #reals {
@@ -284,19 +335,24 @@ button::after {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
+    /* changement ci dessous avec les items qui prennent tout la largeur */
+    max-width: 100rem;
   }
   h2 {
     font-size: 2.7rem;
-    padding: 0.3rem 3rem;
+    padding: 3rem 0;
   }
   p {
     font-size: 1rem;
+  }
+  .trait {
+    margin: 0.2rem 0;
   }
 }
 @media (min-width: 1440px) {
   .flex-project {
     padding: 0 1rem 2rem 1rem;
-    margin: 0.5rem 0rem 0rem 0rem;
+    /* margin: 0.5rem 0rem 0rem 0rem; */
     width: 100%;
   }
 }

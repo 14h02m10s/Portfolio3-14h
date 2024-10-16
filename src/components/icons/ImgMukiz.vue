@@ -5,10 +5,8 @@
         src="../../assets/ImgGoogleUX-orange.webp"
         alt="Miniature Google UX orange"
       /> -->
-    <img
-      src="../../assets/google-ux-bandeau.jpg"
-      alt="Miniature Google UX couleur"
-    />
+    <img src="../../assets/img-prez-mukiz.jpg" alt="Miniature Mukiz couleur" />
+    <!-- </a> -->
   </div>
 </template>
 <style scoped>

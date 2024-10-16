@@ -19,7 +19,7 @@ img {
 }
 .height {
   position: relative;
-  height: 15rem;
+  height: 20rem;
   overflow: hidden;
 }
 .height img:nth-child(2) {
@@ -37,18 +37,18 @@ img {
   /* a reactiver */
   /* cursor: pointer; */
 }
-
+@media (min-width: 735px) {
+  .height {
+    height: 25rem;
+  }
+}
 @media (min-width: 1135px) {
   img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
     object-position: top center;
   }
   .height {
-    position: relative;
-    height: 15rem;
-    overflow: hidden;
+    height: 100%;
+    object-fit: cover;
   }
 }
 </style>
