@@ -111,6 +111,8 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         </p>
       </ProjectsItem4>
 
+      <div class="trait"></div>
+
       <ProjectsItem4 data-aos="fade-up" data-aos-duration="600">
         <template #image>
           <ImgOnZen />
@@ -216,16 +218,29 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.link-text {
+/* .link-text {
   font-weight: 700;
   box-shadow: inset 0 0 0 0 #353051;
-  padding: 0 0.15rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .link-text:hover {
   color: #fff;
   box-shadow: inset 700px 0 0 0 #353051;
+} */
+.link-text {
+  font-weight: 700;
+  background: linear-gradient(0deg, #353051 0%, #353051 100%);
+  background-size: 0% 100%; /* Taille initiale de l'arrière-plan en largeur */
+  background-position: 0 100%; /* Placé en bas */
+  background-repeat: no-repeat; /* Pas de répétition de l'arrière-plan */
+  transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
+.link-text:hover {
+  color: #fff;
+  background-size: 100% 100%; /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
+}
+
 .picto-external-link {
   transform: translateY(0.2rem);
   cursor: pointer;
