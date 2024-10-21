@@ -63,7 +63,7 @@ const remonte = () => {
 
         <div class="colonne2">
           <img
-            src="../assets/screen-mukiz-existant-1ere phase.jpg"
+            src="../assets/screen-mukiz-existant-1ere-phase.jpg"
             alt="Les 3 premiers écrans de l'app Mukiz"
           />
           <h5>Les 3 premiers écrans de l'application</h5>
@@ -75,7 +75,7 @@ const remonte = () => {
         </div>
         <div class="colonne2">
           <img
-            src="../assets/screen-mukiz-existant-2eme phase.jpg"
+            src="../assets/screen-mukiz-existant-2eme-phase.jpg"
             alt="Les 5 premiers écrans du tutoriel"
           />
           <h5>Les 5 premiers écrans du tutoriel</h5>
@@ -90,7 +90,7 @@ const remonte = () => {
         </div>
         <div class="colonne2">
           <img
-            src="../assets/screen-mukiz-existant-3eme phase.jpg"
+            src="../assets/screen-mukiz-existant-3eme-phase.jpg"
             alt="Les 5 derniers écrans du tutoriel"
           />
           <h5>Les 5 derniers écrans du tutoriel</h5>
