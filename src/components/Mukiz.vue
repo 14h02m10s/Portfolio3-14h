@@ -29,98 +29,100 @@ const remonte = () => {
 <template>
   <div id="topPage">
     <!-- <div class="titre">
-      <h2>La plateforme On-Zen <br />(page en cours de construction)</h2>
+      <h2>L'onboarding Mukiz<br />(page en cours de construction)</h2>
     </div> -->
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
         <img
           class="maxHeightimg"
-          src="../assets/banniere-on-zen.jpg"
-          alt="banniere avec logo On-Zen"
+          src="../assets/banniere-Mukiz.jpg"
+          alt="banniere Mukiz"
         />
       </div>
       <div class="titre-phase"><h3>Remise en contexte</h3></div>
       <div class="bloc-phase">
         <div class="colonne1">
-          <p><b>On-Zen</b></p>
+          <!-- <p><b>Mukiz</b></p> -->
           <p>
-            On-Zen est une plateforme dédiée à la mise en relation de praticiens
-            de médecines complémentaires et de clients. Elle se compose de 3
-            parties :
+            Mukiz est une <b>application de blind test interactif</b>, qui
+            réunit des milliers de joueurs quotidiennement. Elle compte plus de
+            250K de téléchargements.
           </p>
-          <ol>
-            <li>
-              <b>Un site web</b> accessible sans compte, permettant de
-              rechercher des praticiens, s'informer sur les différentes
-              pratiques de médecine complémentaire ainsi que sur l'entreprise
-              On-Zen, et consulter le blog.
-            </li>
-            <li>
-              <b>Un dashboard client</b> permettant de prendre rendez-vous pour
-              soi ou sa famille avec des praticiens.
-            </li>
-            <li>
-              <b>Un dashboard professionnel</b> offrant aux praticiens la
-              gestion de leur agenda et carnet d’adresses, rédcation de
-              recommandations, édition de factures et campagnes de mailing.
-            </li>
-          </ol>
-          <br />
-          <p><b>Mon rôle chez On-Zen</b></p>
-
+          <!-- <p><b>Mukiz et moi</b></p> -->
           <p>
-            J'ai tout d'abord analysé le profil des utilisateurs et la charte
-            graphique, avant de
-            <b>retravailler entièrement le site web et le dashboard client</b>.
-            J'ai principalement réalisé des
-            <b>wireframes et prototypes sur Figma</b>, repensé certains textes,
-            créé des userflows et fait un peu d'intégration sur Symfony.
+            Je suis intervenue en tant qu'UX designer afin de'enquêter sur ce
+            qui freinait certains utilisateurs après le téléchargement de
+            l'application, les empêchant de lancer une première partie.
           </p>
         </div>
       </div>
 
-      <div class="titre-phase"><h3>Le site web</h3></div>
+      <div class="titre-phase"><h3>Analyse de l'existant</h3></div>
+      <div class="bloc-phase">
+
+        <div class="colonne2">
+          <img
+            src="../assets/screen-mukiz-existant-1ere phase.jpg"
+            alt="Les 3 premiers écrans de l'app Mukiz"
+          />
+          <h5>Les 3 premiers écrans de l'application</h5>
+        </div>
+        <div class="colonne1">
+          <p>
+            Les 3 premiers écrans permettent d'orienter les joueurs selon leur pays, selon le mode de jeu qu'ils souhaitent (entre amis ou pas), et de rappeler les règles.
+          </p>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/screen-mukiz-existant-2eme phase.jpg"
+            alt="Les 5 premiers écrans du tutoriel"
+          />
+          <h5>Les 5 premiers écrans du tutoriel</h5>
+        </div>
+        <div class="colonne1">
+          <p>
+            Le tutoriel commence sur les écrans 4, 5 et 6. Ces écrans montrent aux utilisteurs les fonctions de micro, clavier et le bouton pour passer à l'extrait suivant si on ne sait pas répondre.
+          </p>
+          <p>
+            Ensuite la partie se lance et une pop up apparait (écran 7) rappelant que l'on peut utliser le micro ou le clavier pour donner ses réponses. L'écran 8 est celui que l'on voit lorsque la musique se lance et que l'on peut jouer.
+          </p>
+        </div>
+        <div class="colonne2">
+          <img
+            src="../assets/screen-mukiz-existant-3eme phase.jpg"
+            alt="Les 5 derniers écrans du tutoriel"
+          />
+          <h5>Les 5 derniers écrans du tutoriel</h5>
+        </div>
+        <div class="colonne1">
+          <p>
+            Lorsqu'on a donné une réponse pour le 1er extrait, immédiatement 3 pop-ups apparaissent (écrans 9, 10, 11) pour informer comment les points sont comptés ainsi que des réponses autorisées et non autorisées
+            Ensuite, le jeu reprend et se termine au bout de 2 extraits (écran 12 et 13). Le tutoriel est maintenant terminé.
+          </p>
+          
+        </div>
+
+      </div>
+      <div class="titre-phase"><h3>1ers tests utilisateurs</h3></div>
       <div class="bloc-phase">
         <div class="colonne1">
-          <p><b>La homepage</b></p>
           <p>
-            La principale modification sur la homepage concernait la partie
-            haute, avec la recherche et une photo d'illustration (visage), afin
-            qu'elle soit plus compacte et mieux pensée d'un point de vue
-            expérience utilisateur.
+            J'ai rédigé un guide d'entretien et
+            j'ai recruté des utilisateurs. Les résultats des tests que j'ai mené en synchrone sont ceux-ci :
+            <ul>
+              <li>2 participants sur 9 auraient passé le tuto s’ils avaient vu le bouton (le 3ᵉ écran + les 3 écrans noirs)</li>
+              <li>3 participants sur 9 estiment qu’ils n’ont rien appris (ou pas grand chose) d’intéressant sur le 3ᵉ écran</li>
+              <li>4 participants sur 9 auraient aimé commencer à jouer plus vite</li>
+              <li>8 participants sur 9 apprécient de savoir comment les points sont comptés</li>
+              <li>9 participants sur 9 trouvent utile les exemples de réponses possibles</li>
+              <li>9 participants sur 9 aimeraient avoir le choix de plusieurs playlists dès le tutoriel</li>
+            </ul>
           </p>
           <p>
-            Dans les champs de recherche, il y avait des icônes gris clair.
-            L'icône loupe n'était pas cliquable, mais l'icône "localisation" et
-            "flèche" l'étaient. L'icône "localisation" permettait de se
-            géolocaliser et l'icône "flèche" permettait d'afficher une barre
-            avec un curseur afin de définir le périmètre de recherche (en km)
-            autour de l'adresse indiquée par l'utilisateur. Ces 2 fonctions
-            n'étaient pas du tout visibles, je les ai donc rendues à nouvau
-            accessibles.
+            Les 3 premiers écrans permettent d'orienter les joueurs selon leur pays, selon le mode de jeu qu'ils souhaitent (entre amis ou pas), et de rappeler les règles.
           </p>
-          <p>
-            Il a également fallu repenser la partie dédiée aux praticiens dans
-            la navbar puisqu'elle ne menait qu'à l'inscription des praticiens
-            sans explications suppélmentaires. J'ai ajouté un lien vers une page
-            tarifs, vers une prise de rendez-vous avec On-Zen pour avoir une
-            démo, et vers la page contact.
-          </p>
-        </div>
-        <div class="colonne2">
-          <img
-            src="../assets/home-avant-haut-desk.jpg"
-            alt="la home page avant modifications"
-          />
-          <h5>Partie visible sans scroller de la homepage - AVANT</h5>
-        </div>
-        <div class="colonne2">
-          <img
-            src="../assets/on-zen-home-haut.jpg"
-            alt="la home page après modifications"
-          />
-          <h5>Partie visible sans scroller de la homepage - APRÈS</h5>
+
         </div>
       </div>
     </div>
@@ -144,7 +146,6 @@ const remonte = () => {
   /* background: rgb(238 247 248); */
   background: #fff;
   /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
-
   width: 100%;
   position: relative;
   padding-top: 5.1rem;
@@ -194,7 +195,6 @@ ol {
   font-weight: 500;
   margin: 1rem;
 }
-
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -237,12 +237,14 @@ button::after {
   top: 0;
   width: 0;
 }
-
 .btn-rond:hover::after,
 .btn:hover::after {
   width: 100%;
 }
-
+p {
+  font-weight: 500;
+  margin: 1rem;
+}
 .btn-return {
   display: flex;
   justify-content: right;
@@ -308,11 +310,10 @@ img {
   height: 100%;
   object-fit: contain;
   box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem;
-  /* box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem; */
 }
-.maxHeightimg {
+/* .maxHeightimg {
   max-height: 400px;
-}
+} */
 .z-index {
   z-index: 3;
   bottom: 0;
@@ -346,7 +347,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 85%;
+    /* width: 85%; */
     max-width: 900px;
     z-index: 1;
     /* padding: 0rem 3rem 3rem 3rem; */

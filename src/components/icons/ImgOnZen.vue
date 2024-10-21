@@ -1,12 +1,15 @@
 <template>
   <div class="height">
-    <!-- <a href="#/realisations/artefacteurs"> -->
-    <!-- <img
+    <a href="#/realisations/onzen">
+      <!-- <img
         src="../../assets/ImgGoogleUX-orange.webp"
         alt="Miniature Google UX orange"
       /> -->
-    <img src="../../assets/img-prez-onzen.jpg" alt="Miniature OnZen couleur" />
-    <!-- </a> -->
+      <img
+        src="../../assets/img-prez-onzen.jpg"
+        alt="Miniature OnZen couleur"
+      />
+    </a>
   </div>
 </template>
 <style scoped>

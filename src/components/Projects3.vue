@@ -25,20 +25,21 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 
         <template #sous-titre>
           <span>Ux</span> <br />
-          <a href="#/realisations/onzen" class="link-text"
+          <a href="#/realisations/mukiz" class="link-text"
             >Onboarding Mukiz&nbsp;</a
           >
         </template>
         <div class="container-button">
-          <a href="#/realisations/onzen"
+          <a href="#/realisations/mukiz"
             ><button class="btn">Voir le projet</button></a
           >
         </div>
         <p>
-          Mukiz est une <b>application de blind test</b> interactif, regroupant
-          des milliers de joueurs quotidiennement. L'enjeu était de comprendre
-          pourquoi certains utilisateurs téléchargaient l'application
-          <b>mais ne faisaient jamais de 1ere partie.</b>
+          Mukiz est une <b>application de blind test interactif</b>, qui réunit
+          des milliers de joueurs quotidiennement. L'objectif était de
+          comprendre <b>ce qui freinait certains utilisateurs</b> après le
+          téléchargement,
+          <b>les empêchant de commencer leur première partie</b>.
         </p>
       </ProjectsItem4>
 
@@ -58,14 +59,12 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           <!-- </a> -->
         </div>
         <p>
-          Je passe actuellement la <b>certification Google UX</b> afin de
-          continuer à approfondir mes compétences en design centré
-          utilisateur.<br /><br />
-          Ce programme compte + de 200 heures de cours et j'applique toutes
-          <b>les méthodes UX</b> en travaillant sur la
-          <b
-            >conception d'une application de prévisualisation d'une carte de
-            café</b
+          Je passe actuellement la certification Google UX afin de continuer à
+          <b>approfondir mes compétences en design centré utilisateur.</b
+          ><br /><br />
+          Ce programme compte + de 200 heures de cours en totale autonomie et
+          j'applique toutes les méthodes UX en
+          <b>travaillant sur la conception d'une application de carte de café</b
           >. Cela me permet de perfectionner chaque étape du processus UX.
         </p>
       </ProjectsItem4>
@@ -94,20 +93,20 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           >
         </div>
         <p>
-          La Manufacture des Artéf'acteurs est une association réunissant des
-          <b>artisans d'art</b>, et a pour objectif de
+          La Manufacture des Artéf'acteurs, une association réunissant des
+          artisans d'art, avait besoin d'une plateforme pour
           <b
-            >favoriser leurs échanges et de soutenir le développement de leurs
+            >favoriser les échanges entre artisans et soutenir leurs
             activités</b
           >. <br /><br />
-          Pour ce projet, nous avons appliqué des méthodes UX comme les
+          Nous avons appliqué des méthodes UX comme
           <b>entretiens utilisateurs</b> pour identifier leurs besoins, la
           <b>création de personas</b> pour définir le profil des artisans, des
           <b>diagrammes d'affinités</b> pour classer les information récupérées
           en entretien, des <b>ateliers d'idéation</b> pour générer de nouvelles
           idées, du <b>maquettage</b> pour faire prendre vie au projet, et enfin
-          des <b>tests utilisateurs</b> pour évaluer les points de frictions de
-          nos premières maquettes.
+          des <b>tests utilisateurs synchrones et asynchrones</b> pour évaluer
+          les points de frictions de nos premières maquettes.
         </p>
       </ProjectsItem4>
 
@@ -130,21 +129,17 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           >
         </div>
         <p>
-          La plateforme On-Zen, lancée au début de l'activité de la startup,
+          La plateforme On-Zen
+          <b>connecte praticiens et clients pour des rendez-vous en ligne</b>,
+          tout en sensibilisant le public aux médecines complémentaires. Elle
+          offre aussi aux professionnels
+          <b>des outils pour gérer et développer leur activité</b>. <br /><br />
+          Au lancement, la plateforme manquait de réactivité et de cohérence
+          graphique.
           <b
-            >n'était pas conçue en responsive et manquait également de cohérence
-            graphique</b
-          >. Ma mission était donc de transformer la plateforme en un endroit
-          <b
-            >attrayant, rassurant, compréhensible de tous et pratique à
-            utiliser</b
-          >. <br /><br />La plateforme est dédiée à la sensibilisation du grand
-          public aux <b>médecines complémentaires</b> mais surtout à la
-          <b
-            >mise en relation entre praticiens et clients par la prise de
-            rendez-vous en ligne</b
-          >. Elle propose également aux professionnels du bien-être divers
-          outils pour gérer leur activité et accroître leur visibilité.
+            >Ma mission était de la rendre plus attrayante, rassurante et facile
+            à utiliser.</b
+          >
         </p>
       </ProjectsItem4>
     </div>

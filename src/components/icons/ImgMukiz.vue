@@ -1,12 +1,15 @@
 <template>
   <div class="height">
-    <!-- <a href="#/realisations/artefacteurs"> -->
-    <!-- <img
+    <a href="#/realisations/mukiz">
+      <!-- <img
         src="../../assets/ImgGoogleUX-orange.webp"
         alt="Miniature Google UX orange"
       /> -->
-    <img src="../../assets/img-prez-mukiz.jpg" alt="Miniature Mukiz couleur" />
-    <!-- </a> -->
+      <img
+        src="../../assets/img-prez-mukiz.jpg"
+        alt="Miniature Mukiz couleur"
+      />
+    </a>
   </div>
 </template>
 <style scoped>

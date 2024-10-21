@@ -27,21 +27,27 @@ const remonte = () => {
 </script>
 
 <template>
-  <div id="topArtef">
-    <div class="titre">
-      <h2>La plateforme des Artef'acteurs</h2>
-    </div>
-
+  <div id="topPage">
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
+      <div class="colonne2">
+        <img
+          class="maxHeightimg"
+          src="../assets/banniere-artefacteurs.jpg"
+          alt="les différentes phases de l'ux design"
+        />
+      </div>
+      <!-- <div class="titre">
+        <h2>La plateforme des Artef'acteurs</h2>
+      </div> -->
       <div class="titre-phase"><h3>Remise en contexte</h3></div>
       <div class="bloc-phase">
-        <div class="colonne2">
+        <!-- <div class="colonne2">
           <img
             class="maxHeightimg"
-            src="../assets/artefacteurs-beandeau.jpg"
+            src="../assets/banniere-artefacteurs.jpg"
             alt="les différentes phases de l'ux design"
           />
-        </div>
+        </div> -->
         <div class="colonne1">
           <p>
             Ceci est un projet mené en formation, chez UX France, durant 6
@@ -408,8 +414,8 @@ const remonte = () => {
       </div>
     </div>
     <div class="btn-return">
-      <!-- <a href="#/realisations/artefacteurs/#topArtef"> -->
-      <button class="btn-carre" @click="remonte">
+      <!-- <a href="#/realisations/artefacteurs/#topPage"> -->
+      <button class="btn-rond" @click="remonte">
         <span class="material-symbols-rounded"> keyboard_double_arrow_up </span>
       </button>
       <!-- </a> -->
@@ -422,7 +428,7 @@ const remonte = () => {
 </template>
 
 <style scoped>
-#topArtef {
+#topPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -438,7 +444,7 @@ const remonte = () => {
   height: 100%;
   min-height: 100vh;
 }
-/* #topArtef::after {
+/* #topPage::after {
   content: "";
   background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
   position: absolute;
@@ -489,45 +495,47 @@ button::after {
 }
 
 button {
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.6rem;
   border-radius: 2rem;
   cursor: pointer;
   color: #fff;
   font-size: 1.1rem;
-  border: 2px #e05900 solid;
-  background: none;
+  border: 2px #39335a solid;
+  /* background: none; */
+  background-color: #353051;
+  background-color: #1a1e36;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background-color: #e05900;
+  box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
 }
 button::before,
 button::after {
   border-radius: 2rem;
-  background-color: #1c657c;
+  background-color: #39335a;
   content: "";
   position: absolute;
   z-index: -1;
 }
-.btn-carre::before,
+.btn-rond::before,
 .btn::before,
-.btn-carre::after,
+.btn-rond::after,
 .btn::after {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 }
-/* .btn-carre::after,
+/* .btn-rond::after,
 .btn::after {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 } */
-.btn-carre:hover::after,
+.btn-rond:hover::after,
 .btn:hover::after {
   width: 100%;
 }
@@ -543,7 +551,7 @@ p {
   bottom: 2rem;
   right: 1.5rem;
 }
-.btn-carre {
+.btn-rond {
   width: 3.2rem;
   height: 3.2rem;
   display: flex;
@@ -577,9 +585,14 @@ p {
   background-color: #fff;
   height: fit-content;
   width: 100%;
-  border-top: 3px solid #e05900;
-  border-bottom: 3px solid #e05900;
-  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
+  /* border-top: 3px solid #e05900;
+  border-bottom: 3px solid #e05900; */
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem; */
+  box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem;
+  /* box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem,
+    rgba(57, 51, 90, 0.2) -0.3rem -0.3rem 0.5rem; */
+  /* box-shadow: rgba(53, 48, 81, 0.3) 0.07rem 0.07rem 1.5rem; */
+  padding: 0.2rem 0.5rem;
 }
 .colonne2 {
   /* background-color: rgb(85, 85, 85); */
@@ -597,7 +610,9 @@ img {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
-  box-shadow: rgba(0, 0, 0, 0.05) 0.2rem 0.2rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem;
+  /* border: rgba(53, 48, 81, 0.3) 0.1px solid; */
+  /* box-shadow: rgba(53, 48, 81, 0.3) 0.07rem 0.07rem 1.5rem; */
 }
 .maxHeightimg {
   max-height: 400px;
@@ -609,12 +624,12 @@ img {
   width: 100%;
 }
 @media (min-width: 471px) {
-  /* #topArtef {
+  /* #topPage {
     min-height: 1050px;
   } */
 }
 @media (min-width: 768px) {
-  #topArtef {
+  #topPage {
     padding-top: 7.5rem;
   }
   .container1 {
@@ -624,7 +639,7 @@ img {
   }
 }
 @media (min-width: 1135px) {
-  #topArtef {
+  #topPage {
     height: 100%;
     min-height: 100vh;
     padding-top: 6rem;
@@ -657,5 +672,8 @@ img {
     max-width: 100%;
     height: 100%;
   } */
+  .colonne1 {
+    padding: 0.5rem 1rem;
+  }
 }
 </style>
