@@ -34,13 +34,11 @@ const remonte = () => {
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
-        <img
-          class="maxHeightimg"
-          src="../assets/banniere-on-zen.jpg"
-          alt="banniere avec logo On-Zen"
-        />
+        <img class="maxHeightimg" src="../assets/banniere-on-zen2.jpg" alt="banniere avec logo On-Zen" />
       </div>
-      <div class="titre-phase"><h3>Remise en contexte</h3></div>
+      <div class="titre-phase">
+        <h3>Remise en contexte</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p><b>On-Zen</b></p>
@@ -80,7 +78,9 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase"><h3>Le site web</h3></div>
+      <div class="titre-phase">
+        <h3>Le site web</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p><b>La homepage</b></p>
@@ -109,17 +109,11 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/home-avant-haut-desk.jpg"
-            alt="la home page avant modifications"
-          />
+          <img src="../assets/home-avant-haut-desk.jpg" alt="la home page avant modifications" />
           <h5>Partie visible sans scroller de la homepage - AVANT</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/on-zen-home-haut.jpg"
-            alt="la home page après modifications"
-          />
+          <img src="../assets/on-zen-home-haut.jpg" alt="la home page après modifications" />
           <h5>Partie visible sans scroller de la homepage - APRÈS</h5>
         </div>
       </div>
@@ -152,6 +146,7 @@ const remonte = () => {
   height: 100%;
   min-height: 100vh;
 }
+
 /* #topPage::after {
   content: "";
   background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
@@ -169,6 +164,7 @@ const remonte = () => {
   z-index: 1;
   color: #353051;
 }
+
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -179,16 +175,19 @@ h2 {
   letter-spacing: 0.1rem;
   text-align: center;
 }
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
 }
+
 h5 {
   text-align: right;
   padding-top: 0.3rem;
 }
+
 p,
 ol {
   font-weight: 500;
@@ -220,6 +219,7 @@ button {
   z-index: 1;
   box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
 }
+
 button::before,
 button::after {
   border-radius: 2rem;
@@ -228,6 +228,7 @@ button::after {
   position: absolute;
   z-index: -1;
 }
+
 .btn-rond::before,
 .btn::before,
 .btn-rond::after,
@@ -251,6 +252,7 @@ button::after {
   bottom: 2rem;
   right: 1.5rem;
 }
+
 .btn-rond {
   width: 3.2rem;
   height: 3.2rem;
@@ -259,6 +261,7 @@ button::after {
   align-items: flex-start;
   z-index: 4;
 }
+
 .container1 {
   display: flex;
   flex-direction: column;
@@ -271,9 +274,11 @@ button::after {
   /* background-color: #c2d8dc; */
   padding: 0rem 1rem 1rem 1rem;
 }
+
 .titre-phase {
   padding: 1.5rem 0 1rem 0;
 }
+
 .bloc-phase {
   /* border: red 1px solid; */
   width: 100%;
@@ -281,6 +286,7 @@ button::after {
   flex-direction: column;
   gap: 1.3rem;
 }
+
 .colonne1 {
   background-color: #fff;
   height: fit-content;
@@ -291,6 +297,7 @@ button::after {
   box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem;
   padding: 0.2rem 0.5rem;
 }
+
 .colonne2 {
   /* background-color: rgb(85, 85, 85); */
   /* height: fit-content; */
@@ -303,6 +310,7 @@ button::after {
   justify-content: center;
   flex-direction: column;
 }
+
 img {
   max-width: 100%;
   height: 100%;
@@ -310,30 +318,36 @@ img {
   box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem;
   /* box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem; */
 }
+
 .maxHeightimg {
   max-height: 400px;
 }
+
 .z-index {
   z-index: 3;
   bottom: 0;
   position: absolute;
   width: 100%;
 }
+
 @media (min-width: 471px) {
   /* #topPage {
     min-height: 1050px;
   } */
 }
+
 @media (min-width: 768px) {
   #topPage {
     padding-top: 7.5rem;
   }
+
   .container1 {
     width: 95%;
     max-width: 700px;
     /* padding: 0rem 2rem 3rem 2rem; */
   }
 }
+
 @media (min-width: 1135px) {
   #topPage {
     height: 100%;
@@ -341,6 +355,7 @@ img {
     padding-top: 6rem;
     padding-bottom: 2rem;
   }
+
   .container1 {
     display: flex;
     flex-direction: column;
@@ -351,9 +366,11 @@ img {
     z-index: 1;
     /* padding: 0rem 3rem 3rem 3rem; */
   }
+
   h2 {
     font-size: 2.7rem;
   }
+
   /* .bloc-phase {
     display: flex;
     flex-direction: row;

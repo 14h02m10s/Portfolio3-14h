@@ -30,16 +30,15 @@ const remonte = () => {
   <div id="topPage">
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
-        <img
-          class="maxHeightimg"
-          src="../assets/banniere-artefacteurs.jpg"
-          alt="les différentes phases de l'ux design"
-        />
+        <img class="maxHeightimg" src="../assets/banniere-artefacteurs2.jpg"
+          alt="les différentes phases de l'ux design" />
       </div>
       <!-- <div class="titre">
         <h2>La plateforme des Artef'acteurs</h2>
       </div> -->
-      <div class="titre-phase"><h3>Remise en contexte</h3></div>
+      <div class="titre-phase">
+        <h3>Remise en contexte</h3>
+      </div>
       <div class="bloc-phase">
         <!-- <div class="colonne2">
           <img
@@ -52,8 +51,7 @@ const remonte = () => {
           <p>
             Ceci est un projet mené en formation, chez UX France, durant 6
             semaines.
-            <b>Nous avons tout au long de ce projet travaillé en binôme</b
-            >.<br /><br />
+            <b>Nous avons tout au long de ce projet travaillé en binôme</b>.<br /><br />
             <b>L'association des Artef'acteurs</b> est un collectif
             <b>d'artisans d'art</b> de la région de Belfort. Ils ont
             <b>entre 25 et 55 ans</b> et ce sont des personnes qui travaillent
@@ -70,7 +68,9 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase"><h3>L'UX design</h3></div>
+      <div class="titre-phase">
+        <h3>L'UX design</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p><b>L'UX design est décomposé en 6 phases :</b></p>
@@ -106,14 +106,13 @@ const remonte = () => {
           </ol>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/uxDesign.jpg"
-            alt="les différentes phases de l'ux design"
-          />
+          <img src="../assets/uxDesign.jpg" alt="les différentes phases de l'ux design" />
         </div>
       </div>
 
-      <div class="titre-phase"><h3>La phase de Planification</h3></div>
+      <div class="titre-phase">
+        <h3>La phase de Planification</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
@@ -137,27 +136,18 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/problematique.jpg"
-            alt="Synthèse de la problèmatique avec les 5 pourquoi"
-          />
+          <img src="../assets/problematique.jpg" alt="Synthèse de la problèmatique avec les 5 pourquoi" />
           <h5>
             Utilisation de la technique des 5 pourquoi pour trouver la
             problématique
           </h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/personasHypothetiques.jpg"
-            alt="Nos 3 personas hypothétiques"
-          />
+          <img src="../assets/personasHypothetiques.jpg" alt="Nos 3 personas hypothétiques" />
           <h5>Élaboration de 3 personas hypothétiques</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/lesCartesUX.jpg"
-            alt="Nos 3 cartes UX selectionnées et etayées"
-          />
+          <img src="../assets/lesCartesUX.jpg" alt="Nos 3 cartes UX selectionnées et etayées" />
           <h5>
             Nos 3 cartes UX selectionnées et etayées avec des exemples
             s'appliquant aux artisans
@@ -165,15 +155,15 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase"><h3>La phase d'exploration</h3></div>
+      <div class="titre-phase">
+        <h3>La phase d'exploration</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
             Durant cette phase,
-            <b
-              >nous avons pu rencontrer 2 artisans du collectif des
-              Artef'acteurs</b
-            >
+            <b>nous avons pu rencontrer 2 artisans du collectif des
+              Artef'acteurs</b>
             en visioconférence. Au préalable, nous avons donc préparé ces
             entretiens en rédigeant <b>une quinzaine de questions</b> (les plus
             ouvertes possibles). Les entretiens ont duré 30 minutes chacun, et
@@ -194,10 +184,7 @@ const remonte = () => {
           <h5>Le diagramme d'affinité dans sa globalité</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/diagrammeAffiniteExtrait.jpg"
-            alt="fb artefacteurs"
-          />
+          <img src="../assets/diagrammeAffiniteExtrait.jpg" alt="fb artefacteurs" />
           <h5>Extrait du diagramme d'affinité</h5>
         </div>
 
@@ -207,7 +194,9 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase"><h3>La phase d'idéation</h3></div>
+      <div class="titre-phase">
+        <h3>La phase d'idéation</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
@@ -219,10 +208,8 @@ const remonte = () => {
             visioconférence, sur Klaxoon (un site qui permet de collaborer en
             simultané, comme Figjam).<br /><br />
 
-            <b
-              >Le but de l'atelier est de stimuler la créativité des
-              participants</b
-            >
+            <b>Le but de l'atelier est de stimuler la créativité des
+              participants</b>
             en leur exposant au préalable le brief, notre problématique, et
             notre persona afin qu'ils puissent se glisser dans la peau d'un
             artisan. Nous avons donc incité les 2 participants à exprimer toutes
@@ -243,10 +230,7 @@ const remonte = () => {
           <h5>Le brainstorming à 2 avant l'atelier d'idéation</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/atelierIdeation2.png"
-            alt="phase 1 de l'atelier d'idéation"
-          />
+          <img src="../assets/atelierIdeation2.png" alt="phase 1 de l'atelier d'idéation" />
           <h5>Les idées de nos participants lors de l'atelier d'idéation</h5>
         </div>
         <!-- <div class="colonne2">
@@ -257,10 +241,7 @@ const remonte = () => {
           <h5>Les idées de nos participants lors de l'atelier d'idéation</h5>
         </div> -->
         <div class="colonne2">
-          <img
-            src="../assets/resultatAtelierIdeation.jpg"
-            alt="synthèse de l'atelier d'idéation"
-          />
+          <img src="../assets/resultatAtelierIdeation.jpg" alt="synthèse de l'atelier d'idéation" />
           <h5>
             La synthèse de l'atelier d'idéation lors de ma présentation au jury
           </h5>
@@ -278,7 +259,9 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase"><h3>La phase de génération</h3></div>
+      <div class="titre-phase">
+        <h3>La phase de génération</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
@@ -298,30 +281,24 @@ const remonte = () => {
             qu'une <b>meilleure adaptabilité à tous les écrans</b>.<br /><br />
             Le but d'un prototype interactif est de pouvoir le faire tester à
             des utilisateurs avant de développer réellement le produit.
-            <b
-              >Cela permet de déceler en amont ce qui n'est pas compris des
-              utilisateurs (en phase d'évaluation)</b
-            >
+            <b>Cela permet de déceler en amont ce qui n'est pas compris des
+              utilisateurs (en phase d'évaluation)</b>
             et donc de pouvoir corriger (en phase d'itération).
           </p>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/wireframes.png"
-            alt="les wireframes sur Excalidraw"
-          />
+          <img src="../assets/wireframes.png" alt="les wireframes sur Excalidraw" />
           <h5>Les wireframes sur Excalidraw</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/prototype2.png"
-            alt="Le prototypage fonctionnel sur Figma"
-          />
+          <img src="../assets/prototype2.png" alt="Le prototypage fonctionnel sur Figma" />
           <h5>Le prototypage fonctionnel sur Figma</h5>
         </div>
       </div>
 
-      <div class="titre-phase"><h3>La phase d'évaluation</h3></div>
+      <div class="titre-phase">
+        <h3>La phase d'évaluation</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
@@ -350,17 +327,11 @@ const remonte = () => {
           <h5>Le protocole de test</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/maze_screenshot_interaction2.jpg"
-            alt="Une heatmap"
-          />
+          <img src="../assets/maze_screenshot_interaction2.jpg" alt="Une heatmap" />
           <h5>Une heatmap du test asynchrone fait sur Maze</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/restitution-recos.png"
-            alt="les resititutions des entretiens"
-          />
+          <img src="../assets/restitution-recos.png" alt="les resititutions des entretiens" />
           <h5>
             L'analyse des entretiens synchrones, avec mise en évidence des
             points bloquants (en rouge)
@@ -368,7 +339,9 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase"><h3>La phase d'itération</h3></div>
+      <div class="titre-phase">
+        <h3>La phase d'itération</h3>
+      </div>
       <div class="bloc-phase">
         <div class="colonne1">
           <p>
@@ -384,31 +357,20 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/5-4-Evaluation-Recommandations.jpg"
-            alt="Une des recommandations que nous avions à traiter"
-          />
+          <img src="../assets/5-4-Evaluation-Recommandations.jpg"
+            alt="Une des recommandations que nous avions à traiter" />
           <h5>Une des recommandations que nous avions à traiter</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/6-1-Iteration.jpg"
-            alt="La correction de la recommandation ci-dessus"
-          />
+          <img src="../assets/6-1-Iteration.jpg" alt="La correction de la recommandation ci-dessus" />
           <h5>La correction de la recommandation ci-dessus</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/proto1.png"
-            alt="Page d'accueil et page mentorat avant les corrections"
-          />
+          <img src="../assets/proto1.png" alt="Page d'accueil et page mentorat avant les corrections" />
           <h5>Page d'accueil et page mentorat avant les corrections</h5>
         </div>
         <div class="colonne2">
-          <img
-            src="../assets/proto2.png"
-            alt="Page d'accueil et page mentorat après les corrections"
-          />
+          <img src="../assets/proto2.png" alt="Page d'accueil et page mentorat après les corrections" />
           <h5>Page d'accueil et page mentorat après les corrections</h5>
         </div>
       </div>
@@ -444,6 +406,7 @@ const remonte = () => {
   height: 100%;
   min-height: 100vh;
 }
+
 /* #topPage::after {
   content: "";
   background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
@@ -461,6 +424,7 @@ const remonte = () => {
   z-index: 1;
   color: #353051;
 }
+
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -471,21 +435,25 @@ h2 {
   letter-spacing: 0.1rem;
   text-align: center;
 }
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
 }
+
 h5 {
   text-align: right;
   padding-top: 0.3rem;
 }
+
 p,
 ol {
   font-weight: 500;
   margin: 1rem;
 }
+
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -511,6 +479,7 @@ button {
   z-index: 1;
   box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
 }
+
 button::before,
 button::after {
   border-radius: 2rem;
@@ -519,6 +488,7 @@ button::after {
   position: absolute;
   z-index: -1;
 }
+
 .btn-rond::before,
 .btn::before,
 .btn-rond::after,
@@ -528,6 +498,7 @@ button::after {
   top: 0;
   width: 0;
 }
+
 /* .btn-rond::after,
 .btn::after {
   height: 100%;
@@ -539,10 +510,12 @@ button::after {
 .btn:hover::after {
   width: 100%;
 }
+
 p {
   font-weight: 500;
   margin: 1rem;
 }
+
 .btn-return {
   display: flex;
   justify-content: right;
@@ -551,6 +524,7 @@ p {
   bottom: 2rem;
   right: 1.5rem;
 }
+
 .btn-rond {
   width: 3.2rem;
   height: 3.2rem;
@@ -559,6 +533,7 @@ p {
   align-items: flex-start;
   z-index: 4;
 }
+
 .container1 {
   display: flex;
   flex-direction: column;
@@ -571,9 +546,11 @@ p {
   /* background-color: #c2d8dc; */
   padding: 0rem 1rem 1rem 1rem;
 }
+
 .titre-phase {
   padding: 1.5rem 0 1rem 0;
 }
+
 .bloc-phase {
   /* border: red 1px solid; */
   width: 100%;
@@ -581,6 +558,7 @@ p {
   flex-direction: column;
   gap: 1.3rem;
 }
+
 .colonne1 {
   background-color: #fff;
   height: fit-content;
@@ -594,6 +572,7 @@ p {
   /* box-shadow: rgba(53, 48, 81, 0.3) 0.07rem 0.07rem 1.5rem; */
   padding: 0.2rem 0.5rem;
 }
+
 .colonne2 {
   /* background-color: rgb(85, 85, 85); */
   /* height: fit-content; */
@@ -606,6 +585,7 @@ p {
   justify-content: center;
   flex-direction: column;
 }
+
 img {
   max-width: 100%;
   height: 100%;
@@ -614,30 +594,36 @@ img {
   /* border: rgba(53, 48, 81, 0.3) 0.1px solid; */
   /* box-shadow: rgba(53, 48, 81, 0.3) 0.07rem 0.07rem 1.5rem; */
 }
+
 .maxHeightimg {
   max-height: 400px;
 }
+
 .z-index {
   z-index: 3;
   bottom: 0;
   position: absolute;
   width: 100%;
 }
+
 @media (min-width: 471px) {
   /* #topPage {
     min-height: 1050px;
   } */
 }
+
 @media (min-width: 768px) {
   #topPage {
     padding-top: 7.5rem;
   }
+
   .container1 {
     width: 95%;
     max-width: 700px;
     /* padding: 0rem 2rem 3rem 2rem; */
   }
 }
+
 @media (min-width: 1135px) {
   #topPage {
     height: 100%;
@@ -645,6 +631,7 @@ img {
     padding-top: 6rem;
     padding-bottom: 2rem;
   }
+
   .container1 {
     display: flex;
     flex-direction: column;
@@ -655,9 +642,11 @@ img {
     z-index: 1;
     /* padding: 0rem 3rem 3rem 3rem; */
   }
+
   h2 {
     font-size: 2.7rem;
   }
+
   /* .bloc-phase {
     display: flex;
     flex-direction: row;

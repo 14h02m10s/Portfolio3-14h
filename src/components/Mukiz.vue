@@ -34,7 +34,7 @@ const remonte = () => {
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
-        <img class="maxHeightimg" src="../assets/banniere-Mukiz.jpg" alt="banniere Mukiz" />
+        <img class="maxHeightimg" src="../assets/banniere-Mukiz2.jpg" alt="banniere Mukiz" />
       </div>
       <div class="bloc-phase">
         <div class="titre-phase">
@@ -228,7 +228,7 @@ ol {
 
 ul,
 ol {
-  padding: 0 0 0 3rem;
+  padding: 0 0 0 2rem;
 }
 
 button,
@@ -429,7 +429,7 @@ img {
 
   ul,
   ol {
-    padding: 0 2rem 0 5rem;
+    padding: 0 2rem 0 4rem;
   }
 
   .citation {
@@ -439,7 +439,7 @@ img {
 
   .border-left {
     border-left: #ddebff 5px solid;
-    margin: 0 2rem;
+    margin: 0 4rem;
   }
 }
 
@@ -470,12 +470,12 @@ img {
   ul,
   ol {
     margin: 1.5rem 0rem;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 
   ul,
   ol {
-    padding: 0 4rem 0 7rem;
+    padding: 0 2rem 0 4rem;
   }
 
   .citation {
