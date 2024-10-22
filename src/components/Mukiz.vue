@@ -112,7 +112,7 @@ const remonte = () => {
       </div>
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>1ers tests utilisateurs</h3>
+          <h3>Premiers tests utilisateurs</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -161,16 +161,8 @@ const remonte = () => {
               l'application, il était important de les diriger vers les parties en solo (ou contre d'autres joueurs en
               ligne) et les faire hésiter le moins possible avec l'option des parties entre amis.
             </p>
-
-          </div>
-        </div>
-        <div class="colonne2">
-          <img src="../assets/Mukiz-ecran2-1ere-modif.jpg" alt="Modifications de l'écran 2" />
-          <h5>Modifications de l'écran 2</h5>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p><b>Pour le troisième écran, j'ai choisi de proposer quatre playlists</b> issues des plus populaires de
+            <p><b>Pour le troisième écran, j'ai choisi de supprimer l'encart sur la gamification et de plutôt proposer
+                quatre playlists</b> issues des plus populaires de
               l'application. J'ai également ajouté une indication pour informer les utilisateurs qu'ils peuvent répondre
               avec le clavier ou leur voix. <b>Cette modification permet de supprimer les écrans 4, 5 et 6</b> du
               tutoriel
@@ -178,14 +170,117 @@ const remonte = () => {
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/Mukiz-ecran3-1ere-modif.jpg" alt="Modifications de l'écran 3" />
-          <h5>Modifications de l'écran 3</h5>
+          <img src="../assets/Mukiz-ecran2et3-1ere-modif.jpg" alt="Modifications de l'écran 2 et 3" />
+          <h5>Modifications de l'écran 2 et 3</h5>
         </div>
         <div class="colonne1">
-          <a class="link-text"
+          <a class="link-text" target="_blank"
             href="https://www.figma.com/proto/gMQdDoJy0WQozFBqdbGkVe/test-maze-1?page-id=36%3A2479&node-id=36-44735&node-type=canvas&viewport=5870%2C621%2C0.56&t=TPAIQ4siAa07KLnC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=36%3A44735">
-            >> Le
-            lien vers ma maquette Figma</a>
+            >> Tester la maquette avec les premières modifications</a>
+        </div>
+      </div>
+      <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Seconds tests utilisateurs</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p>
+              J'ai mis en place un test asynchrone sur Maze et une quarantaine de personnes ont répondu. Voici ce qui
+              ressort de ces test : </p>
+            <p><b>Quelle importance les utilisateurs accordent-ils aux points</b> (lors d'un blind test) ?
+            </p>
+            <ul>
+              <li>3 participants sur 36 = très peu</li>
+              <li>5 participants sur 36 = peu</li>
+              <li><b>10 participants sur 36 = moyennement</b></li>
+              <li><b>7 participants sur 36 = pas mal</b></li>
+              <li><b>11 participants sur 36 = beaucoup</b></li>
+            </ul>
+          </div>
+          <div class="citation">
+            <p>"Ce serait bien d'avoir les solutions pour gagner le max de points possible"</p>
+          </div>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Sur les écrans 1 et 2, y a t-il quelque chose qui vous a ennuyé ou que vous n'avez pas compris ?</b>
+            </p>
+          </div>
+          <div class="citation">
+            <p>"Je me suis posé la question de savoir si le fait de choisir "France" allait influencer la playlist
+              (chansons Françaises uniquement...)"</p>
+          </div>
+          <div class="citation">
+            <p>"La distinction entre jouer seul ou entre amis"</p>
+          </div>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>À quel point êtes-vous pressé de jouer ?</b> (après avoir passé les 2 premiers écrans)
+            </p>
+            <ul>
+              <li>1 participants sur 30 = très peu</li>
+              <li>2 participants sur 30 = peu</li>
+              <li>5 participants sur 30 = moyennement</li>
+              <li><b>7 participants sur 30 = pas mal</b></li>
+              <li><b>15 participants sur 30 = beaucoup</b></li>
+            </ul>
+          </div>
+          <div class="citation">
+            <p>"J’ai envie de jouer et sélectionner une playlist."</p>
+          </div>
+          <div class="citation">
+            <p>"Je ne connaissais pas cette application j'ai envie de
+              la télécharger actuellement."</p>
+          </div>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b> Avez-vous appris des choses sur l'écran 3 ?</b>
+            </p>
+          </div>
+          <div class="citation">
+            <p>"J'ai trouvé cet écran très lourd : je sais comment fonctionne un blind test. Le simple choix des 4
+              propositions de playlists pour démarrer m'aurait amplement suffit."</p>
+          </div>
+          <div class="border-left">
+            <p><b> Si vous avez cliqué sur le bouton 'voir les astuces', quel a été votre ressenti ? </b> Et si vous
+              n'avez pas vu cette page, que souhaiteriez-vous y trouver ?
+            </p>
+          </div>
+          <div class="citation">
+            <p>"Je n'ai pas cliqué sur le bouton voir les astuces pour pouvoir jouer plus rapidement. Je trouve plus
+              intéressant l'idée d'avoir des astuces entre 2 parties par exemple."</p>
+          </div>
+          <div class="citation">
+            <p>"J'aurai bien aimé avoir une petite explication simple sur les points (qui sont la base dans tout jeu de
+              blind test).
+              "</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Itération sur les maquettes</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p>
+
+            </p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/Mukiz-screen-maquette-finale.png" alt="Maquette finale vue prototype sur figma" />
+          <h5>Aperçu de la maquette finale</h5>
+        </div>
+        <div class="colonne1">
+          <a class="link-text" target="_blank"
+            href="https://www.figma.com/proto/sWBZiWPbAUpI1cmEt5cMQC/onboarding---maquettes-finales-pour-dev?page-id=146%3A634&node-id=198-24113&node-type=frame&viewport=2543%2C-197%2C0.2&t=YWkgTHeTRawGddPp-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=198%3A24113&show-proto-sidebar=1">
+            >> Tester La maquette finale</a>
         </div>
       </div>
     </div>
@@ -436,21 +531,26 @@ img {
 } */
 
 .citation {
-  background: #ddebff;
-  background: #353051;
-  background: linear-gradient(303deg, rgba(26, 30, 54, 1) 60%, rgba(53, 48, 81, 1) 96%);
+  /* background: #ddebff; */
+  /* background: #353051; */
+  /* background: linear-gradient(303deg, rgba(26, 30, 54, 1) 60%, rgba(53, 48, 81, 1) 96%); */
+  background: rgb(245, 247, 255);
+
   margin: 1rem 0rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
-  /* box-shadow: inset 0.1rem 0.4rem rgb(206, 208, 216); */
+  box-shadow: inset 0.1rem 0.3rem rgb(34, 40, 65);
+  border: 1px #353051 solid;
+  box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 rgb(34, 40, 65);
+
 }
 
 .citation p {
   margin: 0;
   padding: 0;
-  color: #fff;
+  /* color: #fff; */
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-style: italic;
 }
 
