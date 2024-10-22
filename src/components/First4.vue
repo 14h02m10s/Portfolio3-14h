@@ -15,17 +15,13 @@ onBeforeUnmount(() => {
 const cvURL =
   "https://14h02m10s.github.io/Portfolio3-14h/cv-juin2024-portfolio.pdf";
 </script>
-  
-  <template>
+
+<template>
   <div class="englobeur-first" id="first">
     <div class="text-photo" :style="{ transform: `translateY(-${scroll}px)` }">
       <transition appear name="photo-fade">
         <div class="container-photo" data-scroll data-scroll-speed="-1">
-          <img
-            src="../assets/profil-carre-222.jpg"
-            alt="photo profil"
-            class="photo2"
-          />
+          <img src="../assets/profil-carre-222.jpg" alt="photo profil" class="photo2" />
         </div>
       </transition>
       <div class="text">
@@ -54,12 +50,10 @@ const cvURL =
             <b>cohérence et accessibilité</b>, toujours dans un cadre de travail
             collaboratif. -->
 
-            Spécialisée et certifiée en <b>UX design</b>, j'ai développé des
+            Spécialisée et certifiée en <b>UX design</b>, j'ai acquis des
             compétences essentielles comme les
-            <b
-              >entretiens utilisateurs, la création de personas, les userflows
-              et le wireframing</b
-            >. J'intègre des
+            <b>entretiens utilisateurs, la création de personas, les userflows
+              et le wireframing</b>. J'intègre des
             <b>tests utilisateurs synchrones et asynchrones</b> pour affiner les
             expériences, tout en prenant en compte les contraintes techniques
             grâce à ma formation en développement web. <br /><br />
@@ -71,9 +65,8 @@ const cvURL =
         </Transition>
         <Transition appear name="slide-fade2">
           <div class="container-button">
-            <a :href="cvURL" target="_blank" download="CV-fchambinaud.pdf"
-              ><button class="btn">Plus de détails sur mon cv</button></a
-            >
+            <a :href="cvURL" target="_blank" download="CV-fchambinaud.pdf"><button class="btn">Plus de détails sur mon
+                cv</button></a>
           </div>
         </Transition>
       </div>
@@ -84,8 +77,7 @@ const cvURL =
           <span class="material-symbols-rounded">
             keyboard_double_arrow_down
           </span>
-        </button></a
-      >
+        </button></a>
     </div>
   </div>
 </template>
@@ -101,6 +93,7 @@ const cvURL =
   align-items: center;
   flex-direction: column;
 }
+
 .text-photo {
   gap: 1rem;
   display: flex;
@@ -109,6 +102,7 @@ const cvURL =
   flex-direction: column;
   width: 100%;
 }
+
 .photo2 {
   /* border: #c5b2a9 3px solid;
   border: #1a1e36 3px solid; */
@@ -122,12 +116,15 @@ const cvURL =
   box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
   box-shadow: -0.2rem -0.2rem rgba(26, 30, 54, 0.9), 0.4rem 0.4rem 0 #1c657c;
 }
+
 .photo-fade-enter-active {
   transition: all 2.3s ease-out;
 }
+
 .photo-fade-enter-from {
   opacity: 0;
 }
+
 .text {
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -141,6 +138,7 @@ const cvURL =
   border-bottom: #1a1e36 3px solid; */
   margin: 0 2rem;
 }
+
 .bienvenue {
   color: #c5b2a9;
   color: #1a1e36;
@@ -155,6 +153,7 @@ const cvURL =
   align-items: center;
   line-height: 1.5rem; */
 }
+
 .portfolio {
   color: #c5b2a9;
   color: #1a1e36;
@@ -164,6 +163,7 @@ const cvURL =
   font-size: 2.5rem;
   line-height: 1.3;
 }
+
 .texte-prez-first {
   color: #1a1e36;
   font-weight: 500;
@@ -171,9 +171,11 @@ const cvURL =
   line-height: 1.5;
   margin-top: 0.5rem;
 }
+
 .slide-fade1-enter-active {
   transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+
 .slide-fade2-enter-active {
   transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
   transition-delay: 0.4s;
@@ -184,6 +186,7 @@ const cvURL =
   transform: translateX(-10rem);
   opacity: 0;
 }
+
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -198,27 +201,32 @@ button::before {
   top: 0;
   width: 0;
 }
+
 button::after {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 }
+
 button:hover::after {
   width: 100%;
 }
+
 .btn-continue {
   display: none;
   /* align-items: center;
   position: absolute;
   bottom: 2rem; */
 }
+
 .btn-rond {
   width: 3.2rem;
   height: 3.2rem;
   display: flex;
   justify-content: center;
 }
+
 .container-button {
   display: flex;
   justify-content: center;
@@ -243,6 +251,7 @@ button {
   z-index: 1;
   box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 #1c657c;
 }
+
 button::before,
 button::after {
   border-radius: 2rem;
@@ -257,27 +266,33 @@ button::after {
   .text-photo {
     gap: 1rem;
   }
+
   .photo2 {
     height: 16rem;
     width: 16rem;
   }
+
   .bienvenue {
     font-size: 2.2rem;
     line-height: 1.5rem;
   }
+
   .portfolio {
     font-size: 3.4rem;
     line-height: 1.1;
   }
+
   .texte-prez-first {
     font-size: 1.2rem;
     margin-top: 1rem;
   }
 }
+
 @media (min-width: 768px) {
   .englobeur-first {
     padding: 10rem 0;
   }
+
   /* .text-photo {
     gap: 8rem;
   } */
@@ -286,6 +301,7 @@ button::after {
     width: 21rem;
     margin-top: 0;
   }
+
   .text {
     /* border-bottom: #e05900 4px solid; */
     /* padding-top: 1.7rem; */
@@ -293,18 +309,23 @@ button::after {
     padding: 2rem 0;
     /* border-top: #e05900 4px solid; */
   }
+
   .bienvenue {
     font-size: 2.6rem;
   }
+
   .portfolio {
     font-size: 4rem;
   }
+
   .texte-prez-first {
     margin-top: 1.5rem;
   }
+
   .container-button {
     margin: 2rem 0;
   }
+
   .btn-continue {
     display: flex;
     align-items: center;
@@ -312,6 +333,7 @@ button::after {
     bottom: 2rem;
   }
 }
+
 @media (min-width: 1135px) {
   .englobeur-first {
     padding: 0;
@@ -330,6 +352,7 @@ button::after {
     align-items: center;
     flex-direction: row;
   }
+
   .text {
     display: flex;
     justify-content: center;
@@ -338,6 +361,7 @@ button::after {
     width: fit-content;
     margin: 0;
   }
+
   .container-photo {
     /* grid-column: 2;
     grid-row: 1; */
@@ -346,6 +370,7 @@ button::after {
     align-items: center;
     width: 60%;
   }
+
   .bienvenue {
     font-size: 3rem;
     padding-top: 0.8rem;
@@ -354,6 +379,7 @@ button::after {
     align-items: center;
     line-height: 1.5rem;
   }
+
   .portfolio {
     padding-top: 0.4rem;
     font-size: 4rem;
@@ -361,6 +387,7 @@ button::after {
     justify-content: center;
     align-items: center; */
   }
+
   .texte-prez-first {
     /* font-size: 1.3rem; */
     line-height: 1.5;

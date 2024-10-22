@@ -25,21 +25,16 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 
         <template #sous-titre>
           <span>Ux</span> <br />
-          <a href="#/realisations/mukiz" class="link-text"
-            >Onboarding Mukiz&nbsp;</a
-          >
+          <a href="#/realisations/mukiz" class="link-text">Onboarding Mukiz&nbsp;</a>
         </template>
         <div class="container-button">
-          <a href="#/realisations/mukiz"
-            ><button class="btn">Voir le projet</button></a
-          >
+          <a href="#/realisations/mukiz"><button class="btn">Voir le projet</button></a>
         </div>
         <p>
           Mukiz est une <b>application de blind test interactif</b>, qui réunit
-          des milliers de joueurs quotidiennement. L'objectif était de
-          comprendre <b>ce qui freinait certains utilisateurs</b> après le
-          téléchargement,
-          <b>les empêchant de commencer leur première partie</b>.
+          des milliers de joueurs quotidiennement.
+          L'objectif était comprendre <b>pourquoi certains utilisateurs ne démarraient pas leur première
+            partie</b> lors de leur première visite sur l'application.
         </p>
       </ProjectsItem4>
 
@@ -51,8 +46,7 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         </template>
         <template #sous-titre>
           <span>Ux</span> <br />
-          Certification Google UX&nbsp;</template
-        >
+          Certification Google UX&nbsp;</template>
         <div class="container-button">
           <!-- <a href=""> -->
           <button class="btn-disable">En cours d'acquisition</button>
@@ -60,12 +54,12 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         </div>
         <p>
           Je passe actuellement la certification Google UX afin de continuer à
-          <b>approfondir mes compétences en design centré utilisateur.</b
-          ><br /><br />
+          <b>approfondir mes compétences en design centré utilisateur.</b><br /><br />
           Ce programme compte + de 200 heures de cours en totale autonomie et
           j'applique toutes les méthodes UX en
-          <b>travaillant sur la conception d'une application de carte de café</b
-          >. Cela me permet de perfectionner chaque étape du processus UX.
+          <b>travaillant sur la conception d'une application de carte de café</b>. Cela me permet de perfectionner
+          chaque
+          étape du processus UX.
         </p>
       </ProjectsItem4>
 
@@ -77,9 +71,7 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         </template>
         <template #sous-titre>
           <span>Ux</span><span>Ui</span> <br />
-          <a href="#/realisations/artefacteurs" class="link-text"
-            >Plateforme des Artéf'acteurs&nbsp;</a
-          >
+          <a href="#/realisations/artefacteurs" class="link-text">Plateforme des Artéf'acteurs&nbsp;</a>
           <!-- <a href="#/realisations/artefacteurs"
             ><img
               src="../assets/external-orange.svg"
@@ -88,25 +80,21 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           /></a> -->
         </template>
         <div class="container-button">
-          <a href="#/realisations/artefacteurs"
-            ><button class="btn">Voir le projet</button></a
-          >
+          <a href="#/realisations/artefacteurs"><button class="btn">Voir le projet</button></a>
         </div>
         <p>
           La Manufacture des Artéf'acteurs, une association réunissant des
           artisans d'art, avait besoin d'une plateforme pour
-          <b
-            >favoriser les échanges entre artisans et soutenir leurs
-            activités</b
-          >. <br /><br />
-          Nous avons appliqué des méthodes UX comme
+          <b>favoriser les échanges entre artisans et soutenir leurs
+            activités</b>. <br /><br />
+          Nous avons appliqué des méthodes UX comme les
           <b>entretiens utilisateurs</b> pour identifier leurs besoins, la
           <b>création de personas</b> pour définir le profil des artisans, des
-          <b>diagrammes d'affinités</b> pour classer les information récupérées
+          <b>diagrammes d'affinités</b> pour classer les informations récupérées
           en entretien, des <b>ateliers d'idéation</b> pour générer de nouvelles
-          idées, du <b>maquettage</b> pour faire prendre vie au projet, et enfin
+          idées, du <b>maquettage</b> pour faire prendre vie au projet et enfin
           des <b>tests utilisateurs synchrones et asynchrones</b> pour évaluer
-          les points de frictions de nos premières maquettes.
+          les points de friction de nos premières maquettes.
         </p>
       </ProjectsItem4>
 
@@ -119,14 +107,10 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
 
         <template #sous-titre>
           <span>Ui</span><span>Ux</span><span>Html/Css</span> <br />
-          <a href="#/realisations/onzen" class="link-text"
-            >Refonte de la plateforme On-Zen&nbsp;</a
-          >
+          <a href="#/realisations/onzen" class="link-text">Refonte de la plateforme On-Zen&nbsp;</a>
         </template>
         <div class="container-button">
-          <a href="#/realisations/onzen"
-            ><button class="btn">Voir le projet</button></a
-          >
+          <a href="#/realisations/onzen"><button class="btn">Voir le projet</button></a>
         </div>
         <p>
           La plateforme On-Zen
@@ -136,10 +120,8 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           <b>des outils pour gérer et développer leur activité</b>. <br /><br />
           Au lancement, la plateforme manquait de réactivité et de cohérence
           graphique.
-          <b
-            >Ma mission était de la rendre plus attrayante, rassurante et facile
-            à utiliser.</b
-          >
+          <b>Ma mission était de la rendre plus attrayante, rassurante et facile
+            à utiliser.</b>
         </p>
       </ProjectsItem4>
     </div>
@@ -160,16 +142,19 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
   z-index: 2;
   min-width: none;
 }
+
 #reals:target {
   padding-top: 6.1rem;
   margin-top: -3.1rem;
   /* padding-top: 6.1rem;
   margin-top: -6.1rem; */
 }
+
 template {
   margin: 0;
   padding: 0;
 }
+
 .flex-project {
   display: flex;
   flex-direction: column;
@@ -178,11 +163,13 @@ template {
   /* margin: 0.5rem 1rem 0rem 1rem; */
   padding-bottom: 2rem;
 }
+
 .titre {
   width: 100%;
   z-index: 1;
   color: #fff;
 }
+
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -193,26 +180,31 @@ h2 {
   font-size: 2.2rem;
   letter-spacing: 0.1rem;
 }
+
 h3 {
   color: #353051;
   font-size: 1.8rem;
   font-weight: 500;
 }
+
 .DivTitreH3 {
   width: 100%;
   text-align: center;
 }
+
 a {
   color: #353051;
   margin: 0;
   padding: 0;
   width: 100%;
 }
+
 p {
   font-size: 0.9rem;
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
 /* .link-text {
   font-weight: 700;
   box-shadow: inset 0 0 0 0 #353051;
@@ -225,30 +217,37 @@ p {
 .link-text {
   font-weight: 700;
   background: linear-gradient(0deg, #353051 0%, #353051 100%);
-  background-size: 0% 100%; /* Taille initiale de l'arrière-plan en largeur */
-  background-position: 0 100%; /* Placé en bas */
-  background-repeat: no-repeat; /* Pas de répétition de l'arrière-plan */
+  background-size: 0% 100%;
+  /* Taille initiale de l'arrière-plan en largeur */
+  background-position: 0 100%;
+  /* Placé en bas */
+  background-repeat: no-repeat;
+  /* Pas de répétition de l'arrière-plan */
   transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .link-text:hover {
   color: #fff;
-  background-size: 100% 100%; /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
+  background-size: 100% 100%;
+  /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
 }
 
 .picto-external-link {
   transform: translateY(0.2rem);
   cursor: pointer;
 }
+
 .z-index {
   /* width: fit-content; */
 }
+
 .container-button {
   display: flex;
   justify-content: left;
   align-items: center;
   margin: 0.7rem 0;
 }
+
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -276,6 +275,7 @@ button {
   background-color: #353051;
   background-color: #1a1e36;
 }
+
 button::before,
 button::after {
   border-radius: 2rem;
@@ -286,25 +286,30 @@ button::after {
   position: absolute;
   z-index: -1;
 }
+
 .btn::before {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 }
+
 .btn::after {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 }
+
 .btn:hover::after {
   width: 100%;
 }
+
 .btn-disable {
   cursor: not-allowed;
   background-color: gray;
 }
+
 span {
   background-color: #353051;
   background-color: #656ea6;
@@ -316,21 +321,25 @@ span {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
 .trait {
   /* border: 0.5px solid black; */
   width: 100%;
   margin: 2rem 0;
 }
-@media (min-width: 471px) {
-}
+
+@media (min-width: 471px) {}
+
 @media (min-width: 768px) {
   #reals {
     padding-top: 7.5rem;
   }
+
   /* .container-button {
     margin: 0.5rem 0;
   } */
 }
+
 @media (min-width: 1135px) {
   #reals {
     padding-top: 5.8rem;
@@ -340,6 +349,7 @@ span {
     flex-direction: column;
     width: 100%;
   }
+
   .flex-project {
     display: flex;
     flex-direction: row;
@@ -348,17 +358,21 @@ span {
     /* changement ci dessous avec les items qui prennent tout la largeur */
     max-width: 100rem;
   }
+
   h2 {
     font-size: 2.7rem;
     padding: 3rem 0;
   }
+
   p {
     font-size: 1rem;
   }
+
   .trait {
     margin: 0.2rem 0;
   }
 }
+
 @media (min-width: 1440px) {
   .flex-project {
     padding: 0 1rem 2rem 1rem;

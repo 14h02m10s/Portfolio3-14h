@@ -50,9 +50,9 @@ const remonte = () => {
             </p>
             <!-- <p><b>Mukiz et moi</b></p> -->
             <p>
-              Je suis intervenue en tant qu'UX designer afin de'enquêter sur ce
-              qui freinait certains utilisateurs après le téléchargement de
-              l'application, les empêchant de lancer une première partie.
+              Dans le cadre de mon rôle d'UX designer, <b>j'ai investigué les obstacles qui bloquaient certains
+                utilisateurs après le téléchargement de l'application, les empêchant de commencer une première
+                partie</b>.
             </p>
           </div>
         </div>
@@ -63,10 +63,6 @@ const remonte = () => {
           <h3>Analyse de l'existant</h3>
         </div>
 
-        <div class="colonne2">
-          <img src="../assets/screen-mukiz-existant-1ere-phase.jpg" alt="Les 3 premiers écrans de l'app Mukiz" />
-          <h5>Les 3 premiers écrans de l'application</h5>
-        </div>
         <div class="colonne1">
           <div class="border-left">
             <p>
@@ -80,8 +76,8 @@ const remonte = () => {
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/screen-mukiz-existant-2eme-phase.jpg" alt="Les 5 premiers écrans du tutoriel" />
-          <h5>Les 5 premiers écrans du tutoriel</h5>
+          <img src="../assets/screen-mukiz-existant-1ere-phase.jpg" alt="Les 3 premiers écrans de l'app Mukiz" />
+          <h5>Les 3 premiers écrans de l'application</h5>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -90,15 +86,15 @@ const remonte = () => {
               clavier et le bouton pour passer à l'extrait suivant si on ne sait pas répondre (écrans 4, 5 et 6).
             </p>
             <p>
-              La partie se lance et une pop up apparait (écran 7) rappelant que l'on peut utliser
-              le micro ou le clavier pour donner ses réponses. L'écran 8 est celui que l'on voit lorsque la musique se
+              La partie se lance et une pop up apparait (écran 7) rappelant que l'on peut utiliser
+              le micro ou le clavier pour donner ses réponses. L'écran 8 est celui qui apparait lorsque la musique se
               lance et que l'on peut jouer.
             </p>
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/screen-mukiz-existant-3eme-phase.jpg" alt="Les 5 derniers écrans du tutoriel" />
-          <h5>Les 5 derniers écrans du tutoriel</h5>
+          <img src="../assets/screen-mukiz-existant-2eme-phase.jpg" alt="Les 5 premiers écrans du tutoriel" />
+          <h5>Les 5 premiers écrans du tutoriel</h5>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -109,6 +105,10 @@ const remonte = () => {
             </p>
           </div>
         </div>
+        <div class="colonne2">
+          <img src="../assets/screen-mukiz-existant-3eme-phase.jpg" alt="Les 5 derniers écrans du tutoriel" />
+          <h5>Les 5 derniers écrans du tutoriel</h5>
+        </div>
       </div>
       <div class="bloc-phase">
         <div class="titre-phase">
@@ -118,30 +118,74 @@ const remonte = () => {
           <div class="border-left">
             <p>
               J'ai rédigé un guide d'entretien et
-              j'ai recruté des utilisateurs. Les résultats des tests que j'ai mené en synchrone sont ceux-ci : </p>
+              j'ai recruté des utilisateurs. <b>Les résultats des tests que j'ai mené en synchrone sont ceux-ci :</b>
+            </p>
 
             <ul>
-              <li>2 participants sur 9 auraient passé le tuto s’ils avaient vu le bouton (le 3ᵉ écran + les 3 écrans
-                noirs)</li>
+              <li>2 participants sur 9 auraient passé le tuto s’ils avaient vu le bouton (les écrans 3, 4, 5 et 6)</li>
               <li>3 participants sur 9 estiment qu’ils n’ont rien appris (ou pas grand chose) d’intéressant sur le 3ᵉ
                 écran</li>
               <li>4 participants sur 9 auraient aimé commencer à jouer plus vite</li>
-              <li>8 participants sur 9 apprécient de savoir comment les points sont comptés</li>
-              <li>9 participants sur 9 trouvent utile les exemples de réponses possibles</li>
+              <li>8 participants sur 9 apprécient de savoir comment les points sont comptés (écran 9)</li>
+              <li>9 participants sur 9 trouvent utile les exemples de réponses possibles (écrans 10 et 11)</li>
               <li>9 participants sur 9 aimeraient avoir le choix de plusieurs playlists dès le tutoriel</li>
             </ul>
+
+            <br>
+            <p><b>Quelques verbatims reflétant les pensées récurentes des joueurs :</b></p>
+            <div class="citation">
+              <p>" Je me suis sentie un peu perdue... j’aimerai avoir un bouton : “Je veux jouer seul” !
+                "</p>
+            </div>
+            <div class="citation">
+              <p>"Ha oui donc il faut pas forcément une réponse super complète ? Juste "Céline" ça suffit ?"</p>
+            </div>
+            <div class="citation">
+              <p>"Ça aurait ete bien qu’il n’y ait le choix entre 2-3 playlists, genre parce que je sais pas si je vais
+                devoir
+                me taper 15 fois Johnny pour pouvoir écouter Pink Floyd par exemple"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Modification des maquettes</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
             <p>
-              Les 3 premiers écrans permettent d'orienter les joueurs selon leur pays, selon le mode de jeu qu'ils
-              souhaitent (entre amis ou pas), et de rappeler les règles.
+              Il semblait nécessaire de <b>simplifier le nombre d'options sur le deuxième écran</b>
+              pour mieux orienter les nouveaux utilisateurs : la plupart d'entre eux étant seuls et ne connaissant pas
+              l'application, il était important de les diriger vers les parties en solo (ou contre d'autres joueurs en
+              ligne) et les faire hésiter le moins possible avec l'option des parties entre amis.
             </p>
-            <div class="citation">
-              <p>"Ha oui donc il faut pas forcément une réponse super complète ? Juste Céline ça suffit ?"</p>
-            </div>
-            <div class="citation">
-              <p>"Ha oui donc il faut pas forcément une réponse super complète ? Juste Céline ça suffit ?"</p>
-            </div>
 
           </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/Mukiz-ecran2-1ere-modif.jpg" alt="Modifications de l'écran 2" />
+          <h5>Modifications de l'écran 2</h5>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Pour le troisième écran, j'ai choisi de proposer quatre playlists</b> issues des plus populaires de
+              l'application. J'ai également ajouté une indication pour informer les utilisateurs qu'ils peuvent répondre
+              avec le clavier ou leur voix. <b>Cette modification permet de supprimer les écrans 4, 5 et 6</b> du
+              tutoriel
+              existant, ce qui réduit le temps d'attente et le nombre de clics avant de lancer la partie.</p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/Mukiz-ecran3-1ere-modif.jpg" alt="Modifications de l'écran 3" />
+          <h5>Modifications de l'écran 3</h5>
+        </div>
+        <div class="colonne1">
+          <a class="link-text"
+            href="https://www.figma.com/proto/gMQdDoJy0WQozFBqdbGkVe/test-maze-1?page-id=36%3A2479&node-id=36-44735&node-type=canvas&viewport=5870%2C621%2C0.56&t=TPAIQ4siAa07KLnC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=36%3A44735">
+            >> Le
+            lien vers ma maquette Figma</a>
         </div>
       </div>
     </div>
@@ -210,6 +254,7 @@ h3 {
   box-shadow: inset 0em -1.2em #adceff;
   box-shadow: inset 0em -1.2em #e2eeff;
   box-shadow: inset 1.2rem 0em #adceff;
+  box-shadow: inset 1.2rem 0em #353051;
   display: inline;
   padding: 0 2rem;
 }
@@ -217,6 +262,11 @@ h3 {
 h5 {
   text-align: right;
   padding: 0.4rem 1.5rem 0 0;
+  /* padding: 0.4rem 1.5rem 0.2rem 1.5rem; */
+  font-size: 1rem;
+  font-style: italic;
+  color: #676767;
+  font-weight: 600;
 }
 
 p,
@@ -315,6 +365,7 @@ button::after {
 .titre-phase {
   /* padding: 1.5rem 0 1rem 0; */
   padding: 0.5rem 0;
+  margin-top: 1rem;
 }
 
 .bloc-phase {
@@ -377,22 +428,50 @@ img {
 /* .maxHeightimg {
   max-height: 400px;
 } */
-.z-index {
+/* .z-index {
   z-index: 3;
   bottom: 0;
   position: absolute;
   width: 100%;
-}
+} */
 
 .citation {
   background: #ddebff;
+  background: #353051;
+  background: linear-gradient(303deg, rgba(26, 30, 54, 1) 60%, rgba(53, 48, 81, 1) 96%);
   margin: 1rem 0rem;
   padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  /* box-shadow: inset 0.1rem 0.4rem rgb(206, 208, 216); */
 }
 
 .citation p {
   margin: 0;
   padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.link-text {
+  font-weight: 700;
+  background: linear-gradient(0deg, #353051 0%, #353051 100%);
+  background-size: 0% 100%;
+  /* Taille initiale de l'arrière-plan en largeur */
+  background-position: 0 100%;
+  /* Placé en bas */
+  background-repeat: no-repeat;
+  /* Pas de répétition de l'arrière-plan */
+  transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.link-text:hover {
+  color: #fff;
+  background-size: 100% 100%;
+  /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
 }
 
 @media (min-width: 471px) {
@@ -437,10 +516,10 @@ img {
     padding: 1rem 2rem;
   }
 
-  .border-left {
+  /* .border-left {
     border-left: #ddebff 5px solid;
     margin: 0 4rem;
-  }
+  } */
 }
 
 @media (min-width: 1135px) {

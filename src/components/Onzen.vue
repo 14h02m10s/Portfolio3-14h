@@ -52,14 +52,14 @@ const remonte = () => {
               <b>Un site web</b> accessible sans compte, permettant de
               rechercher des praticiens, s'informer sur les différentes
               pratiques de médecine complémentaire ainsi que sur l'entreprise
-              On-Zen, et consulter le blog.
+              On-Zen et consulter le blog.
             </li>
             <li>
-              <b>Un dashboard client</b> permettant de prendre rendez-vous pour
+              <b>Un tableau de bord client</b> permettant de prendre rendez-vous pour
               soi ou sa famille avec des praticiens.
             </li>
             <li>
-              <b>Un dashboard professionnel</b> offrant aux praticiens la
+              <b>Un tableau de bord professionnel</b> offrant aux praticiens la
               gestion de leur agenda et carnet d’adresses, rédcation de
               recommandations, édition de factures et campagnes de mailing.
             </li>
@@ -96,16 +96,16 @@ const remonte = () => {
             "flèche" l'étaient. L'icône "localisation" permettait de se
             géolocaliser et l'icône "flèche" permettait d'afficher une barre
             avec un curseur afin de définir le périmètre de recherche (en km)
-            autour de l'adresse indiquée par l'utilisateur. Ces 2 fonctions
+            autour de l'adresse indiquée par l'utilisateur. Ces deux fonctions
             n'étaient pas du tout visibles, je les ai donc rendues à nouvau
             accessibles.
           </p>
           <p>
             Il a également fallu repenser la partie dédiée aux praticiens dans
             la navbar puisqu'elle ne menait qu'à l'inscription des praticiens
-            sans explications suppélmentaires. J'ai ajouté un lien vers une page
+            sans explications supplémentaires. J'ai ajouté un lien vers une page
             tarifs, vers une prise de rendez-vous avec On-Zen pour avoir une
-            démo, et vers la page contact.
+            démo et vers la page contact.
           </p>
         </div>
         <div class="colonne2">
