@@ -76,46 +76,89 @@ const remonte = () => {
         </div>
       </div>
 
+
+      <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Le design system</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Les atomes</b></p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/atomicDesign-onzen-atomes.jpg" alt="atomicDesign-onzen-atomes" />
+          <h5>Les atomes</h5>
+        </div>
+
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Les molécules</b></p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/atomicDesign-onzen-molecules.jpg" alt="atomicDesign-onzen-molecules" />
+          <h5>Les molécules</h5>
+        </div>
+
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Les organismes</b></p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/atomicDesign-onzen-organismes.jpg" alt="atomicDesign-onzen-organismes" />
+          <h5>Les organismes</h5>
+        </div>
+      </div>
+
+
       <div class="bloc-phase">
         <div class="titre-phase">
           <h3>Le site web</h3>
         </div>
         <div class="colonne1">
-          <p><b>La homepage</b></p>
-          <p>
-            La principale modification sur la homepage concernait la partie
-            haute, avec la recherche et une photo d'illustration comportant un visage. J'ai repensé la mise en page pour
-            qu'elle soit plus compacte et que les champs de recherche n'empiètent plus sur le visage. Il fallait
-            également trouver un moyen de faire la promotion de l'offre destinée aux praticiens.
-          </p>
-          <p>
-            Dans les champs de recherche, il y avait des icônes gris clair.
-            L'icône loupe n'était pas cliquable, mais l'icône "localisation" et
-            "flèche" l'étaient. L'icône "localisation" permettait de se
-            géolocaliser et l'icône "flèche" permettait d'afficher une barre
-            avec un curseur afin de définir le périmètre de recherche (en km)
-            autour de l'adresse indiquée par l'utilisateur. Ces deux fonctions
-            n'étaient pas du tout visibles, je les ai donc rendues à nouvau
-            accessibles.
-          </p>
-          <p>
-            Il a également fallu repenser la partie dédiée aux praticiens dans
-            la navbar puisqu'elle ne menait qu'à l'inscription des praticiens
-            sans explications supplémentaires. J'ai décidé de créer un menu déroulant comportant en plus du lien vers la
-            page d'inscription, des liens vers une page expliquant les différents
-            abonnements, vers une page de prise de rendez-vous avec On-Zen pour avoir une
-            démo et vers la page contact.
-          </p>
-          <p>Globalement les éléments prenaient tous beaucoup de place j'ai oeuvré pour réduire la taille de la page en
-            hauteur de façon à ce que ce soit moins laborieux pour la partcourir et harmoniser les espaces.</p>
+          <div class="border-left">
+            <p><b>La homepage</b></p>
+            <p>
+              La première modification sur la homepage concernait la partie
+              haute : la recherche. <b>J'ai repensé la mise en page
+                pour
+                qu'elle soit plus compacte</b> et que les champs de recherche n'empiètent plus sur le visage (quelle que
+              soit la taille de l'écran). Il fallait
+              également trouver un moyen de faire <b>la promotion de l'offre destinée aux praticiens</b>.
+              <br>
+              Ensuite, à l'intérieur des champs de recherche, il y avait des icônes gris clair.
+              L'icône "loupe" n'était pas cliquable, mais l'icône "localisation" et
+              "flèche" l'étaient. L'icône "localisation" permettait de se
+              géolocaliser et l'icône "flèche" permettait d'afficher une barre
+              avec un curseur afin de définir le périmètre de recherche (en km)
+              autour de l'adresse indiquée par l'utilisateur. <b>Ces deux fonctions
+                n'étaient pas du tout visibles à cause de leur couleur gris clair, je les ai donc rendues à nouvau
+                accessibles.</b>
+            </p>
+            <p>
+              <b>Il manquait sur le site des informations cruciales pour les professionnels</b>, comme les différents
+              forfaits
+              et
+              leurs tarifs associés, ou encore une page contact et une prise de rendez-vous avec un commercial (pour
+              avoir une démonstration). J'ai décidé d'intégrer <b>un menu déroulant dans la navbar</b> comportant en
+              plus du
+              lien vers
+              la
+              page d'inscription, des liens vers une page tarifs, une page de prise de rendez-vous avec On-Zen et une
+              page contact (avec un formulaire).
+            </p>
+            <p>Globalement les éléments de la homepage prenaient tous beaucoup de place, j'ai donc oeuvré pour
+              <b>réduire la taille de la page en hauteur</b> de façon à ce l'utilisateur scrolle moins et à harmoniser
+              les espaces et les tailles de polices.
+            </p>
+          </div>
         </div>
+
         <div class="colonne2">
-          <img src="../assets/home-avant-haut-desk.jpg" alt="la home page avant modifications" />
-          <h5>Partie visible sans scroller de la homepage - AVANT</h5>
-        </div>
-        <div class="colonne2">
-          <img src="../assets/on-zen-home-haut.jpg" alt="la home page après modifications" />
-          <h5>Partie visible sans scroller de la homepage - APRÈS</h5>
+          <img src="../assets/Modifs-homepage-Onzen.jpg" alt="Modifications sur la homepage" />
+          <h5>Modifications sur la homepage</h5>
         </div>
       </div>
     </div>
