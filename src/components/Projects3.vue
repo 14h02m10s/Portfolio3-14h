@@ -113,15 +113,18 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
           <a href="#/realisations/onzen"><button class="btn">Voir le projet</button></a>
         </div>
         <p>
-          La plateforme On-Zen
-          <b>connecte praticiens et clients pour des rendez-vous en ligne</b>,
-          tout en sensibilisant le public aux médecines complémentaires. Elle
-          offre aussi aux professionnels
-          <b>des outils pour gérer et développer leur activité</b>. <br /><br />
-          Au lancement, la plateforme manquait de réactivité et de cohérence
-          graphique.
-          <b>Ma mission était de la rendre plus attrayante, rassurante et facile
-            à utiliser.</b>
+          <b>On-Zen, plateforme dédiée à la prise de rendez-vous en ligne,</b> met en relation praticiens et clients
+          tout
+          <b>sensibilisant le public aux médecines complémentaires</b>. Elle fournit également aux professionnels des
+          outils
+          essentiels pour la
+          gestion et
+          le développement de leur activité.
+          <br>
+          <br>
+          La plateforme n'était pas conçue en responsive et manquait également de cohérence graphique. <b>Ma
+            mission
+            était de la rendre plus attrayante, rassurante et facile à utiliser.</b>
         </p>
       </ProjectsItem4>
     </div>

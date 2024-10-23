@@ -43,14 +43,12 @@ const remonte = () => {
           <h3>Remise en contexte</h3>
         </div>
         <div class="colonne1">
-          <!-- <p><b>Mukiz</b></p> -->
           <div class="border-left">
             <p>
               Mukiz est une <b>application de blind test interactif</b>, qui
               réunit des milliers de joueurs quotidiennement et déjà plus de
               250K téléchargements.
             </p>
-            <!-- <p><b>Mukiz et moi</b></p> -->
             <p>
               Dans le cadre de mon rôle d'UX designer, <b>j'ai investigué les obstacles qui bloquaient certains
                 utilisateurs après le téléchargement de l'application, les empêchant de commencer une première
@@ -298,16 +296,6 @@ const remonte = () => {
             </div>
           </div>
         </div>
-        <!-- <div class="colonne1">
-          <div class="border-left">
-            <p><b> Avez-vous appris des choses sur l'écran 3 ?</b>
-            </p>
-          </div>
-          <div class="citation">
-            <p>"J'ai trouvé cet écran très lourd : je sais comment fonctionne un blind test. Le simple choix des 4
-              propositions de playlists pour démarrer m'aurait amplement suffit."</p>
-          </div>
-        </div> -->
       </div>
 
 
@@ -365,11 +353,7 @@ const remonte = () => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
-  /* background: rgb(238 247 248); */
   background: #fff;
-  /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
   width: 100%;
   position: relative;
   padding-top: 5.1rem;
@@ -378,18 +362,6 @@ const remonte = () => {
   min-height: 100vh;
 }
 
-/* #topPage::after {
-  content: "";
-  background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-} */
 .titre {
   width: 100%;
   z-index: 1;
@@ -415,20 +387,19 @@ h3 {
   display: inline;
 }
 
-h5 {
-  text-align: right;
-  padding: 0.4rem 1.5rem 0 0;
-  /* padding: 0.4rem 1.5rem 0.2rem 1.5rem; */
-  font-size: 1rem;
-  font-style: italic;
-  color: #676767;
-  font-weight: 600;
-}
-
 .titre-phase {
   margin-top: 1rem;
   padding: 0 2rem;
   box-shadow: inset 1.2rem 0em #353051;
+}
+
+h5 {
+  text-align: right;
+  padding: 0.4rem 1.5rem 0 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: #676767;
+  font-weight: 600;
 }
 
 p,
@@ -458,7 +429,6 @@ button {
   color: #fff;
   font-size: 1.1rem;
   border: 2px #39335a solid;
-  /* background: none; */
   background-color: #353051;
   background-color: #1a1e36;
   font-weight: 600;
@@ -519,36 +489,19 @@ button::after {
   width: 100%;
   z-index: 1;
   height: fit-content;
-  /* background-color: #b9cfd4; */
-  /* background-color: #c2d8dc; */
-  /* padding: 0rem 1rem 1rem 1rem; */
 }
 
 .bloc-phase {
-  /* border: #5096fe 1px solid; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* gap: 1.3rem; */
-  /* background-color: #656ea6; */
-  /* background-color: #f8f9ff; */
-  /* background: linear-gradient(
-    to bottom right,
-    #5096fe,
-    20%,
-    rgba(80, 150, 254, 0.01) 60%
-  ); */
-  /* padding: 1rem 2rem; */
   margin: 1rem 0;
-  /* border-radius: 1em; */
 }
 
 .colonne1 {
   background-color: #fff;
   height: fit-content;
   width: 100%;
-  /* border-top: 3px solid #e05900;
-  border-bottom: 3px solid #e05900; */
   /* box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem; */
   /* box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem; */
   /* padding: 0.2rem 0.5rem; */
@@ -561,10 +514,8 @@ button::after {
 } */
 
 .colonne2 {
-  /* background-color: rgb(85, 85, 85); */
   /* height: fit-content; */
   width: 100%;
-  /* border: blue 1px solid; */
   padding-bottom: 0;
   height: fit-content;
   /* object-fit: contain; */
@@ -584,26 +535,16 @@ img {
 /* .maxHeightimg {
   max-height: 400px;
 } */
-/* .z-index {
-  z-index: 3;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-} */
 
 .citation {
-  /* background: #ddebff; */
-  /* background: #353051; */
   /* background: linear-gradient(303deg, rgba(26, 30, 54, 1) 60%, rgba(53, 48, 81, 1) 96%); */
   background: rgb(245, 247, 255);
-
   margin: 1rem 0rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   box-shadow: inset 0.1rem 0.3rem rgb(34, 40, 65);
   border: 1px #353051 solid;
   box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 rgb(34, 40, 65);
-
 }
 
 .citation p {
@@ -648,8 +589,6 @@ img {
 
   .container1 {
     width: 95%;
-    /* max-width: 700px; */
-    /* padding: 0rem 2rem 3rem 2rem; */
   }
 
   .colonne1 {
@@ -695,11 +634,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: start; */
-    /* width: 85%; */
     max-width: 1135px;
     z-index: 1;
-    /* padding: 0rem 3rem 3rem 3rem; */
   }
 
   h2 {
@@ -722,20 +658,5 @@ img {
     margin: 1.5rem 4rem;
     padding: 1rem 2rem;
   }
-
-  /* .bloc-phase {
-    display: flex;
-    flex-direction: row;
-  }
-  .colonne1 {
-    width: 40%;
-  }
-  .colonne2 {
-    width: 60%;
-  } */
-  /* img {
-    max-width: 100%;
-    height: 100%;
-  } */
 }
 </style>

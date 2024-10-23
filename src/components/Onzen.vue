@@ -36,12 +36,11 @@ const remonte = () => {
       <div class="colonne2">
         <img class="maxHeightimg" src="../assets/banniere-on-zen2.jpg" alt="banniere avec logo On-Zen" />
       </div>
-      <div class="titre-phase">
-        <h3>Remise en contexte</h3>
-      </div>
       <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Remise en contexte</h3>
+        </div>
         <div class="colonne1">
-          <p><b>On-Zen</b></p>
           <p>
             On-Zen est une plateforme dédiée à la mise en relation de praticiens
             de médecines complémentaires et de clients. Elle se compose de 3
@@ -60,12 +59,11 @@ const remonte = () => {
             </li>
             <li>
               <b>Un tableau de bord professionnel</b> offrant aux praticiens la
-              gestion de leur agenda et carnet d’adresses, rédcation de
+              gestion de leur agenda et carnet d’adresses, rédaction de
               recommandations, édition de factures et campagnes de mailing.
             </li>
           </ol>
           <br />
-          <p><b>Mon rôle chez On-Zen</b></p>
 
           <p>
             J'ai tout d'abord analysé le profil des utilisateurs et la charte
@@ -78,17 +76,17 @@ const remonte = () => {
         </div>
       </div>
 
-      <div class="titre-phase">
-        <h3>Le site web</h3>
-      </div>
       <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Le site web</h3>
+        </div>
         <div class="colonne1">
           <p><b>La homepage</b></p>
           <p>
             La principale modification sur la homepage concernait la partie
-            haute, avec la recherche et une photo d'illustration (visage), afin
-            qu'elle soit plus compacte et mieux pensée d'un point de vue
-            expérience utilisateur.
+            haute, avec la recherche et une photo d'illustration comportant un visage. J'ai repensé la mise en page pour
+            qu'elle soit plus compacte et que les champs de recherche n'empiètent plus sur le visage. Il fallait
+            également trouver un moyen de faire la promotion de l'offre destinée aux praticiens.
           </p>
           <p>
             Dans les champs de recherche, il y avait des icônes gris clair.
@@ -103,10 +101,13 @@ const remonte = () => {
           <p>
             Il a également fallu repenser la partie dédiée aux praticiens dans
             la navbar puisqu'elle ne menait qu'à l'inscription des praticiens
-            sans explications supplémentaires. J'ai ajouté un lien vers une page
-            tarifs, vers une prise de rendez-vous avec On-Zen pour avoir une
+            sans explications supplémentaires. J'ai décidé de créer un menu déroulant comportant en plus du lien vers la
+            page d'inscription, des liens vers une page expliquant les différents
+            abonnements, vers une page de prise de rendez-vous avec On-Zen pour avoir une
             démo et vers la page contact.
           </p>
+          <p>Globalement les éléments prenaient tous beaucoup de place j'ai oeuvré pour réduire la taille de la page en
+            hauteur de façon à ce que ce soit moins laborieux pour la partcourir et harmoniser les espaces.</p>
         </div>
         <div class="colonne2">
           <img src="../assets/home-avant-haut-desk.jpg" alt="la home page avant modifications" />
@@ -133,12 +134,7 @@ const remonte = () => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  /* background: linear-gradient(to top, #1c657c, #1c4856 50%, #1c4856 50%); */
-  /* background: rgb(238 247 248); */
   background: #fff;
-  /* background: linear-gradient(to bottom, #b5cad1, #f7feff 70%, #f7feff 70%); */
-
   width: 100%;
   position: relative;
   padding-top: 5.1rem;
@@ -147,18 +143,6 @@ const remonte = () => {
   min-height: 100vh;
 }
 
-/* #topPage::after {
-  content: "";
-  background-image: url(../assets/fonds/fluffy-clouds-are-colored-by-a-setting-sun.png);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-} */
 .titre {
   width: 100%;
   z-index: 1;
@@ -181,17 +165,34 @@ h3 {
   font-weight: 600;
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
+  display: inline;
+}
+
+.titre-phase {
+  margin-top: 1rem;
+  padding: 0 2rem;
+  box-shadow: inset 1.2rem 0em #353051;
 }
 
 h5 {
   text-align: right;
-  padding-top: 0.3rem;
+  padding: 0.4rem 1.5rem 0 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: #676767;
+  font-weight: 600;
 }
 
 p,
+ul,
 ol {
   font-weight: 500;
-  margin: 1rem;
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0 0 0 2rem;
 }
 
 button,
@@ -209,7 +210,6 @@ button {
   color: #fff;
   font-size: 1.1rem;
   border: 2px #39335a solid;
-  /* background: none; */
   background-color: #353051;
   background-color: #1a1e36;
   font-weight: 600;
@@ -270,39 +270,33 @@ button::after {
   width: 100%;
   z-index: 1;
   height: fit-content;
-  /* background-color: #b9cfd4; */
-  /* background-color: #c2d8dc; */
-  padding: 0rem 1rem 1rem 1rem;
-}
-
-.titre-phase {
-  padding: 1.5rem 0 1rem 0;
 }
 
 .bloc-phase {
-  /* border: red 1px solid; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.3rem;
+  margin: 1rem 0;
 }
 
 .colonne1 {
   background-color: #fff;
   height: fit-content;
   width: 100%;
-  /* border-top: 3px solid #e05900;
-  border-bottom: 3px solid #e05900; */
   /* box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem; */
-  box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem;
-  padding: 0.2rem 0.5rem;
+  /* box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem; */
+  /* padding: 0.2rem 0.5rem; */
+  padding: 1rem 1.5rem;
 }
 
+/* .border-left {
+  border-left: #353051 10px solid;
+  margin: 0 2rem;
+} */
+
 .colonne2 {
-  /* background-color: rgb(85, 85, 85); */
   /* height: fit-content; */
   width: 100%;
-  /* border: blue 1px solid; */
   padding-bottom: 0;
   height: fit-content;
   /* object-fit: contain; */
@@ -315,19 +309,52 @@ img {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
-  box-shadow: rgba(0, 0, 0, 0.09) 0.3rem 0.3rem 0.5rem;
-  /* box-shadow: rgba(57, 51, 90, 0.2) 0.3rem 0.3rem 0.5rem; */
+  box-shadow: rgba(0, 0, 0, 0.2) 0rem 0rem 0.8rem;
+  margin: 0.5rem 0;
 }
 
-.maxHeightimg {
+/* .maxHeightimg {
   max-height: 400px;
+} */
+
+.citation {
+  /* background: linear-gradient(303deg, rgba(26, 30, 54, 1) 60%, rgba(53, 48, 81, 1) 96%); */
+  background: rgb(245, 247, 255);
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: inset 0.1rem 0.3rem rgb(34, 40, 65);
+  border: 1px #353051 solid;
+  box-shadow: -0.2rem -0.2rem #656ea6, 0.4rem 0.4rem 0 rgb(34, 40, 65);
 }
 
-.z-index {
-  z-index: 3;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
+.citation p {
+  margin: 0;
+  padding: 0;
+  /* color: #fff; */
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.link-text {
+  font-weight: 700;
+  background: linear-gradient(0deg, #353051 0%, #353051 100%);
+  background-size: 0% 100%;
+  /* Taille initiale de l'arrière-plan en largeur */
+  background-position: 0 100%;
+  /* Placé en bas */
+  background-repeat: no-repeat;
+  /* Pas de répétition de l'arrière-plan */
+  transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.link-text:hover {
+  color: #fff;
+  background-size: 100% 100%;
+  /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
 }
 
 @media (min-width: 471px) {
@@ -343,9 +370,37 @@ img {
 
   .container1 {
     width: 95%;
-    max-width: 700px;
-    /* padding: 0rem 2rem 3rem 2rem; */
   }
+
+  .colonne1 {
+    padding: 0.5rem 2rem;
+  }
+
+  h5 {
+    padding: 0.4rem 0 0 0;
+  }
+
+  p,
+  ul,
+  ol {
+    margin: 1rem 0rem;
+    padding: 0 2rem;
+  }
+
+  ul,
+  ol {
+    padding: 0 2rem 0 4rem;
+  }
+
+  .citation {
+    margin: 1.5rem 1rem;
+    padding: 1rem 2rem;
+  }
+
+  /* .border-left {
+    border-left: #ddebff 5px solid;
+    margin: 0 4rem;
+  } */
 }
 
 @media (min-width: 1135px) {
@@ -360,33 +415,29 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    width: 85%;
-    max-width: 900px;
+    max-width: 1135px;
     z-index: 1;
-    /* padding: 0rem 3rem 3rem 3rem; */
   }
 
   h2 {
     font-size: 2.7rem;
   }
 
-  /* .bloc-phase {
-    display: flex;
-    flex-direction: row;
+  p,
+  ul,
+  ol {
+    margin: 1.5rem 0rem;
+    padding: 0 2rem;
   }
-  .colonne1 {
-    width: 40%;
+
+  ul,
+  ol {
+    padding: 0 2rem 0 4rem;
   }
-  .colonne2 {
-    width: 60%;
-  } */
-  /* img {
-    max-width: 100%;
-    height: 100%;
-  } */
-  .colonne1 {
-    padding: 0.5rem 1rem;
+
+  .citation {
+    margin: 1.5rem 4rem;
+    padding: 1rem 2rem;
   }
 }
 </style>
