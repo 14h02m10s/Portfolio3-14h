@@ -36,6 +36,8 @@ const remonte = () => {
       <div class="colonne2">
         <img class="maxHeightimg" src="../assets/banniere-Mukiz2.jpg" alt="banniere Mukiz" />
       </div>
+
+
       <div class="bloc-phase">
         <div class="titre-phase">
           <h3>Remise en contexte</h3>
@@ -45,8 +47,8 @@ const remonte = () => {
           <div class="border-left">
             <p>
               Mukiz est une <b>application de blind test interactif</b>, qui
-              réunit des milliers de joueurs quotidiennement. Elle compte plus de
-              250K de téléchargements.
+              réunit des milliers de joueurs quotidiennement et déjà plus de
+              250K téléchargements.
             </p>
             <!-- <p><b>Mukiz et moi</b></p> -->
             <p>
@@ -57,6 +59,7 @@ const remonte = () => {
           </div>
         </div>
       </div>
+
 
       <div class="bloc-phase">
         <div class="titre-phase">
@@ -82,12 +85,12 @@ const remonte = () => {
         <div class="colonne1">
           <div class="border-left">
             <p>
-              Le tutoriel commence avec des écrans qui montrent aux utilisteurs les fonctions de micro,
+              Le tutoriel commence avec des écrans qui montrent aux utilisateurs les fonctions de micro,
               clavier et le bouton pour passer à l'extrait suivant si on ne sait pas répondre (écrans 4, 5 et 6).
             </p>
             <p>
-              La partie se lance et une pop up apparait (écran 7) rappelant que l'on peut utiliser
-              le micro ou le clavier pour donner ses réponses. L'écran 8 est celui qui apparait lorsque la musique se
+              La partie se lance et une pop-up apparaît (écran 7) rappelant que l'on peut utiliser
+              le micro ou le clavier pour donner ses réponses. L'écran 8 est celui qui apparaît lorsque la musique se
               lance et que l'on peut jouer.
             </p>
           </div>
@@ -99,9 +102,9 @@ const remonte = () => {
         <div class="colonne1">
           <div class="border-left">
             <p>
-              Entre le 1er et le 2ème extrait musical, 3 pop-ups apparaissent (écrans 9, 10, 11)
-              pour informer comment les points sont comptés ainsi que des réponses autorisées et non autorisées.
-              Le tutoriel continue, et se termine, avec un 2ème extrait musical à découvrir (écrans 12 et 13).
+              Entre le 1er et le 2e extrait musical, 3 pop-ups apparaissent (écrans 9, 10, 11) pour informer comment les
+              points sont comptés ainsi que des réponses autorisées et non autorisées. Le tutoriel continue, et se
+              termine, avec un 2e extrait musical à découvrir (écrans 12 et 13).
             </p>
           </div>
         </div>
@@ -110,6 +113,8 @@ const remonte = () => {
           <h5>Les 5 derniers écrans du tutoriel</h5>
         </div>
       </div>
+
+
       <div class="bloc-phase">
         <div class="titre-phase">
           <h3>Premiers tests utilisateurs</h3>
@@ -118,36 +123,38 @@ const remonte = () => {
           <div class="border-left">
             <p>
               J'ai rédigé un guide d'entretien et
-              j'ai recruté des utilisateurs. <b>Les résultats des tests que j'ai mené en synchrone sont ceux-ci :</b>
+              j'ai recruté des utilisateurs. <b>Les résultats des tests que j'ai menés en synchrone sont ceux-ci :</b>
             </p>
 
             <ul>
-              <li>2 participants sur 9 auraient passé le tuto s’ils avaient vu le bouton (les écrans 3, 4, 5 et 6)</li>
-              <li>3 participants sur 9 estiment qu’ils n’ont rien appris (ou pas grand chose) d’intéressant sur le 3ᵉ
-                écran</li>
-              <li>4 participants sur 9 auraient aimé commencer à jouer plus vite</li>
-              <li>8 participants sur 9 apprécient de savoir comment les points sont comptés (écran 9)</li>
-              <li>9 participants sur 9 trouvent utile les exemples de réponses possibles (écrans 10 et 11)</li>
-              <li>9 participants sur 9 aimeraient avoir le choix de plusieurs playlists dès le tutoriel</li>
+              <li>2 participants sur 9 auraient passé le tuto s’ils avaient vu le bouton (les écrans 3, 4, 5 et 6).</li>
+              <li>3 participants sur 9 estiment qu’ils n’ont rien appris (ou pas grand-chose) d’intéressant sur le 3ᵉ
+                écran.</li>
+              <li>4 participants sur 9 auraient aimé commencer à jouer plus vite.</li>
+              <li>8 participants sur 9 apprécient de savoir comment les points sont comptés (écran 9).</li>
+              <li>9 participants sur 9 trouvent utiles les exemples de réponses possibles (écrans 10 et 11).</li>
+              <li>9 participants sur 9 aimeraient avoir le choix de plusieurs playlists dès le tutoriel.</li>
             </ul>
 
             <br>
-            <p><b>Quelques verbatims reflétant les pensées récurentes des joueurs :</b></p>
-            <div class="citation">
-              <p>" Je me suis sentie un peu perdue... j’aimerai avoir un bouton : “Je veux jouer seul” !
-                "</p>
-            </div>
-            <div class="citation">
-              <p>"Ha oui donc il faut pas forcément une réponse super complète ? Juste "Céline" ça suffit ?"</p>
-            </div>
-            <div class="citation">
-              <p>"Ça aurait ete bien qu’il n’y ait le choix entre 2-3 playlists, genre parce que je sais pas si je vais
-                devoir
-                me taper 15 fois Johnny pour pouvoir écouter Pink Floyd par exemple"</p>
-            </div>
+            <p><b>Quelques verbatims reflétant les pensées récurrentes des joueurs :</b></p>
+
+          </div>
+          <div class="citation">
+            <p>" Je me suis sentie un peu perdue... j’aimerai avoir un bouton : “Je veux jouer seul” !
+              "</p>
+          </div>
+          <div class="citation">
+            <p>"Ha oui donc il faut pas forcément une réponse super complète ? Juste "Céline" ça suffit ?"</p>
+          </div>
+          <div class="citation">
+            <p>"Ça aurait ete bien qu’il n’y ait le choix entre 2-3 playlists, genre parce que je sais pas si je vais
+              devoir
+              me taper 15 fois Johnny pour pouvoir écouter Pink Floyd par exemple."</p>
           </div>
         </div>
       </div>
+
 
       <div class="bloc-phase">
         <div class="titre-phase">
@@ -159,7 +166,7 @@ const remonte = () => {
               Il semblait nécessaire de <b>simplifier le nombre d'options sur le deuxième écran</b>
               pour mieux orienter les nouveaux utilisateurs : la plupart d'entre eux étant seuls et ne connaissant pas
               l'application, il était important de les diriger vers les parties en solo (ou contre d'autres joueurs en
-              ligne) et les faire hésiter le moins possible avec l'option des parties entre amis.
+              ligne) et de les faire hésiter le moins possible avec l'option des parties entre amis.
             </p>
             <p><b>Pour le troisième écran, j'ai choisi de supprimer l'encart sur la gamification et de plutôt proposer
                 quatre playlists</b> issues des plus populaires de
@@ -176,9 +183,11 @@ const remonte = () => {
         <div class="colonne1">
           <a class="link-text" target="_blank"
             href="https://www.figma.com/proto/gMQdDoJy0WQozFBqdbGkVe/test-maze-1?page-id=36%3A2479&node-id=36-44735&node-type=canvas&viewport=5870%2C621%2C0.56&t=TPAIQ4siAa07KLnC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=36%3A44735">
-            >> Tester la maquette avec les premières modifications</a>
+            >> Tester le prototype Figma avec les premières modifications</a>
         </div>
       </div>
+
+
       <div class="bloc-phase">
         <div class="titre-phase">
           <h3>Seconds tests utilisateurs</h3>
@@ -186,56 +195,110 @@ const remonte = () => {
         <div class="colonne1">
           <div class="border-left">
             <p>
-              J'ai mis en place un test asynchrone sur Maze et une quarantaine de personnes ont répondu. Voici ce qui
-              ressort de ces test : </p>
-            <p><b>Quelle importance les utilisateurs accordent-ils aux points</b> (lors d'un blind test) ?
+              Voici ce qui ressort du <b>test asynchrone sur Maze</b> que j'ai mis en place : </p>
+            <p><b>Les joueurs accordent de l'importance au fait de gagner des points.</b> En effet sur les 36
+              participants,
+              seulement 8 estiment que cela n'a pas ou peu d'importance.
             </p>
-            <ul>
+            <!-- <ul>
               <li>3 participants sur 36 = très peu</li>
               <li>5 participants sur 36 = peu</li>
               <li><b>10 participants sur 36 = moyennement</b></li>
               <li><b>7 participants sur 36 = pas mal</b></li>
               <li><b>11 participants sur 36 = beaucoup</b></li>
-            </ul>
-          </div>
-          <div class="citation">
-            <p>"Ce serait bien d'avoir les solutions pour gagner le max de points possible"</p>
-          </div>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p><b>Sur les écrans 1 et 2, y a t-il quelque chose qui vous a ennuyé ou que vous n'avez pas compris ?</b>
+            </ul> -->
+            <p> Sur l'écran 1, <b>certains utilisateurs se demandent si le choix d'aller vers "France" ou "reste du
+                monde" va impacter les musiques qu'ils auront</b> (ou sur la langue de l'interface). Il s'avère que si
+              un utilisateur
+              choisit "France" il jouera automatiquement avec la playlist "best of français", alors que s'il choisit
+              "Reste du monde", il jouera automatiquement avec la playlist "best of international". Et concernant la
+              langue, l'application n'existe qu'en français pour l'instant.</p>
+            <p><b>97% des utilisateurs arrivent à bon port</b> pour la 1re phase du test, même si 24% font des détours,
+              je pense que sur ces 22%, une grosse majorité veut explorer, et voir ce qui marche, et ce qui ne marche
+              pas. <b>Certains aussi, se dirigent vers les parties entre amis,</b> car ils n'envisagent pas de jouer
+              seul.
             </p>
           </div>
-          <div class="citation">
-            <p>"Je me suis posé la question de savoir si le fait de choisir "France" allait influencer la playlist
-              (chansons Françaises uniquement...)"</p>
-          </div>
-          <div class="citation">
-            <p>"La distinction entre jouer seul ou entre amis"</p>
-          </div>
+
         </div>
+        <div class="citation">
+          <p>"Je me suis posé la question de savoir si le fait de choisir "France" allait influencer la playlist
+            (chansons françaises uniquement...)"</p>
+        </div>
+        <div class="citation">
+          <p>"Je ne joue jamais seule, alors j'ai essayé la partie "Jouer en groupe" mais ça ne fonctionnait pas."</p>
+        </div>
+        <div class="citation">
+          <p>"Le check pour solo/multijoueur m'a perturbé, j'ai cru qu'on pouvait sélectionner les deux"</p>
+        </div>
+
+        <div class="colonne2">
+          <img src="../assets/resume-1er-parcours-mukiz-maze.png" alt="Screen ecran maze 1ere phase du test" />
+          <h5>Résultats de la 1ere phase de test</h5>
+        </div>
+
         <div class="colonne1">
           <div class="border-left">
-            <p><b>À quel point êtes-vous pressé de jouer ?</b> (après avoir passé les 2 premiers écrans)
+            <!-- <p><b>À quel point êtes-vous pressé de jouer ?</b> (après avoir passé les 2 premiers écrans)
+            </p> -->
+            <p>À la fin de la 1re phase de ce test, <b>73% des participants ont déclaré avoir envie, voir très envie de
+                jouer
+              </b>.
             </p>
-            <ul>
+            <!-- <ul>
               <li>1 participants sur 30 = très peu</li>
               <li>2 participants sur 30 = peu</li>
               <li>5 participants sur 30 = moyennement</li>
               <li><b>7 participants sur 30 = pas mal</b></li>
               <li><b>15 participants sur 30 = beaucoup</b></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="citation">
             <p>"J’ai envie de jouer et sélectionner une playlist."</p>
           </div>
           <div class="citation">
-            <p>"Je ne connaissais pas cette application j'ai envie de
+            <p>"Je ne connaissais pas cette application, j'ai envie de
               la télécharger actuellement."</p>
           </div>
+
+          <div class="border-left">
+            <!-- <p><b> Si vous avez cliqué sur le bouton 'voir les astuces', quel a été votre ressenti ? </b> Et si vous
+              n'avez pas vu cette page, que souhaiteriez-vous y trouver ?
+            </p> -->
+            <p>Au début de la 2e phase de test, les utilisateurs avaient le choix entre lancer directement la partie
+              ou
+              aller voir les
+              astuces. <b>Les résultats sont très équilibrés</b> puisque :</p>
+            <ul>
+              <li><b>15/31 n’ont pas cliqué sur les astuces.</b></li>
+              <li><b>16/31 ont cliqué sur les astuces.</b> Parmi ces 16 utilisateurs, 8 ont cliqué sur le bouton "
+                Démarrer la partie" présent sur la pop-up des astuces, 8 sont revenus sur l’écran 3 (soit par habitude
+                faire "retour" ? soit pour
+                choisir une playlist ?) et ont ensuite cliqué sur "Démarrer la partie".</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="colonne2">
+          <img src="../assets/resume-2eme-parcours-mukiz-maze.png" alt="Screen ecran maze 2eme phase du test" />
+          <h5>Résultats de la 2eme phase de test</h5>
         </div>
         <div class="colonne1">
+          <div class="border-left">
+
+            <div class="citation">
+              <p>"Je n'ai pas cliqué sur le bouton voir les astuces pour pouvoir jouer plus rapidement. Je trouve plus
+                intéressant l'idée d'avoir des astuces entre 2 parties par exemple."</p>
+            </div>
+            <div class="citation">
+              <p>"J'aurai bien aimé avoir une petite explication simple sur les points (qui sont la base dans tout jeu
+                de
+                blind test).
+                "</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="colonne1">
           <div class="border-left">
             <p><b> Avez-vous appris des choses sur l'écran 3 ?</b>
             </p>
@@ -244,32 +307,34 @@ const remonte = () => {
             <p>"J'ai trouvé cet écran très lourd : je sais comment fonctionne un blind test. Le simple choix des 4
               propositions de playlists pour démarrer m'aurait amplement suffit."</p>
           </div>
-          <div class="border-left">
-            <p><b> Si vous avez cliqué sur le bouton 'voir les astuces', quel a été votre ressenti ? </b> Et si vous
-              n'avez pas vu cette page, que souhaiteriez-vous y trouver ?
-            </p>
-          </div>
-          <div class="citation">
-            <p>"Je n'ai pas cliqué sur le bouton voir les astuces pour pouvoir jouer plus rapidement. Je trouve plus
-              intéressant l'idée d'avoir des astuces entre 2 parties par exemple."</p>
-          </div>
-          <div class="citation">
-            <p>"J'aurai bien aimé avoir une petite explication simple sur les points (qui sont la base dans tout jeu de
-              blind test).
-              "</p>
-          </div>
-        </div>
-
-
+        </div> -->
       </div>
+
+
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>Itération sur les maquettes</h3>
+          <h3>Modification des maquettes pour l'intégration</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
             <p>
-
+              Voici les dernières modifications apportées aux maquettes avant intégration :
+            <ul>
+              <li><b>Simplification des boutons</b> servant à orienter les joueurs à leur arrivée dans l'application,
+                afin de passer de 2 clics à un seul (suppression des cases à cocher vertes).</li>
+              <li><b>Ajustement du wording</b> des écrans 2 et 3 pour les rendre <b>plus courts et plus clairs</b>.</li>
+              <li><b>Retrait de la consigne n°2</b> sur l'écran 3, elle est <b>visible sur la pop-up</b>
+                qui apparaît juste avant le début de la partie. Ajout d’un bouton de validation pour garantir que
+                l'utilisateur ait le temps de lire cette pop-up.</li>
+              <li><b>Suppression du bouton 'Voir les astuces'</b>, les astuces étant à nouveau intégrées sur des pop-ups
+                entre le 1er et
+                le 2ème extrait musical, durant la première partie.</li>
+              <li><b>Remaniement du wording et de la mise en page des pop-ups d'astuces</b> pour une <b>lecture plus
+                  fluide</b> et des <b>exemples mieux adaptés</b>, tant en français qu'à l'international. <b>Remise en
+                  place également de la pop-up explicative sur les points.</b>
+              </li>
+              <li>Ajout d'un bouton, accessible pendant la partie, pour revoir les astuces à tout moment.</li>
+            </ul>
             </p>
           </div>
         </div>
@@ -280,16 +345,17 @@ const remonte = () => {
         <div class="colonne1">
           <a class="link-text" target="_blank"
             href="https://www.figma.com/proto/sWBZiWPbAUpI1cmEt5cMQC/onboarding---maquettes-finales-pour-dev?page-id=146%3A634&node-id=198-24113&node-type=frame&viewport=2543%2C-197%2C0.2&t=YWkgTHeTRawGddPp-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=198%3A24113&show-proto-sidebar=1">
-            >> Tester La maquette finale</a>
+            >> Tester le prototype Figma final</a>
         </div>
       </div>
     </div>
+
     <div class="btn-return">
       <button class="btn-rond" @click="remonte">
         <span class="material-symbols-rounded"> keyboard_double_arrow_up </span>
       </button>
-      <!-- </a> -->
     </div>
+
   </div>
   <Footer2 />
 </template>
