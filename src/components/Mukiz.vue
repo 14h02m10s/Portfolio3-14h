@@ -412,12 +412,7 @@ h3 {
   font-weight: 600;
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
-  box-shadow: inset 0em -1.2em #adceff;
-  box-shadow: inset 0em -1.2em #e2eeff;
-  box-shadow: inset 1.2rem 0em #adceff;
-  box-shadow: inset 1.2rem 0em #353051;
   display: inline;
-  padding: 0 2rem;
 }
 
 h5 {
@@ -428,6 +423,12 @@ h5 {
   font-style: italic;
   color: #676767;
   font-weight: 600;
+}
+
+.titre-phase {
+  margin-top: 1rem;
+  padding: 0 2rem;
+  box-shadow: inset 1.2rem 0em #353051;
 }
 
 p,
@@ -521,12 +522,6 @@ button::after {
   /* background-color: #b9cfd4; */
   /* background-color: #c2d8dc; */
   /* padding: 0rem 1rem 1rem 1rem; */
-}
-
-.titre-phase {
-  /* padding: 1.5rem 0 1rem 0; */
-  padding: 0.5rem 0;
-  margin-top: 1rem;
 }
 
 .bloc-phase {
