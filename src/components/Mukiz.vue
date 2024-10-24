@@ -327,7 +327,7 @@ const remonte = () => {
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/Mukiz-screen-maquette-finale.png" alt="Maquette finale vue prototype sur figma" />
+          <img src="../assets/Mukiz-screen-maquette-finale.jpg" alt="Maquette finale vue prototype sur figma" />
           <h5>Aperçu de la maquette finale</h5>
         </div>
         <div class="colonne1">

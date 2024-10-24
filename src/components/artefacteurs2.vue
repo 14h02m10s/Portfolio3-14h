@@ -331,7 +331,7 @@ const remonte = () => {
           <h5>Une heatmap du test asynchrone fait sur Maze</h5>
         </div>
         <div class="colonne2">
-          <img src="../assets/restitution-recos.png" alt="les resititutions des entretiens" />
+          <img src="../assets/restitution-recos.jpg" alt="les resititutions des entretiens" />
           <h5>
             L'analyse des entretiens synchrones, avec mise en évidence des
             points bloquants (en rouge)
@@ -366,11 +366,11 @@ const remonte = () => {
           <h5>La correction de la recommandation ci-dessus</h5>
         </div>
         <div class="colonne2">
-          <img src="../assets/proto1.png" alt="Page d'accueil et page mentorat avant les corrections" />
+          <img src="../assets/proto1.jpg" alt="Page d'accueil et page mentorat avant les corrections" />
           <h5>Page d'accueil et page mentorat avant les corrections</h5>
         </div>
         <div class="colonne2">
-          <img src="../assets/proto2.png" alt="Page d'accueil et page mentorat après les corrections" />
+          <img src="../assets/proto2.jpg" alt="Page d'accueil et page mentorat après les corrections" />
           <h5>Page d'accueil et page mentorat après les corrections</h5>
         </div>
       </div>

@@ -124,10 +124,14 @@ const remonte = () => {
         <div class="titre-phase">
           <h3>Le site web</h3>
         </div>
-        <div class="colonne1">
+        <div class="colonne1 espace-supp-colonne1">
           <a class="link-text" target="_blank"
             href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3038-18638&node-type=canvas&viewport=-174%2C627%2C0.13&t=xGEpiWbtTU6jMRpu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3038%3A18638&show-proto-sidebar=1">
             >> Tester le prototype final sur Figma</a>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/Vue-ensemble-On-Zen.jpg" alt="Vue globale des pages sur figma" />
+          <h5>Ensemble des pages réalisées</h5>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -192,17 +196,40 @@ const remonte = () => {
           </div>
         </div> -->
 
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Les autres pages du site</b></p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/Page-nosPratiques-onzen.jpg" alt="Page nos pratiques avant/après" />
+          <h5>Page nos pratiques avant/après</h5>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/page-notreHistoire-Onzen.jpg" alt="Page notre histoire avant/après" />
+          <h5>Page notre histoire avant/après</h5>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/pages-news-onzen.jpg" alt="Page article de blog avant/après" />
+          <h5>Page blog avant/après</h5>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/Page-article-blog-onzen.jpg" alt="Page blog avant/après" />
+          <h5>Page article de blog avant/après</h5>
+        </div>
+
+
       </div>
 
 
 
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>L'inscription et la connexion</h3>
+          <h3>Le tableau de bord</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
-            <!-- <p><b>La homepage</b></p> -->
+            <p><b>L'inscription et la connexion</b></p>
             <p>
               Les pages donnant accès aux tableaux de bord (soit professionnel, soit client) étaient également à revoir.
               J'ai harmonisé ces 3 pages en créant une fenêtre à 3 onglets. L'inscription pour les professionnels étant
@@ -212,12 +239,35 @@ const remonte = () => {
         </div>
 
         <div class="colonne2">
-          <img src="../assets/Inscription-connexion-onzen-avant.jpg" alt="Inscription-connexion-onzen-avant" />
-          <h5>Les pages de connexion et inscriptions avant modification</h5>
+          <img src="../assets/Inscription-connexion-onzen-avant-apres.jpg"
+            alt="Inscription-connexion-onzen-avant et après" />
+          <h5>Les pages de connexion et inscriptions avant et après modification</h5>
         </div>
+
+        <div class="colonne1">
+          <div class="border-left">
+            <a class="link-text" target="_blank" href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3038-25408&node-type=frame&viewport=-1900%2C2826%2C0.25&t=FyfzBmjzYwx9r4dh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3038%3A25408&show-proto-sidebar=1
+">
+              >> Voir l'inscription des professionnels</a>
+          </div>
+        </div>
+
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Le tableau de bord client</b></p>
+          </div>
+        </div>
+
         <div class="colonne2">
-          <img src="../assets/Inscription-connexion-onzen-apres.jpg" alt="Inscription-connexion-onzen-apres" />
-          <h5>Les pages de connexion et inscriptions après modification</h5>
+          <img src="../assets/tableau-bord-client-onzen.jpg" alt="Aperçu du tableau de bord client" />
+          <h5>Aperçu du tableau de bord client</h5>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <a class="link-text" target="_blank"
+              href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3128-34591&node-type=frame&viewport=-1900%2C2826%2C0.25&t=FyfzBmjzYwx9r4dh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3128%3A34591&show-proto-sidebar=1">
+              >> Voir le tableau de bord client en entier</a>
+          </div>
         </div>
       </div>
     </div>
@@ -279,7 +329,7 @@ h3 {
 
 h5 {
   text-align: right;
-  padding: 0.4rem 1.5rem 0 0;
+  padding: 0.4rem 1.5rem 1rem 0;
   font-size: 1rem;
   font-style: italic;
   color: #676767;
@@ -479,8 +529,12 @@ img {
     padding: 0.5rem 2rem;
   }
 
+  .espace-supp-colonne1 {
+    padding: 2rem 1.5rem;
+  }
+
   h5 {
-    padding: 0.4rem 0 0 0;
+    padding: 0.4rem 0 1.2rem 0;
   }
 
   p,
