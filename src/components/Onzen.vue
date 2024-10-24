@@ -36,6 +36,7 @@ const remonte = () => {
       <div class="colonne2">
         <img class="maxHeightimg" src="../assets/banniere-on-zen2.jpg" alt="banniere avec logo On-Zen" />
       </div>
+
       <div class="bloc-phase">
         <div class="titre-phase">
           <h3>Remise en contexte</h3>
@@ -191,20 +192,19 @@ const remonte = () => {
           <img src="../assets/Inscription-connexion-onzen-avant.jpg" alt="Inscription-connexion-onzen-avant" />
           <h5>Les pages de connexion et inscriptions avant modification</h5>
         </div>
-      </div>
-      <div class="colonne2">
-        <img src="../assets/Inscription-connexion-onzen-apres.jpg" alt="Inscription-connexion-onzen-apres" />
-        <h5>Les pages de connexion et inscriptions après modification</h5>
+        <div class="colonne2">
+          <img src="../assets/Inscription-connexion-onzen-apres.jpg" alt="Inscription-connexion-onzen-apres" />
+          <h5>Les pages de connexion et inscriptions après modification</h5>
+        </div>
       </div>
     </div>
+    <div class="btn-return">
+      <button class="btn-rond" @click="remonte">
+        <span class="material-symbols-rounded"> keyboard_double_arrow_up </span>
+      </button>
+    </div>
+  </div>
 
-  </div>
-  <div class="btn-return">
-    <button class="btn-rond" @click="remonte">
-      <span class="material-symbols-rounded"> keyboard_double_arrow_up </span>
-    </button>
-    <!-- </a> -->
-  </div>
   <!-- </div> -->
   <Footer2 />
 </template>
