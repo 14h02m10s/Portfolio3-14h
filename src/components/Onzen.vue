@@ -127,7 +127,7 @@ const remonte = () => {
         <div class="colonne1">
           <a class="link-text" target="_blank"
             href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3038-18638&node-type=canvas&viewport=-174%2C627%2C0.13&t=xGEpiWbtTU6jMRpu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3038%3A18638&show-proto-sidebar=1">
-            >> Tester le prototype Figma </a>
+            >> Tester le prototype final sur Figma</a>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -172,7 +172,29 @@ const remonte = () => {
           <img src="../assets/Modifs-homepage-Onzen.jpg" alt="Modifications sur la homepage" />
           <h5>Les avant/après sur la homepage</h5>
         </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Les nouvelles pages</b></p>
+            <p>
+              La page contact et tarifs n'existaient pas, il a donc fallu les imaginer.
+            </p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/contact-tarifs-Onzen.jpg" alt="Page contact et tarif" />
+          <h5>Page contact et tarif</h5>
+        </div>
+        <!-- <div class="colonne1">
+          <div class="border-left">
+            <a class="link-text" target="_blank"
+              href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3038-18638&node-type=canvas&viewport=-174%2C627%2C0.13&t=xGEpiWbtTU6jMRpu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3038%3A18638&show-proto-sidebar=1">
+              >> Tester la page tarif</a>
+          </div>
+        </div> -->
+
       </div>
+
+
 
       <div class="bloc-phase">
         <div class="titre-phase">
@@ -182,8 +204,9 @@ const remonte = () => {
           <div class="border-left">
             <!-- <p><b>La homepage</b></p> -->
             <p>
-              L'accès
-
+              Les pages donnant accès aux tableaux de bord (soit professionnel, soit client) étaient également à revoir.
+              J'ai harmonisé ces 3 pages en créant une fenêtre à 3 onglets. L'inscription pour les professionnels étant
+              un peu longue j'ai décidé de la découper en 4 étapes en intégrant un fil d'ariane.
             </p>
           </div>
         </div>
