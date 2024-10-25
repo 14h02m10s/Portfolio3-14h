@@ -42,38 +42,40 @@ const remonte = () => {
           <h3>Remise en contexte</h3>
         </div>
         <div class="colonne1">
-          <p>
-            On-Zen est une plateforme dédiée à la mise en relation de praticiens
-            de médecines complémentaires et de clients. Elle se compose de 3
-            parties :
-          </p>
-          <ol>
-            <li>
-              <b>Un site web</b> accessible sans compte, permettant de
-              rechercher des praticiens, s'informer sur les différentes
-              pratiques de médecine complémentaire ainsi que sur l'entreprise
-              On-Zen et consulter le blog.
-            </li>
-            <li>
-              <b>Un tableau de bord client</b> permettant de prendre rendez-vous pour
-              soi ou sa famille avec des praticiens.
-            </li>
-            <li>
-              <b>Un tableau de bord professionnel</b> offrant aux praticiens la
-              gestion de leur agenda et carnet d’adresses, rédaction de
-              recommandations, édition de factures et campagnes de mailing.
-            </li>
-          </ol>
-          <br />
+          <div class="border-left">
+            <p>
+              On-Zen est une plateforme dédiée à la mise en relation de praticiens
+              de médecines complémentaires et de clients. Elle se compose de 3
+              parties :
+            </p>
+            <ol>
+              <li>
+                <b>Un site web</b> accessible sans compte, permettant de
+                rechercher des praticiens, s'informer sur les différentes
+                pratiques de médecine complémentaire ainsi que sur l'entreprise
+                On-Zen et consulter le blog.
+              </li>
+              <li>
+                <b>Un tableau de bord client</b> permettant de prendre rendez-vous pour
+                soi ou sa famille avec des praticiens.
+              </li>
+              <li>
+                <b>Un tableau de bord professionnel</b> offrant aux praticiens la
+                gestion de leur agenda et carnet d’adresses, rédaction de
+                recommandations, édition de factures et campagnes de mailing.
+              </li>
+            </ol>
+            <br />
 
-          <p>
-            J'ai tout d'abord analysé le profil des utilisateurs et la charte
-            graphique, avant de
-            <b>retravailler entièrement le site web et le dashboard client</b>.
-            J'ai principalement réalisé des
-            <b>wireframes et prototypes sur Figma</b>, repensé certains textes,
-            créé des userflows et fait un peu d'intégration sur Symfony.
-          </p>
+            <p>
+              J'ai tout d'abord analysé le profil des utilisateurs et la charte
+              graphique, avant de
+              <b>retravailler entièrement le site web et le dashboard client</b>.
+              J'ai principalement réalisé des
+              <b>wireframes et prototypes sur Figma</b>, repensé certains textes,
+              créé des userflows et fait un peu d'intégration sur Symfony.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -274,6 +276,20 @@ const remonte = () => {
             <a class="link-text" target="_blank"
               href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3128-34591&node-type=frame&viewport=-1900%2C2826%2C0.25&t=FyfzBmjzYwx9r4dh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3128%3A34591&show-proto-sidebar=1">
               >> Voir le tableau de bord client en entier</a>
+          </div>
+          <div class="merci">
+            <p>
+              Merci de m'avoir lue !
+            </p>
+          </div>
+          <div class="liens-autres-projets">
+            <a href="#/realisations/mukiz">
+              <button class="btn no-box-shadow">Voir le projet Mukiz</button>
+            </a>
+            <a href="#/realisations/artefacteurs">
+              <button class="btn no-box-shadow">Voir le projet des
+                Artéf'acteurs</button>
+            </a>
           </div>
         </div>
       </div>
@@ -515,6 +531,34 @@ img {
   color: #fff;
   background-size: 100% 100%;
   /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
+}
+
+.merci {
+  background: rgb(245, 247, 255);
+  /* background: linear-gradient(303deg, rgb(245, 247, 255) 50%, #353051 100%); */
+  /* border: #1a1e36 1px solid; */
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  margin: 3rem 0;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0rem 0rem 0.8rem; */
+}
+
+.merci p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.liens-autres-projets {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.no-box-shadow {
+  box-shadow: none;
 }
 
 @media (min-width: 471px) {

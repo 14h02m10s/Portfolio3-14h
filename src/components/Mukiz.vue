@@ -335,6 +335,20 @@ const remonte = () => {
             href="https://www.figma.com/proto/sWBZiWPbAUpI1cmEt5cMQC/onboarding---maquettes-finales-pour-dev?page-id=146%3A634&node-id=198-24113&node-type=frame&viewport=2543%2C-197%2C0.2&t=YWkgTHeTRawGddPp-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=198%3A24113&show-proto-sidebar=1">
             >> Tester le prototype Figma final</a>
         </div>
+        <div class="merci">
+          <p>
+            Merci de m'avoir lue !
+          </p>
+        </div>
+        <div class="liens-autres-projets">
+          <a href="#/realisations/artefacteurs">
+            <button class="btn no-box-shadow">Voir le projet des
+              Artéf'acteurs</button>
+          </a>
+          <a href="#/realisations/onzen">
+            <button class="btn no-box-shadow">Voir le projet On-Zen</button>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -574,6 +588,34 @@ img {
   color: #fff;
   background-size: 100% 100%;
   /* L'arrière-plan s'agrandit progressivement pour couvrir toute la largeur */
+}
+
+.merci {
+  background: rgb(245, 247, 255);
+  /* background: linear-gradient(303deg, rgb(245, 247, 255) 50%, #353051 100%); */
+  /* border: #1a1e36 1px solid; */
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  margin: 3rem 0;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0rem 0rem 0.8rem; */
+}
+
+.merci p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.liens-autres-projets {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.no-box-shadow {
+  box-shadow: none;
 }
 
 @media (min-width: 471px) {

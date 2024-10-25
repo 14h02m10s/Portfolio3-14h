@@ -272,10 +272,8 @@ button {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background-color: #353051;
   border: 2px #39335a solid;
-  /* background: none; */
-  background-color: #353051;
+  /* background-color: #353051; */
   background-color: #1a1e36;
 }
 
@@ -284,7 +282,6 @@ button::after {
   border-radius: 2rem;
   /* background-color: #1c657c; */
   background-color: #39335a;
-
   content: "";
   position: absolute;
   z-index: -1;
