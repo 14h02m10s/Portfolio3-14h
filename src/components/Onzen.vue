@@ -90,7 +90,6 @@ const remonte = () => {
               icônes et images. Si on assemble quelques uns de ces éléments de base, on peut par exemple créer un
               bouton, c'est ce qu'on appelle une molécule. Si on assemble des molécules, on crée des organismes tels que
               le footer.</p>
-            <!-- <p><b>Les atomes</b></p> -->
           </div>
         </div>
         <div class="colonne2">
@@ -98,24 +97,38 @@ const remonte = () => {
           <h5>Les atomes</h5>
         </div>
 
-        <!-- <div class="colonne1">
-          <div class="border-left">
-            <p><b>Les molécules</b></p>
-          </div>
-        </div> -->
         <div class="colonne2">
           <img src="../assets/atomicDesign-onzen-molecules.jpg" alt="atomicDesign-onzen-molecules" />
           <h5>Les molécules</h5>
         </div>
 
-        <!-- <div class="colonne1">
-          <div class="border-left">
-            <p><b>Les organismes</b></p>
-          </div>
-        </div> -->
         <div class="colonne2">
           <img src="../assets/atomicDesign-onzen-organismes.jpg" alt="atomicDesign-onzen-organismes" />
           <h5>Les organismes</h5>
+        </div>
+      </div>
+
+
+      <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Les userflows</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p>Créer des user flows peut être une étape clé dans un projet web dont l'organisation des informations (et
+              des pages) n'est pas encore bien définie. Cela permet d'identifier les CTA, essentiels pour relier les
+              différents éléments entre eux. Cela peut également permettre de mettre en évidence certaines incohérences.
+            </p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/userflow-navbar-footer-onzen.jpg" alt="userflow-navbar-footer" />
+          <h5>Userflow de la navbar et du footer</h5>
+        </div>
+
+        <div class="colonne2">
+          <img src="../assets/userflow-tableau-de-bord-client-onzen.jpg" alt="userflow-tableau-de-bord-client" />
+          <h5>Userflow du tableau de bord client</h5>
         </div>
       </div>
 
@@ -176,25 +189,7 @@ const remonte = () => {
           <img src="../assets/Modifs-homepage-Onzen.jpg" alt="Modifications sur la homepage" />
           <h5>Les avant/après sur la homepage</h5>
         </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p><b>Les nouvelles pages</b></p>
-            <p>
-              La page contact et tarifs n'existaient pas, il a donc fallu les imaginer.
-            </p>
-          </div>
-        </div>
-        <div class="colonne2">
-          <img src="../assets/contact-tarifs-Onzen.jpg" alt="Page contact et tarif" />
-          <h5>Page contact et tarif</h5>
-        </div>
-        <!-- <div class="colonne1">
-          <div class="border-left">
-            <a class="link-text" target="_blank"
-              href="https://www.figma.com/proto/kd8RTzlug3qh3Hbq4eQI9o/maquettes-On-zen-pour-moi?page-id=3038%3A18041&node-id=3038-18638&node-type=canvas&viewport=-174%2C627%2C0.13&t=xGEpiWbtTU6jMRpu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3038%3A18638&show-proto-sidebar=1">
-              >> Tester la page tarif</a>
-          </div>
-        </div> -->
+
 
         <div class="colonne1">
           <div class="border-left">
@@ -218,6 +213,18 @@ const remonte = () => {
           <h5>Page article de blog avant/après</h5>
         </div>
 
+        <div class="colonne1">
+          <div class="border-left">
+            <p><b>Les nouvelles pages</b></p>
+            <p>
+              La page contact et tarifs n'existaient pas, il a donc fallu les imaginer.
+            </p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/contact-tarifs-Onzen.jpg" alt="Page contact et tarif" />
+          <h5>Page contact et tarif</h5>
+        </div>
 
       </div>
 

@@ -254,7 +254,7 @@ const remonte = () => {
           </h5>
         </div>
         <div class="colonne2">
-          <img src="../assets/userflow1.png" alt="Le userflow" />
+          <img src="../assets/userflow1.jpg" alt="Le userflow" />
           <h5>Le userflow sur Figjam</h5>
         </div>
       </div>
@@ -287,11 +287,11 @@ const remonte = () => {
           </p>
         </div>
         <div class="colonne2">
-          <img src="../assets/wireframes.png" alt="les wireframes sur Excalidraw" />
+          <img src="../assets/wireframes.jpg" alt="les wireframes sur Excalidraw" />
           <h5>Les wireframes sur Excalidraw</h5>
         </div>
         <div class="colonne2">
-          <img src="../assets/prototype2.png" alt="Le prototypage fonctionnel sur Figma" />
+          <img src="../assets/prototype2.jpg" alt="Le prototypage fonctionnel sur Figma" />
           <h5>Le prototypage fonctionnel sur Figma</h5>
         </div>
       </div>
