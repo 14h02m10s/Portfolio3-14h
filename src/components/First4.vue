@@ -13,7 +13,7 @@ onBeforeUnmount(() => {
   });
 });
 const cvURL =
-  "https://14h02m10s.github.io/Portfolio3-14h/cv-juin2024-portfolio.pdf";
+  "https://14h02m10s.github.io/Portfolio3-14h/cv-oct2024-portfolio.pdf";
 </script>
 
 <template>
@@ -29,7 +29,7 @@ const cvURL =
           <div class="bienvenue">Hello ! Je suis Fred,</div>
         </Transition>
         <Transition appear name="slide-fade1">
-          <div class="portfolio">DESIGNER UX/UI</div>
+          <div class="portfolio">UX/UI DESIGNER</div>
         </Transition>
         <Transition appear name="slide-fade2">
           <div class="texte-prez-first">
