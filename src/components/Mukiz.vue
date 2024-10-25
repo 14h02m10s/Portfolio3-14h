@@ -231,7 +231,7 @@ const remonte = () => {
         </div>
 
         <div class="colonne2">
-          <img src="../assets/resume-1er-parcours-mukiz-maze.png" alt="Screen ecran maze 1ere phase du test" />
+          <img src="../assets/resume-1er-parcours-mukiz-maze.jpg" alt="Screen ecran maze 1ere phase du test" />
           <h5>Résultats de la 1ere phase de test</h5>
         </div>
 
@@ -278,7 +278,7 @@ const remonte = () => {
         </div>
 
         <div class="colonne2">
-          <img src="../assets/resume-2eme-parcours-mukiz-maze.png" alt="Screen ecran maze 2eme phase du test" />
+          <img src="../assets/resume-2eme-parcours-mukiz-maze.jpg" alt="Screen ecran maze 2eme phase du test" />
           <h5>Résultats de la 2eme phase de test</h5>
         </div>
         <div class="colonne1">
