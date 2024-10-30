@@ -37,8 +37,14 @@ const remonte = () => {
         <img class="maxHeightimg" src="../assets/banniere-Mukiz2.jpg" alt="banniere Mukiz" />
       </div>
 
-
       <div class="bloc-phase">
+        <p><a href="#contexte">Remise en contexte</a> - Analyse de l'existant - <a
+            href="#realisations/mukiz/test1">Premiers tests
+            utilisateurs</a></p>
+      </div>
+
+
+      <div class="bloc-phase" id="contexte">
         <div class="titre-phase">
           <h3>Remise en contexte</h3>
         </div>
@@ -113,7 +119,7 @@ const remonte = () => {
       </div>
 
 
-      <div class="bloc-phase">
+      <div class="bloc-phase" id="test1">
         <div class="titre-phase">
           <h3>Premiers tests utilisateurs</h3>
         </div>
