@@ -23,6 +23,7 @@ import PageRealisations from "../src/views/PageRealisations.vue";
 import PageArtefacteurs from "../src/views/PageArtefacteurs.vue";
 import PageOnZen from "../src/views/PageOnZen.vue";
 import PageMukiz from "../src/views/PageMukiz.vue";
+import PageGoogleUX from "../src/views/PageGoogleUX.vue";
 import PageContact from "../src/views/PageContact.vue";
 
 const routes = {
@@ -31,6 +32,7 @@ const routes = {
   "/realisations/artefacteurs": PageArtefacteurs,
   "/realisations/onzen": PageOnZen,
   "/realisations/mukiz": PageMukiz,
+  "/realisations/googleux": PageGoogleUX,
   "/contact": PageContact,
 };
 
@@ -43,6 +45,7 @@ export default {
     PageArtefacteurs,
     PageOnZen,
     PageMukiz,
+    PageGoogleUX,
     PageContact,
   },
   data() {
