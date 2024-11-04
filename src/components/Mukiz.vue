@@ -24,6 +24,24 @@ const remonte = () => {
     left: 0,
   });
 };
+
+
+export default {
+  data() {
+    return {
+      activeSection: null, // Stocke l'identifiant de la section active
+    };
+  },
+  methods: {
+    scrollToSection(id) {
+      this.activeSection = id; // Met à jour la section active
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }
+};
 </script>
 
 <template>
@@ -32,19 +50,35 @@ const remonte = () => {
       <h2>L'onboarding Mukiz<br />(page en cours de construction)</h2>
     </div> -->
 
+    <div class="container-links">
+      <!-- <div class="bloc-phase fixed-links">
+        <p>
+          <a href="#contexte" @click.prevent="scrollToSection('contexte')"
+            :class="{ active: activeSection === 'contexte' }">Remise en contexte</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+            href="#analyse-existant" @click.prevent="scrollToSection('analyse-existant')"
+            :class="{ active: activeSection === 'analyse-existant' }">Analyse de
+            l'existant</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#test1" @click.prevent="scrollToSection('test1')"
+            :class="{ active: activeSection === 'test1' }">Tests
+            utilisateurs #1</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#modif-maquettes" @click.prevent="scrollToSection('modif-maquettes')"
+            :class="{ active: activeSection === 'modif-maquettes' }">Modification
+            des maquettes #1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#test2" @click.prevent="scrollToSection('test2')"
+            :class="{ active: activeSection === 'test2' }">Tests
+            utilisateurs #2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#modif-maquettes2"
+            @click.prevent="scrollToSection('modif-maquettes2')"
+            :class="{ active: activeSection === 'modif-maquettes2' }">Modification
+            des maquettes #2</a>
+        </p>
+      </div> -->
+    </div>
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
         <img class="maxHeightimg" src="../assets/banniere-Mukiz2.jpg" alt="banniere Mukiz" />
       </div>
 
-      <!-- <div class="bloc-phase">
-        <p><a href="#contexte">Remise en contexte</a> - Analyse de l'existant - <a
-            href="#realisations/mukiz/test1">Premiers tests
-            utilisateurs</a></p>
-      </div> -->
 
 
-      <div class="bloc-phase" id="contexte">
+      <div class=" bloc-phase" id="contexte">
         <div class="titre-phase">
           <h3>Remise en contexte</h3>
         </div>
@@ -65,7 +99,7 @@ const remonte = () => {
       </div>
 
 
-      <div class="bloc-phase">
+      <div class="bloc-phase" id="analyse-existant">
         <div class="titre-phase">
           <h3>Analyse de l'existant</h3>
         </div>
@@ -121,7 +155,7 @@ const remonte = () => {
 
       <div class="bloc-phase" id="test1">
         <div class="titre-phase">
-          <h3>Premiers tests utilisateurs</h3>
+          <h3>Tests utilisateurs #1</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -160,9 +194,9 @@ const remonte = () => {
       </div>
 
 
-      <div class="bloc-phase">
+      <div class="bloc-phase" id="modif-maquettes">
         <div class="titre-phase">
-          <h3>Modification des maquettes</h3>
+          <h3>Modification des maquettes #1</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -192,9 +226,9 @@ const remonte = () => {
       </div>
 
 
-      <div class="bloc-phase">
+      <div class="bloc-phase" id="test2">
         <div class="titre-phase">
-          <h3>Seconds tests utilisateurs</h3>
+          <h3>Tests utilisateurs #2</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -224,16 +258,16 @@ const remonte = () => {
             </p>
           </div>
 
-        </div>
-        <div class="citation">
-          <p>"Je me suis posé la question de savoir si le fait de choisir "France" allait influencer la playlist
-            (chansons françaises uniquement...)"</p>
-        </div>
-        <div class="citation">
-          <p>"Je ne joue jamais seule, alors j'ai essayé la partie "Jouer en groupe" mais ça ne fonctionnait pas."</p>
-        </div>
-        <div class="citation">
-          <p>"Le check pour solo/multijoueur m'a perturbé, j'ai cru qu'on pouvait sélectionner les deux"</p>
+          <div class="citation">
+            <p>"Je me suis posé la question de savoir si le fait de choisir "France" allait influencer la playlist
+              (chansons françaises uniquement...)"</p>
+          </div>
+          <div class="citation">
+            <p>"Je ne joue jamais seule, alors j'ai essayé la partie "Jouer en groupe" mais ça ne fonctionnait pas."</p>
+          </div>
+          <div class="citation">
+            <p>"Le check pour solo/multijoueur m'a perturbé, j'ai cru qu'on pouvait sélectionner les deux"</p>
+          </div>
         </div>
 
         <div class="colonne2">
@@ -305,9 +339,9 @@ const remonte = () => {
       </div>
 
 
-      <div class="bloc-phase">
+      <div class="bloc-phase" id="modif-maquettes2">
         <div class="titre-phase">
-          <h3>Modification des maquettes pour l'intégration</h3>
+          <h3>Modification des maquettes #2</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -372,6 +406,7 @@ const remonte = () => {
 #topPage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: #fff;
   width: 100%;
@@ -509,6 +544,7 @@ button::after {
   width: 100%;
   z-index: 1;
   height: fit-content;
+  /* padding-top: 4rem; */
 }
 
 .bloc-phase {
@@ -624,6 +660,65 @@ img {
   box-shadow: none;
 }
 
+#contexte,
+#analyse-existant,
+#test1,
+#modif-maquettes,
+#test2,
+#modif-maquettes2 {
+  scroll-margin-top: 10rem;
+}
+
+.container-links {
+  /* background-color: #1a1e36; */
+  width: 100%;
+  position: fixed;
+  top: 2rem;
+  height: auto;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+
+}
+
+.fixed-links {
+  /* position: fixed;
+    top: 3.7rem; */
+  /* Place les liens juste en dessous de la navbar */
+  left: 0;
+  width: 100%;
+  background-color: #e7e4ff;
+  /* background-color: #362c85; */
+  /* Optionnel : ajoute un fond si besoin */
+  /* padding: 0.5rem; */
+  display: flex;
+  /* gap: 1rem; */
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  /* Assure que les liens restent au-dessus du contenu */
+  padding: 0 1.5rem;
+}
+
+.fixed-links a {
+  color: #353051;
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fixed-links p {
+  color: #353051;
+  font-size: 0.9rem;
+  margin: 0.7rem 0rem;
+}
+
+.fixed-links a.active {
+  font-weight: 700;
+  text-decoration: none;
+}
+
 @media (min-width: 471px) {
   /* #topPage {
     min-height: 1050px;
@@ -637,6 +732,7 @@ img {
 
   .container1 {
     width: 95%;
+    /* padding-top: 2.5rem; */
   }
 
   .colonne1 {
@@ -668,6 +764,64 @@ img {
     border-left: #ddebff 5px solid;
     margin: 0 4rem;
   } */
+  #contexte,
+  #analyse-existant,
+  #test1,
+  #modif-maquettes,
+  #test2,
+  #modif-maquettes2 {
+    scroll-margin-top: 10rem;
+  }
+
+  .container-links {
+    /* background-color: #1a1e36; */
+    width: 100%;
+    position: fixed;
+    top: 4.5rem;
+    height: auto;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fixed-links {
+    /* position: fixed;
+    top: 3.7rem; */
+    /* Place les liens juste en dessous de la navbar */
+    left: 0;
+    width: 100%;
+    background-color: #e7e4ff;
+    /* background-color: #362c85; */
+    /* Optionnel : ajoute un fond si besoin */
+    /* padding: 0.5rem; */
+    display: flex;
+    /* gap: 1rem; */
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    /* Assure que les liens restent au-dessus du contenu */
+    /* border-radius: 5rem; */
+  }
+
+  .fixed-links a {
+    color: #353051;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .fixed-links p {
+    color: #353051;
+    font-size: 0.9rem;
+    margin: 0.7rem 0rem;
+  }
+
+  .fixed-links a.active {
+    font-weight: 700;
+    text-decoration: none;
+  }
+
 }
 
 @media (min-width: 1135px) {
@@ -706,5 +860,19 @@ img {
     margin: 1.5rem 4rem;
     padding: 1rem 2rem;
   }
+
+  #contexte,
+  #analyse-existant,
+  #test1,
+  #modif-maquettes,
+  #test2,
+  #modif-maquettes2 {
+    scroll-margin-top: 7rem;
+  }
+
+  .container-links {
+    top: 2.7rem;
+  }
+
 }
 </style>
