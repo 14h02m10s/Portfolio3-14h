@@ -47,10 +47,11 @@ import ImgArtefacteur from "./icons/ImgArtefacteurCouverture.vue";
         <template #sous-titre>
           <span>Ux</span> <br />
           Certification Google UX&nbsp;</template>
-        <div class="container-button">
-          <!-- <a href=""> -->
+        <!-- <div class="container-button">
           <button class="btn-disable">En cours d'acquisition</button>
-          <!-- </a> -->
+        </div> -->
+        <div class="container-button">
+          <a href="#/realisations/googleux"><button class="btn">Voir le projet</button></a>
         </div>
         <p>
           Je passe actuellement la certification Google UX afin de continuer à

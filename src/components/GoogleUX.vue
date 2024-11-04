@@ -28,19 +28,10 @@ const remonte = () => {
 
 <template>
   <div id="topPage">
-    <!-- <div class="titre">
-      <h2>L'onboarding Mukiz<br />(page en cours de construction)</h2>
-    </div> -->
 
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
-        <img class="maxHeightimg" src="../assets/banniere-Mukiz2.jpg" alt="banniere Mukiz" />
-      </div>
-
-      <div class="bloc-phase">
-        <p><a href="#contexte">Remise en contexte</a> - Analyse de l'existant - <a
-            href="#realisations/mukiz/test1">Premiers tests
-            utilisateurs</a></p>
+        <img class="maxHeightimg" src="../assets/banniere-googleUX2.jpg" alt="banniere Google ux" />
       </div>
 
 
@@ -51,14 +42,10 @@ const remonte = () => {
         <div class="colonne1">
           <div class="border-left">
             <p>
-              Mukiz est une <b>application de blind test interactif</b>, qui
-              réunit des milliers de joueurs quotidiennement et déjà plus de
-              250K téléchargements.
-            </p>
-            <p>
-              Dans le cadre de mon rôle d'UX designer, <b>j'ai investigué les obstacles qui bloquaient certains
-                utilisateurs après le téléchargement de l'application, les empêchant de commencer une première
-                partie</b>.
+              J'ai décidé de suivre la formation Google UX qui se déroule en ligne, en <b>totale autonomie</b>, afin
+              d'approfondir mes connaissances en UX design. Ce programme compte <b>+ de 200 heures de cours</b> et
+              j'applique toutes les méthodes UX en travaillant sur la <b>conception d'une application de carte de
+                café</b>.
             </p>
           </div>
         </div>
@@ -67,238 +54,90 @@ const remonte = () => {
 
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>Analyse de l'existant</h3>
+          <h3>Empathie et idéation</h3>
         </div>
 
         <div class="colonne1">
           <div class="border-left">
             <p>
-              Les 3 premiers écrans permettent : </p>
-
-            <ul>
-              <li>d'orienter les joueurs selon leur pays</li>
-              <li>de définir le mode de jeu qu'ils souhaitent (entre amis ou pas)</li>
-              <li>de rappeler les règles</li>
-            </ul>
-          </div>
-        </div>
-        <div class="colonne2">
-          <img src="../assets/screen-mukiz-existant-1ere-phase.jpg" alt="Les 3 premiers écrans de l'app Mukiz" />
-          <h5>Les 3 premiers écrans de l'application</h5>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p>
-              Le tutoriel commence avec des écrans qui montrent aux utilisateurs les fonctions de micro,
-              clavier et le bouton pour passer à l'extrait suivant si on ne sait pas répondre (écrans 4, 5 et 6).
-            </p>
-            <p>
-              La partie se lance et une pop-up apparaît (écran 7) rappelant que l'on peut utiliser
-              le micro ou le clavier pour donner ses réponses. L'écran 8 est celui qui apparaît lorsque la musique se
-              lance et que l'on peut jouer.
+              Pour ce projet d'application de carte de café en plein air, j'ai entamé la phase d'empathie en réalisant
+              des <b>interviews pour comprendre les attentes des utilisateurs</b>. Simultanément, j'ai exploré
+              des idées en temps réel, en intégrant leurs retours dans le processus d’idéation au fur et à mesure. Cette
+              approche m'a permis de <b>saisir des besoins</b> comme la facilité d'accès aux informations sur les plats
+              et
+              boissons, <b>et aussi des frustrations</b> comme la pénurie de certains plats pourtant incrits sur la
+              carte ou encore
+              avoir la mauvaise surprise d'avoir un ingrédient détesté dans son plat, tout en commençant à imaginer des
+              solutions créatives pour y répondre. À partir de ces données, j'ai développé des <b>personas</b> qui
+              capturent
+              les motivations des utilisateurs et défini clairement les problématiques à résoudre.
             </p>
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/screen-mukiz-existant-2eme-phase.jpg" alt="Les 5 premiers écrans du tutoriel" />
-          <h5>Les 5 premiers écrans du tutoriel</h5>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p>
-              Entre le 1er et le 2e extrait musical, 3 pop-ups apparaissent (écrans 9, 10, 11) pour informer comment les
-              points sont comptés ainsi que des réponses autorisées et non autorisées. Le tutoriel continue, et se
-              termine, avec un 2e extrait musical à découvrir (écrans 12 et 13).
-            </p>
-          </div>
-        </div>
-        <div class="colonne2">
-          <img src="../assets/screen-mukiz-existant-3eme-phase.jpg" alt="Les 5 derniers écrans du tutoriel" />
-          <h5>Les 5 derniers écrans du tutoriel</h5>
-        </div>
-      </div>
-
-
-      <div class="bloc-phase" id="test1">
-        <div class="titre-phase">
-          <h3>Premiers tests utilisateurs</h3>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p>
-              J'ai rédigé un guide d'entretien et
-              j'ai recruté des utilisateurs. <b>Les résultats des tests que j'ai menés en synchrone sont ceux-ci :</b>
-            </p>
-
-            <ul>
-              <li>2 participants sur 9 auraient passé le tuto s’ils avaient vu le bouton (les écrans 3, 4, 5 et 6).</li>
-              <li>3 participants sur 9 estiment qu’ils n’ont rien appris (ou pas grand-chose) d’intéressant sur le 3ᵉ
-                écran.</li>
-              <li>4 participants sur 9 auraient aimé commencer à jouer plus vite.</li>
-              <li>8 participants sur 9 apprécient de savoir comment les points sont comptés (écran 9).</li>
-              <li>9 participants sur 9 trouvent utiles les exemples de réponses possibles (écrans 10 et 11).</li>
-              <li>9 participants sur 9 aimeraient avoir le choix de plusieurs playlists dès le tutoriel.</li>
-            </ul>
-
-            <br>
-            <p><b>Quelques verbatims reflétant les pensées récurrentes des joueurs :</b></p>
-
-          </div>
-          <div class="citation">
-            <p>" Je me suis sentie un peu perdue... j’aimerai avoir un bouton : “Je veux jouer seul” !
-              "</p>
-          </div>
-          <div class="citation">
-            <p>"Ha oui donc il faut pas forcément une réponse super complète ? Juste "Céline" ça suffit ?"</p>
-          </div>
-          <div class="citation">
-            <p>"Ça aurait ete bien qu’il n’y ait le choix entre 2-3 playlists, genre parce que je sais pas si je vais
-              devoir
-              me taper 15 fois Johnny pour pouvoir écouter Pink Floyd par exemple."</p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="bloc-phase">
-        <div class="titre-phase">
-          <h3>Modification des maquettes</h3>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p>
-              Il semblait nécessaire de <b>simplifier le nombre d'options sur le deuxième écran</b>
-              pour mieux orienter les nouveaux utilisateurs : la plupart d'entre eux étant seuls et ne connaissant pas
-              l'application, il était important de les diriger vers les parties en solo (ou contre d'autres joueurs en
-              ligne) et de les faire hésiter le moins possible avec l'option des parties entre amis.
-            </p>
-            <p><b>Pour le troisième écran, j'ai choisi de supprimer l'encart sur la gamification et de plutôt proposer
-                quatre playlists</b> issues des plus populaires de
-              l'application. J'ai également ajouté une indication pour informer les utilisateurs qu'ils peuvent répondre
-              avec le clavier ou leur voix. <b>Cette modification permet de supprimer les écrans 4, 5 et 6</b> du
-              tutoriel
-              existant, ce qui réduit le temps d'attente et le nombre de clics avant de lancer la partie.</p>
-          </div>
-        </div>
-        <div class="colonne2">
-          <img src="../assets/Mukiz-ecran2et3-1ere-modif.jpg" alt="Modifications de l'écran 2 et 3" />
-          <h5>Modifications de l'écran 2 et 3</h5>
-        </div>
-        <div class="colonne1">
-          <a class="link-text" target="_blank"
-            href="https://www.figma.com/proto/gMQdDoJy0WQozFBqdbGkVe/test-maze-1?page-id=36%3A2479&node-id=36-44735&node-type=canvas&viewport=5870%2C621%2C0.56&t=TPAIQ4siAa07KLnC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=36%3A44735">
-            >> Tester le prototype Figma avec les premières modifications</a>
-        </div>
-      </div>
-
-
-      <div class="bloc-phase">
-        <div class="titre-phase">
-          <h3>Seconds tests utilisateurs</h3>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-            <p>
-              Voici ce qui ressort du <b>test asynchrone sur Maze</b> que j'ai mis en place : </p>
-            <p><b>Les joueurs accordent de l'importance au fait de gagner des points.</b> En effet sur les 36
-              participants,
-              seulement 8 estiment que cela n'a pas ou peu d'importance.
-            </p>
-            <!-- <ul>
-              <li>3 participants sur 36 = très peu</li>
-              <li>5 participants sur 36 = peu</li>
-              <li><b>10 participants sur 36 = moyennement</b></li>
-              <li><b>7 participants sur 36 = pas mal</b></li>
-              <li><b>11 participants sur 36 = beaucoup</b></li>
-            </ul> -->
-            <p> Sur l'écran 1, <b>certains utilisateurs se demandent si le choix d'aller vers "France" ou "reste du
-                monde" va impacter les musiques qu'ils auront</b> (ou sur la langue de l'interface). Il s'avère que si
-              un utilisateur
-              choisit "France" il jouera automatiquement avec la playlist "best of français", alors que s'il choisit
-              "Reste du monde", il jouera automatiquement avec la playlist "best of international". Et concernant la
-              langue, l'application n'existe qu'en français pour l'instant.</p>
-            <p><b>97% des utilisateurs arrivent à bon port</b> pour la 1re phase du test, même si 24% font des détours,
-              je pense que sur ces 22%, une grosse majorité veut explorer, et voir ce qui marche, et ce qui ne marche
-              pas. <b>Certains aussi, se dirigent vers les parties entre amis,</b> car ils n'envisagent pas de jouer
-              seul.
-            </p>
-          </div>
-
-        </div>
-        <div class="citation">
-          <p>"Je me suis posé la question de savoir si le fait de choisir "France" allait influencer la playlist
-            (chansons françaises uniquement...)"</p>
-        </div>
-        <div class="citation">
-          <p>"Je ne joue jamais seule, alors j'ai essayé la partie "Jouer en groupe" mais ça ne fonctionnait pas."</p>
-        </div>
-        <div class="citation">
-          <p>"Le check pour solo/multijoueur m'a perturbé, j'ai cru qu'on pouvait sélectionner les deux"</p>
+          <img src="../assets/personna-google-UX-1.jpg" alt="Persona 1 Alicia" />
+          <h5>Persona 1 Alicia</h5>
         </div>
 
         <div class="colonne2">
-          <img src="../assets/resume-1er-parcours-mukiz-maze.jpg" alt="Screen ecran maze 1ere phase du test" />
-          <h5>Résultats de la 1ere phase de test</h5>
+          <img src="../assets/personna-google-UX-2.jpg" alt="Persona 2 Victor" />
+          <h5>Persona 2 Victor</h5>
         </div>
 
         <div class="colonne1">
           <div class="border-left">
-            <!-- <p><b>À quel point êtes-vous pressé de jouer ?</b> (après avoir passé les 2 premiers écrans)
-            </p> -->
-            <p>À la fin de la 1re phase de ce test, <b>73% des participants ont déclaré avoir envie, voir très envie de
-                jouer
-              </b>.
+            <p>
+              Suite aux interviews et à l’idéation, j'ai approfondi le processus en rédigeant des user stories pour
+              <b>capter les scénarios d'utilisation clés de l'application</b>. Cela m'a permis de définir des énoncés de
+              problèmes spécifiques et de formuler des hypothèses de design, orientées vers l'amélioration de
+              l'expérience utilisateur. Ces étapes ont été essentielles pour clarifier <b>les attentes et les
+                motivations</b>
+              des utilisateurs. Enfin, j'ai établi un objectif clair pour le persona principal, afin de guider le design
+              et de m'assurer que l'application réponde directement aux besoins prioritaires identifiés. J'ai également
+              fait un audit concurrentiel pour chercher quelles pouvaient être les bonnes idées et noter ce qui
+              fonctionne moins bien.
             </p>
-            <!-- <ul>
-              <li>1 participants sur 30 = très peu</li>
-              <li>2 participants sur 30 = peu</li>
-              <li>5 participants sur 30 = moyennement</li>
-              <li><b>7 participants sur 30 = pas mal</b></li>
-              <li><b>15 participants sur 30 = beaucoup</b></li>
-            </ul> -->
-          </div>
-          <div class="citation">
-            <p>"J’ai envie de jouer et sélectionner une playlist."</p>
-          </div>
-          <div class="citation">
-            <p>"Je ne connaissais pas cette application, j'ai envie de
-              la télécharger actuellement."</p>
-          </div>
-
-          <div class="border-left">
-            <!-- <p><b> Si vous avez cliqué sur le bouton 'voir les astuces', quel a été votre ressenti ? </b> Et si vous
-              n'avez pas vu cette page, que souhaiteriez-vous y trouver ?
-            </p> -->
-            <p>Au début de la 2e phase de test, les utilisateurs avaient le choix entre lancer directement la partie
-              ou
-              aller voir les
-              astuces. <b>Les résultats sont très équilibrés</b> puisque :</p>
-            <ul>
-              <li><b>15/31 n’ont pas cliqué sur les astuces.</b></li>
-              <li><b>16/31 ont cliqué sur les astuces.</b> Parmi ces 16 utilisateurs, 8 ont cliqué sur le bouton "
-                Démarrer la partie" présent sur la pop-up des astuces, 8 sont revenus sur l’écran 3 (soit par habitude
-                faire "retour" ? soit pour
-                choisir une playlist ?) et ont ensuite cliqué sur "Démarrer la partie".</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="colonne2">
-          <img src="../assets/resume-2eme-parcours-mukiz-maze.jpg" alt="Screen ecran maze 2eme phase du test" />
-          <h5>Résultats de la 2eme phase de test</h5>
-        </div>
-        <div class="colonne1">
-          <div class="border-left">
-
-            <div class="citation">
-              <p>"Je n'ai pas cliqué sur le bouton voir les astuces pour pouvoir jouer plus rapidement. Je trouve plus
-                intéressant l'idée d'avoir des astuces entre 2 parties par exemple."</p>
+            <p><b>User story du persona Victor</b></p>
+            <div class="paragraphe-mis-en-avant">
+              <p>"En tant que père de famille, je veux que la carte liste tous les ingrédients, afin que je puisse
+                trouver
+                un plat qui me convienne vraiment et d’éviter des aliments problématiques pour mon fils (allergique aux
+                noix)."</p>
             </div>
-            <div class="citation">
-              <p>"J'aurai bien aimé avoir une petite explication simple sur les points (qui sont la base dans tout jeu
-                de
-                blind test).
-                "</p>
+            <!-- <p>"En tant que père de famille, je veux que la carte liste tous les ingrédients, afin que je puisse trouver
+              un plat qui me convienne vraiment et d’éviter des aliments problématiques pour mon fils (allergique aux
+              noix)."</p> -->
+            <p><b>Énoncé de problème pour le persona Victor</b></p>
+            <!-- <p>Victor est un père de famille exigeant qui a besoin de commander des plats particuliers pour chacun des
+              membres de sa famille parce qu’ils sont soit exigeants sur la qualité de la nourriture, soit végétarien,
+              soit allergiques.</p> -->
+            <div class="paragraphe-mis-en-avant">
+              <p>Victor est un père de famille exigeant qui a besoin de commander des plats particuliers pour chacun des
+                membres de sa famille parce qu’ils sont soit exigeants sur la qualité de la nourriture, soit végétarien,
+                soit allergiques.</p>
+            </div>
+            <p><b>Hypothèse pour le persona Victor</b></p>
+            <!-- <p>Si Victor utilise l’application du café,
+              alors il pourra plus facilement voir quels sont les caractéristiques des différents plats proposés à la
+              carte</p> -->
+            <div class="paragraphe-mis-en-avant">
+              <p>Si Victor utilise l’application du café,
+                alors il pourra plus facilement voir quels sont les caractéristiques des différents plats proposés à la
+                carte.</p>
+            </div>
+            <p><b>Énoncé d'objectif pour le persona Victor</b></p>
+            <!-- <p>Notre application de prévisualisation de carte pour un café, permettra aux utilisateurs de savoir de quoi
+              son composés les plats et boissons précisément, ce qui aura un impact sur la satisfaction des clients
+              particulièrement exigeants en leur permettant de faire des choix éclairés sans avoir à demander au
+              serveur. Nous mesurerons l'efficacité en questionnant les utilisateurs sur leur satisfaction de la carte.
+            </p> -->
+            <div class="paragraphe-mis-en-avant">
+              <p>Notre application de prévisualisation de carte pour un café, permettra aux utilisateurs de savoir de
+                quoi
+                son composés les plats et boissons précisément, ce qui aura un impact sur la satisfaction des clients
+                particulièrement exigeants en leur permettant de faire des choix éclairés sans avoir à demander au
+                serveur. Nous mesurerons l'efficacité en questionnant les utilisateurs sur leur satisfaction de la
+                carte.</p>
             </div>
           </div>
         </div>
@@ -307,46 +146,40 @@ const remonte = () => {
 
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>Modification des maquettes pour l'intégration</h3>
+          <h3>Création de wireframes basse fidélité</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
             <p>
-              Voici les dernières modifications apportées aux maquettes avant intégration :
-            <ul>
-              <li><b>Simplification des boutons</b> servant à orienter les joueurs à leur arrivée dans l'application,
-                afin de passer de 2 clics à un seul (suppression des cases à cocher vertes).</li>
-              <li><b>Ajustement du wording</b> des écrans 2 et 3 pour les rendre <b>plus courts et plus clairs</b>.</li>
-              <li><b>Retrait de la consigne n°2</b> sur l'écran 3, elle est <b>visible sur la pop-up</b>
-                qui apparaît juste avant le début de la partie. Ajout d’un bouton de validation pour garantir que
-                l'utilisateur ait le temps de lire cette pop-up.</li>
-              <li><b>Suppression du bouton 'Voir les astuces'</b>, les astuces étant à nouveau intégrées sur des pop-ups
-                entre le 1er et
-                le 2ème extrait musical, durant la première partie.</li>
-              <li><b>Remaniement du wording et de la mise en page des pop-ups d'astuces</b> pour une <b>lecture plus
-                  fluide</b> et des <b>exemples mieux adaptés</b>, tant en français qu'à l'international. <b>Remise en
-                  place également de la pop-up explicative sur les points.</b>
-              </li>
-              <li>Ajout d'un bouton, accessible pendant la partie, pour revoir les astuces à tout moment.</li>
-            </ul>
+              Dans cette étape, j'ai créé les premiers wireframes basse-fidélité pour l'application de prévisualisation
+              de carte de café, en commençant par des esquisses sur papier pour explorer différentes idées de mise en
+              page et de navigation. Ces wireframes papier m'ont permis de tester rapidement plusieurs concepts,
+              d'identifier des éléments clés à intégrer et de visualiser le parcours utilisateur. Ensuite, j'ai
+              développé des versions numériques de ces wireframes pour affiner la structure de l'application, en créant
+              un prototype basse-fidélité. Cette version numérique m'a permis de vérifier l'agencement des écrans et la
+              fluidité de l'expérience utilisateur, sans me concentrer encore sur les aspects visuels détaillés.
             </p>
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/Mukiz-screen-maquette-finale.jpg" alt="Maquette finale vue prototype sur figma" />
-          <h5>Aperçu de la maquette finale</h5>
+          <img src="../assets/googleUX-wireframes.jpg" alt="wireframe-googleUX" />
+          <!-- <img src="../assets/img-wireframe-googleUX2.jpg" alt="img-wireframe-googleUX2" /> -->
+          <h5>Quelques wireframes papier</h5>
         </div>
-        <div class="colonne1">
+        <!-- <div class="colonne1">
           <a class="link-text" target="_blank"
             href="https://www.figma.com/proto/sWBZiWPbAUpI1cmEt5cMQC/onboarding---maquettes-finales-pour-dev?page-id=146%3A634&node-id=198-24113&node-type=frame&viewport=2543%2C-197%2C0.2&t=YWkgTHeTRawGddPp-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=198%3A24113&show-proto-sidebar=1">
             >> Tester le prototype Figma final</a>
-        </div>
+        </div> -->
         <div class="merci">
           <p>
-            Merci de m'avoir lue !
+            Page en cours de création... la suite bientôt
           </p>
         </div>
         <div class="liens-autres-projets">
+          <a href="#/realisations/mukiz">
+            <button class="btn no-box-shadow">Voir le projet Mukiz</button>
+          </a>
           <a href="#/realisations/artefacteurs">
             <button class="btn no-box-shadow">Voir le projet des
               Artéf'acteurs</button>
@@ -622,6 +455,13 @@ img {
 
 .no-box-shadow {
   box-shadow: none;
+}
+
+.paragraphe-mis-en-avant {
+  color: #353051;
+  padding-left: 2rem;
+  font-style: italic;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 471px) {

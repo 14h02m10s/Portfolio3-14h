@@ -381,6 +381,9 @@ export default {
           </p>
         </div>
         <div class="liens-autres-projets">
+          <a href="#/realisations/googleux">
+            <button class="btn no-box-shadow">Voir le projet Google UX</button>
+          </a>
           <a href="#/realisations/artefacteurs">
             <button class="btn no-box-shadow">Voir le projet des
               Artéf'acteurs</button>
