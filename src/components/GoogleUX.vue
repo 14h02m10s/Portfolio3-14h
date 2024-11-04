@@ -45,8 +45,8 @@ const remonte = () => {
             <p>
               J'ai décidé de suivre la formation Google UX qui se déroule en ligne, en <b>totale autonomie</b>, afin
               d'approfondir mes connaissances en UX design. Ce programme compte <b>+ de 200 heures de cours</b> et
-              j'applique toutes les méthodes UX en travaillant sur la <b>conception d'une application de carte de
-                café</b>.
+              j'applique toutes les méthodes UX en travaillant sur la conception d'une <b>application de
+                prévisualisation de carte pour un café en plein air</b>.
             </p>
           </div>
         </div>
@@ -147,31 +147,37 @@ const remonte = () => {
 
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>Création de wireframes basse fidélité</h3>
+          <h3>Création de wireframes et prototype basse fidélité</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
             <p>
-              Dans cette étape, j'ai créé les premiers wireframes basse-fidélité pour l'application de prévisualisation
-              de carte de café, en commençant par des esquisses sur papier pour explorer différentes idées de mise en
-              page et de navigation. Ces wireframes papier m'ont permis de tester rapidement plusieurs concepts,
-              d'identifier des éléments clés à intégrer et de visualiser le parcours utilisateur. Ensuite, j'ai
-              développé des versions numériques de ces wireframes pour affiner la structure de l'application, en créant
-              un prototype basse-fidélité. Cette version numérique m'a permis de vérifier l'agencement des écrans et la
-              fluidité de l'expérience utilisateur, sans me concentrer encore sur les aspects visuels détaillés.
+              Dans cette étape, j'ai créé les <b>premiers wireframes basse-fidélité</b> pour l'application de
+              prévisualisation de carte de café, en commençant par des <b>esquisses sur papier</b> pour explorer
+              différentes idées de mise en page et de navigation. <b>Ces wireframes papier m'ont permis de tester
+                rapidement plusieurs concepts</b>, d'identifier des éléments clés à intégrer et de visualiser le
+              parcours utilisateur.
             </p>
           </div>
         </div>
         <div class="colonne2">
-          <img src="../assets/googleUX-wireframes.jpg" alt="wireframe-googleUX" />
-          <!-- <img src="../assets/img-wireframe-googleUX2.jpg" alt="img-wireframe-googleUX2" /> -->
+          <img src="../assets/googleUX-wireframes.jpg" alt="wireframe-papier-googleUX" />
           <h5>Quelques wireframes papier</h5>
         </div>
-        <!-- <div class="colonne1">
-          <a class="link-text" target="_blank"
-            href="https://www.figma.com/proto/sWBZiWPbAUpI1cmEt5cMQC/onboarding---maquettes-finales-pour-dev?page-id=146%3A634&node-id=198-24113&node-type=frame&viewport=2543%2C-197%2C0.2&t=YWkgTHeTRawGddPp-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=198%3A24113&show-proto-sidebar=1">
-            >> Tester le prototype Figma final</a>
-        </div> -->
+        <div class="colonne1">
+          <div class="border-left">
+            <p>Ensuite, j'ai développé une version numérique de ces wireframes pour affiner la
+              structure de l'application, en créant un <b>prototype basse-fidélité</b>. Cette version numérique m'a
+              permis de vérifier l'agencement des écrans et la fluidité de l'expérience utilisateur, <b>sans me
+                concentrer encore sur les aspects visuels détaillés</b>.
+            </p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/googleUX-proto1.jpg" alt="wireframe-numeriques-googleUX" />
+          <h5>Quelques wireframes numériques</h5>
+        </div>
+
         <div class="merci">
           <p>
             Page en cours de création... la suite bientôt
