@@ -28,7 +28,8 @@ const remonte = () => {
 
 <template>
   <div id="topPage">
-
+    <h2>- Page en cours de création -</h2>
+    <br>
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="colonne2">
         <img class="maxHeightimg" src="../assets/banniere-googleUX2.jpg" alt="banniere Google ux" />
