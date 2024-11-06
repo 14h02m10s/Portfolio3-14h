@@ -50,6 +50,7 @@ const cvURL =
             <b>cohérence et accessibilité</b>, toujours dans un cadre de travail
             collaboratif. -->
 
+
             Spécialisée et certifiée en <b>UX design</b>, j'ai acquis des
             compétences essentielles comme les
             <b>entretiens utilisateurs, la création de personas, les userflows
@@ -61,6 +62,28 @@ const cvURL =
             interfaces efficaces en utilisant l'<b>atomic design</b> et les
             design tokens, garantissant ainsi <b>cohérence et accessibilité</b>,
             toujours dans un cadre collaboratif.
+
+
+            <!-- Avec une certification en conception d'expérience utilisateur (UX), j'ai acquis des compétences clés pour
+            créer des interfaces qui répondent aux besoins des utilisateurs. Cela inclut la réalisation d'<b>entretiens
+              avec des utilisateurs</b> pour comprendre leurs attentes, l’élaboration de profils types pour représenter
+            différents utilisateurs (les <b>personas</b>), et la création de parcours simples et logiques (ou <b>user
+              flows</b>) définissant l'organisation d'un site ou d'une application par exemple.
+            <br>
+            <br>
+            Je dessine des schémas (<b>wireframes</b>) et crée des maquettes (<b>prototypes interactifs</b>) pour
+            visualiser ces
+            parcours et les teste ensuite avec des utilisateurs. Ces tests utilisateurs m’aident à identifier des
+            améliorations, que je peux apporter pour rendre l’expérience de navigation plus intuitive. <b>Ma formation
+              en développement</b> web me permet aussi de comprendre les limites techniques pour proposer des solutions
+            réalistes.
+            <br>
+            <br>
+
+            <b>Mon expérience en mise en page</b> m'a appris à structurer des interfaces de façon cohérente, en
+            respectant des règles visuelles qui facilitent la navigation. J'utilise d'ailleurs des méthodes de
+            conception comme <b>l'atomic design</b> et les design tokens, qui garantissent que chaque élément de
+            l’interface soit harmonieux et accessible, le tout dans une démarche collaborative. -->
           </div>
         </Transition>
         <Transition appear name="slide-fade2">

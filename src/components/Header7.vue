@@ -16,7 +16,6 @@ export default {
   data() {
     return {
       isResponsiveMenu: true,
-      basePath: "https://14h02m10s.github.io/Portfolio3-14h/" // URL absolue pour GitHub Pages
     };
   },
   methods: {
@@ -27,6 +26,11 @@ export default {
       if (this.isResponsiveMenu) {
         this.toggleMenu();
       }
+    },
+    navigateToSection(sectionId) {
+      // Redirige vers la page d'accueil avec l'ancre spécifiée
+      window.location.href = `/Portfolio3-14h/#${sectionId}`;
+      this.closeMenuIfResponsive();
     }
   }
 };
@@ -44,15 +48,15 @@ export default {
       </div>
     </div>
     <nav :class="{ blue: !isResponsiveMenu, responsive: isResponsiveMenu }" id="menu-blue">
-      <a :href="`${basePath}#first`" @click="closeMenuIfResponsive">
+      <a href="javascript:void(0);" @click.prevent="navigateToSection('first')">
         <p>Présentation</p>
       </a>
       <!-- <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a :href="`${basePath}#reals`" @click="closeMenuIfResponsive">
+      <a href="javascript:void(0);" @click.prevent="navigateToSection('reals')">
         <p>Réalisations</p>
       </a>
       <!-- <a href="#/contact" @click="toggleMenu"><p>Contact</p></a> -->
-      <a :href="`${basePath}#contact`" @click="closeMenuIfResponsive">
+      <a href="javascript:void(0);" @click.prevent="navigateToSection('contact')">
         <p>Contact</p>
       </a>
       <div class="picto">
