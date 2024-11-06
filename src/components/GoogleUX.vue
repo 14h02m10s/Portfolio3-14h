@@ -31,6 +31,11 @@ const remonte = () => {
     <h2>- Page en cours de création -</h2>
     <br>
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
+      <div class="container-btn-retour">
+        <a href="javascript:history.back()">
+          <button class="btn no-box-shadow slim-button">Retour</button>
+        </a>
+      </div>
       <div class="colonne2">
         <img class="maxHeightimg" src="../assets/banniere-googleUX2.jpg" alt="banniere Google ux" />
       </div>
@@ -524,6 +529,17 @@ img {
   font-size: 1.1rem;
 }
 
+.container-btn-retour {
+  padding: 0.2rem 1.5rem;
+  width: 100%;
+}
+
+.slim-button {
+  padding: 0.2rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
 @media (min-width: 471px) {
   /* #topPage {
     min-height: 1050px;
@@ -568,6 +584,9 @@ img {
     border-left: #ddebff 5px solid;
     margin: 0 4rem;
   } */
+  .container-btn-retour {
+    padding: 0;
+  }
 }
 
 @media (min-width: 1135px) {
