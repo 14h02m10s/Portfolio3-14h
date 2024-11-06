@@ -16,18 +16,19 @@ export default {
   data() {
     return {
       isResponsiveMenu: true,
-      isHome: true // Modifier cette propriété selon la page
+      basePath: "/Portfolio3-14h/" // Base path pour GitHub Pages
     };
   },
   methods: {
+    closeMenuIfResponsive() {
+      if (this.isResponsiveMenu) {
+        this.toggleMenu();
+      }
+    },
     toggleMenu() {
       this.isResponsiveMenu = !this.isResponsiveMenu;
-    },
-  },
-  mounted() {
-    // Détecte si on est sur la page d'accueil en vérifiant l'URL de base
-    this.isHome = window.location.pathname === "/Portfolio3-14h/";
-  },
+    }
+  }
 };
 </script>
 <template>
@@ -43,15 +44,15 @@ export default {
       </div>
     </div>
     <nav :class="{ blue: !isResponsiveMenu, responsive: isResponsiveMenu }" id="menu-blue">
-      <a :href="isHome ? '#first' : '/Portfolio3-14h/'" @click="toggleMenu">
+      <a :href="`${basePath}#first`" @click="closeMenuIfResponsive">
         <p>Présentation</p>
       </a>
       <!-- <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a :href="isHome ? '#reals' : '/Portfolio3-14h/#reals'" @click="toggleMenu">
+      <a :href="`${basePath}#reals`" @click="closeMenuIfResponsive">
         <p>Réalisations</p>
       </a>
       <!-- <a href="#/contact" @click="toggleMenu"><p>Contact</p></a> -->
-      <a :href="isHome ? '#contact' : '/Portfolio3-14h/#contact'" @click="toggleMenu">
+      <a :href="`${basePath}#contact`" @click="closeMenuIfResponsive">
         <p>Contact</p>
       </a>
       <div class="picto">
