@@ -16,30 +16,18 @@ export default {
   data() {
     return {
       isResponsiveMenu: true,
-      isHome: window.location.pathname === "/Portfolio3-14h/" // Vérification directe de la page d'accueil
+      isHome: true // Modifier cette propriété selon la page
     };
   },
   methods: {
     toggleMenu() {
       this.isResponsiveMenu = !this.isResponsiveMenu;
     },
-    navigateToSection(sectionId) {
-      // Si on est sur la page d'accueil, on scroll sans changer de page
-      if (this.isHome) {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      } else {
-        // Sinon, on redirige vers la page d'accueil avec l'ancre
-        window.location.href = `/Portfolio3-14h/#${sectionId}`;
-      }
-      // Ferme le menu uniquement si on est en mode responsive
-      if (this.isResponsiveMenu) {
-        this.toggleMenu();
-      }
-    }
-  }
+  },
+  mounted() {
+    // Détecte si on est sur la page d'accueil en vérifiant l'URL de base
+    this.isHome = window.location.pathname === "/Portfolio3-14h/";
+  },
 };
 </script>
 <template>
@@ -55,15 +43,15 @@ export default {
       </div>
     </div>
     <nav :class="{ blue: !isResponsiveMenu, responsive: isResponsiveMenu }" id="menu-blue">
-      <a @click="navigateToSection('first')">
+      <a :href="isHome ? '#first' : '/Portfolio3-14h/'" @click="toggleMenu">
         <p>Présentation</p>
       </a>
       <!-- <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a @click="navigateToSection('reals')">
+      <a :href="isHome ? '#reals' : '/Portfolio3-14h/#reals'" @click="toggleMenu">
         <p>Réalisations</p>
       </a>
       <!-- <a href="#/contact" @click="toggleMenu"><p>Contact</p></a> -->
-      <a @click="navigateToSection('contact')">
+      <a :href="isHome ? '#contact' : '/Portfolio3-14h/#contact'" @click="toggleMenu">
         <p>Contact</p>
       </a>
       <div class="picto">
