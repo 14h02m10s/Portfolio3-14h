@@ -65,13 +65,11 @@ const remonte = () => {
               des <b>interviews pour comprendre les attentes des utilisateurs</b>. Simultanément, j'ai exploré
               des idées en temps réel, en intégrant leurs retours dans le processus d’idéation au fur et à mesure. Cette
               approche m'a permis de <b>saisir des besoins</b> comme la facilité d'accès aux informations sur les plats
-              et
-              boissons, <b>et aussi des frustrations</b> comme la pénurie de certains plats pourtant incrits sur la
-              carte ou encore
-              avoir la mauvaise surprise d'avoir un ingrédient détesté dans son plat, tout en commençant à imaginer des
-              solutions créatives pour y répondre. À partir de ces données, j'ai développé des <b>personas</b> qui
-              capturent
-              les motivations des utilisateurs et défini clairement les problématiques à résoudre.
+              et boissons, <b>et aussi des frustrations</b> comme la pénurie de certains plats pourtant inscrits sur la
+              carte ou encore avoir la mauvaise surprise d'avoir un ingrédient détesté dans son plat, tout en commençant
+              à imaginer des solutions créatives pour y répondre. À partir de ces données, j'ai développé des
+              <b>personas</b> qui capturent les motivations des utilisateurs et défini clairement les problématiques à
+              résoudre.
             </p>
           </div>
         </div>
@@ -89,7 +87,7 @@ const remonte = () => {
           <div class="border-left">
             <p>
               Suite aux interviews et à l’idéation, j'ai approfondi le processus en rédigeant des user stories pour
-              <b>capter les scénarios d'utilisation clés de l'application</b>. Cela m'a permis de définir des énoncés de
+              <b>capter les scénarios d'utilisation clé de l'application</b>. Cela m'a permis de définir des énoncés de
               problèmes spécifiques et de formuler des hypothèses de design, orientées vers l'amélioration de
               l'expérience utilisateur. Ces étapes ont été essentielles pour clarifier <b>les attentes et les
                 motivations</b>
@@ -128,14 +126,14 @@ const remonte = () => {
             </div>
             <p><b>Énoncé d'objectif pour le persona Victor</b></p>
             <!-- <p>Notre application de prévisualisation de carte pour un café, permettra aux utilisateurs de savoir de quoi
-              son composés les plats et boissons précisément, ce qui aura un impact sur la satisfaction des clients
+              sont composés les plats et boissons précisément, ce qui aura un impact sur la satisfaction des clients
               particulièrement exigeants en leur permettant de faire des choix éclairés sans avoir à demander au
               serveur. Nous mesurerons l'efficacité en questionnant les utilisateurs sur leur satisfaction de la carte.
             </p> -->
             <div class="paragraphe-mis-en-avant">
               <p>Notre application de prévisualisation de carte pour un café, permettra aux utilisateurs de savoir de
                 quoi
-                son composés les plats et boissons précisément, ce qui aura un impact sur la satisfaction des clients
+                sont composés les plats et boissons précisément, ce qui aura un impact sur la satisfaction des clients
                 particulièrement exigeants en leur permettant de faire des choix éclairés sans avoir à demander au
                 serveur. Nous mesurerons l'efficacité en questionnant les utilisateurs sur leur satisfaction de la
                 carte.</p>
@@ -147,7 +145,7 @@ const remonte = () => {
 
       <div class="bloc-phase">
         <div class="titre-phase">
-          <h3>Création de wireframes et prototype basse fidélité</h3>
+          <h3>Création de wireframes et d'un prototype basse fidélité</h3>
         </div>
         <div class="colonne1">
           <div class="border-left">
@@ -155,7 +153,7 @@ const remonte = () => {
               Dans cette étape, j'ai créé les <b>premiers wireframes basse-fidélité</b> pour l'application de
               prévisualisation de carte de café, en commençant par des <b>esquisses sur papier</b> pour explorer
               différentes idées de mise en page et de navigation. <b>Ces wireframes papier m'ont permis de tester
-                rapidement plusieurs concepts</b>, d'identifier des éléments clés à intégrer et de visualiser le
+                rapidement plusieurs concepts</b>, d'identifier des éléments clé à intégrer et de visualiser le
               parcours utilisateur.
             </p>
           </div>
@@ -177,6 +175,61 @@ const remonte = () => {
           <img src="../assets/googleUX-proto1.jpg" alt="wireframe-numeriques-googleUX" />
           <h5>Quelques wireframes numériques</h5>
         </div>
+        <div class="colonne1">
+          <a class="link-text" target="_blank"
+            href="https://www.figma.com/proto/7LHnmnFfFq6aklrhccsFfj/wireframes-mon-app-V1?page-id=375%3A1707&node-id=375-1708&node-type=frame&viewport=798%2C866%2C0.19&t=BMt2T43Zb47w7L8Z-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=375%3A1708">
+            >> Tester le prototype basse fidélité Figma</a>
+        </div>
+      </div>
+
+
+      <div class="bloc-phase">
+        <div class="titre-phase">
+          <h3>Entretiens et modifications des maquettes</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p>
+              Pour préparer les tests utilisateurs de mes prototypes sur Figma, j'ai élaboré un <b>plan de recherche</b>
+              clair,
+              définissant les objectifs, les questions d'ergonomie et les scénarios de test. Cette approche m'a permis
+              de recueillir des retours précieux, que j'ai <b>synthétisés en insights</b>. Ceux-ci ont mis en
+              lumière les ajustements nécessaires et m'ont aidée à identifier des <b>axes d'amélioration</b> pour rendre
+              l'application plus intuitive et adaptée aux attentes des utilisateurs.</p>
+          </div>
+        </div>
+
+        <div class="colonne2">
+          <img src="../assets/insights-google-ux.jpg" alt="Mes insights très par ordre de priorité" />
+          <h5>Mes insights très par ordre de priorité</h5>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p>
+              J'ai donc pu ajuster mes maquettes en fonction des axes d'amélioration identifiés lors des tests
+              utilisateurs, afin de mieux répondre aux besoins et aux attentes relevés.</p>
+          </div>
+        </div>
+        <div class="colonne2">
+          <img src="../assets/googleUX-proto2.jpg" alt="Aperçu des modifications" />
+          <h5>Aperçu des modifications</h5>
+        </div>
+
+
+      </div>
+
+
+      <div class="bloc-phase">
+        <!-- <div class="titre-phase">
+          <h3>dernier paragraphe</h3>
+        </div>
+        <div class="colonne1">
+          <div class="border-left">
+            <p>
+              bla
+            </p>
+          </div>
+        </div> -->
 
         <div class="merci">
           <p>
@@ -289,7 +342,7 @@ button {
   color: #fff;
   font-size: 1.1rem;
   border: 2px #39335a solid;
-  background-color: #353051;
+  /* background-color: #353051; */
   background-color: #1a1e36;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
