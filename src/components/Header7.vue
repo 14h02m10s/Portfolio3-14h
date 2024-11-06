@@ -25,8 +25,8 @@ export default {
     },
   },
   mounted() {
-    // Ici, on détecte si on est sur la page d'accueil ou non
-    this.isHome = window.location.pathname === "/";
+    // Détecte si on est sur la page d'accueil en vérifiant l'URL de base
+    this.isHome = window.location.pathname === "/Portfolio3-14h/";
   },
 };
 </script>
@@ -43,15 +43,15 @@ export default {
       </div>
     </div>
     <nav :class="{ blue: !isResponsiveMenu, responsive: isResponsiveMenu }" id="menu-blue">
-      <a :href="isHome ? '#first' : '/'" @click="toggleMenu">
+      <a :href="isHome ? '#first' : '/Portfolio3-14h/'" @click="toggleMenu">
         <p>Présentation</p>
       </a>
       <!-- <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a :href="isHome ? '#reals' : '/#reals'" @click="toggleMenu">
+      <a :href="isHome ? '#reals' : '/Portfolio3-14h/#reals'" @click="toggleMenu">
         <p>Réalisations</p>
       </a>
       <!-- <a href="#/contact" @click="toggleMenu"><p>Contact</p></a> -->
-      <a :href="isHome ? '#contact' : '/#contact'" @click="toggleMenu">
+      <a :href="isHome ? '#contact' : '/Portfolio3-14h/#contact'" @click="toggleMenu">
         <p>Contact</p>
       </a>
       <div class="picto">
