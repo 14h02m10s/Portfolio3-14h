@@ -1,17 +1,4 @@
 <script>
-// export default {
-//   data() {
-//     return {
-//       isResponsiveMenu: true,
-//     };
-//   },
-//   methods: {
-//     toggleMenu() {
-//       this.isResponsiveMenu = !this.isResponsiveMenu;
-//     },
-//   },
-// };
-
 export default {
   data() {
     return {
@@ -22,18 +9,31 @@ export default {
     toggleMenu() {
       this.isResponsiveMenu = !this.isResponsiveMenu;
     },
-    closeMenuIfResponsive() {
-      if (this.isResponsiveMenu) {
-        this.toggleMenu();
-      }
-    },
-    navigateToSection(sectionId) {
-      // Redirige vers la page d'accueil avec l'ancre spécifiée
-      window.location.href = `/Portfolio3-14h/#${sectionId}`;
-      this.closeMenuIfResponsive();
-    }
-  }
+  },
 };
+
+// export default {
+//   data() {
+//     return {
+//       isResponsiveMenu: true,
+//     };
+//   },
+//   methods: {
+//     toggleMenu() {
+//       this.isResponsiveMenu = !this.isResponsiveMenu;
+//     },
+//     closeMenuIfResponsive() {
+//       if (this.isResponsiveMenu) {
+//         this.toggleMenu();
+//       }
+//     },
+//     navigateToSection(sectionId) {
+//       // Redirige vers la page d'accueil avec l'ancre spécifiée
+//       window.location.href = `/Portfolio3-14h/#${sectionId}`;
+//       this.closeMenuIfResponsive();
+//     }
+//   }
+// };
 </script>
 <template>
   <div class="container1">
@@ -48,15 +48,15 @@ export default {
       </div>
     </div>
     <nav :class="{ blue: !isResponsiveMenu, responsive: isResponsiveMenu }" id="menu-blue">
-      <a href="javascript:void(0);" @click.prevent="navigateToSection('first')">
+      <a href="#first" @click="toggleMenu">
         <p>Présentation</p>
       </a>
       <!-- <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a href="javascript:void(0);" @click.prevent="navigateToSection('reals')">
+      <a href="#reals" @click="toggleMenu">
         <p>Réalisations</p>
       </a>
       <!-- <a href="#/contact" @click="toggleMenu"><p>Contact</p></a> -->
-      <a href="javascript:void(0);" @click.prevent="navigateToSection('contact')">
+      <a href="#contact" @click="toggleMenu">
         <p>Contact</p>
       </a>
       <div class="picto">
