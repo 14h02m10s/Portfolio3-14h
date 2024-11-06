@@ -1,14 +1,32 @@
 <script>
+// export default {
+//   data() {
+//     return {
+//       isResponsiveMenu: true,
+//     };
+//   },
+//   methods: {
+//     toggleMenu() {
+//       this.isResponsiveMenu = !this.isResponsiveMenu;
+//     },
+//   },
+// };
+
 export default {
   data() {
     return {
       isResponsiveMenu: true,
+      isHome: true // Modifier cette propriété selon la page
     };
   },
   methods: {
     toggleMenu() {
       this.isResponsiveMenu = !this.isResponsiveMenu;
     },
+  },
+  mounted() {
+    // Ici, on détecte si on est sur la page d'accueil ou non
+    this.isHome = window.location.pathname === "/";
   },
 };
 </script>
@@ -25,15 +43,15 @@ export default {
       </div>
     </div>
     <nav :class="{ blue: !isResponsiveMenu, responsive: isResponsiveMenu }" id="menu-blue">
-      <a href="#first" @click="toggleMenu">
+      <a :href="isHome ? '#first' : '/'" @click="toggleMenu">
         <p>Présentation</p>
       </a>
       <!-- <a href="#/realisations" @click="toggleMenu"><p>Réalisations</p></a> -->
-      <a href="#reals" @click="toggleMenu">
+      <a :href="isHome ? '#reals' : '/#reals'" @click="toggleMenu">
         <p>Réalisations</p>
       </a>
       <!-- <a href="#/contact" @click="toggleMenu"><p>Contact</p></a> -->
-      <a href="#contact" @click="toggleMenu">
+      <a :href="isHome ? '#contact' : '/#contact'" @click="toggleMenu">
         <p>Contact</p>
       </a>
       <div class="picto">
