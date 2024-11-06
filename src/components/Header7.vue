@@ -16,17 +16,17 @@ export default {
   data() {
     return {
       isResponsiveMenu: true,
-      basePath: "/Portfolio3-14h/" // Base path pour GitHub Pages
+      basePath: "https://14h02m10s.github.io/Portfolio3-14h/" // URL absolue pour GitHub Pages
     };
   },
   methods: {
+    toggleMenu() {
+      this.isResponsiveMenu = !this.isResponsiveMenu;
+    },
     closeMenuIfResponsive() {
       if (this.isResponsiveMenu) {
         this.toggleMenu();
       }
-    },
-    toggleMenu() {
-      this.isResponsiveMenu = !this.isResponsiveMenu;
     }
   }
 };
