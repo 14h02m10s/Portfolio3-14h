@@ -28,7 +28,7 @@ const remonte = () => {
 
 <template>
   <div id="topPage">
-    <h2>- Page en cours de création -</h2>
+    <h2>- Projet en cours -</h2>
     <br>
     <div class="container1" data-aos="fade-up" data-aos-duration="600">
       <div class="container-btn-retour">
