@@ -205,8 +205,8 @@ const remonte = () => {
         </div>
 
         <div class="colonne2">
-          <img src="../assets/insights-google-ux.jpg" alt="Mes insights très par ordre de priorité" />
-          <h5>Mes insights très par ordre de priorité</h5>
+          <img src="../assets/insights-google-ux.jpg" alt="Mes insights triés par ordre de priorité" />
+          <h5>Mes insights triés par ordre de priorité</h5>
         </div>
         <div class="colonne1">
           <div class="border-left">
