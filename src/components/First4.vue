@@ -13,7 +13,7 @@ onBeforeUnmount(() => {
   });
 });
 const cvURL =
-  "https://14h02m10s.github.io/Portfolio3-14h/cv-porfolio-nov2024";
+  "https://14h02m10s.github.io/Portfolio3-14h/cv-porfolio-nov2024.pdf";
 </script>
 
 <template>
